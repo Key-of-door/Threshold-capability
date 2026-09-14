@@ -8,6 +8,7 @@ export default function (pi: ExtensionAPI) {
     parameters: Type.Object({ url: Type.String() }),
     async execute(_id, params, signal) {
       const result = await readDoc(params.url, { signal });
-      return { isError: !result.ok, content: [{ type: 'text' as const, text: result.ok ? JSON.stringify(result) : result.error }], details: result };
+      if (!result.ok) throw new Error(result.error);
+      return { content: [{ type: 'text' as const, text: JSON.stringify(result) }], details: result };
     } });
 }
