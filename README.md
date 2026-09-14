@@ -41,3 +41,5 @@ Entry path/SHA metadata describes selection, not a snapshot of all transitive de
 
 The scheduler files were moved unchanged from Threshold commit `71e88e1`; prior Run records
 keep their old paths and identities. There is no capability manifest, registry, broker or DSL.
+
+First real installation/selection/read/failure/handoff observations: [experiment report](docs/read-doc-experiment-2026-09-14.md).
