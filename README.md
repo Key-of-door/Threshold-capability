@@ -86,3 +86,7 @@ keep their old paths and identities. There is no capability manifest, registry, 
 First real installation/selection/read/failure/handoff observations: [experiment report](docs/read-doc-experiment-2026-09-14.md).
 
 GitHub read + reviewer and empty-capability successor: [experiment report](docs/github-read-experiment-2026-09-14.md).
+
+## License
+
+Licensed under [Apache-2.0](LICENSE).
