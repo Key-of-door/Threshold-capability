@@ -2,6 +2,10 @@
 
 Optional skills and Pi extensions: a cookbook, not part of Threshold core.
 
+[Community discussions](https://github.com/Key-of-door/Threshold-capability/discussions) ·
+[Report a capability bug](https://github.com/Key-of-door/Threshold-capability/issues) ·
+English / 中文 welcome.
+
 Installed ≠ Active. A Run selects explicit local paths; the next Run inherits nothing.
 Deleting this checkout does not remove Threshold's Project/Task/Run, messages, checkpoints,
 Git observations, ordinary Pi tools or existing Risk STOP. No automatic discovery or install.
@@ -86,6 +90,31 @@ keep their old paths and identities. There is no capability manifest, registry, 
 First real installation/selection/read/failure/handoff observations: [experiment report](docs/read-doc-experiment-2026-09-14.md).
 
 GitHub read + reviewer and empty-capability successor: [experiment report](docs/github-read-experiment-2026-09-14.md).
+
+## Community and feedback
+
+**Tell us what you're trying to do, and what happened.**
+
+- Problems using Threshold itself or core workflow friction → [Threshold Issues](https://github.com/Key-of-door/Threshold/issues/new/choose).
+- Capability questions, experiments, ideas and community work → [Discussions](https://github.com/Key-of-door/Threshold-capability/discussions).
+- Bugs in this repository's scheduler, read-doc, github-read or example code → [Capability Issues](https://github.com/Key-of-door/Threshold-capability/issues).
+
+The community has four places to start:
+
+| Category | What belongs here |
+| --- | --- |
+| [Q&A · 使用求助](https://github.com/Key-of-door/Threshold-capability/discussions/categories/q-a) | Installation, configuration, Skill/Extension use, combinations and workflow questions |
+| [Show and tell · 展示与实验](https://github.com/Key-of-door/Threshold-capability/discussions/categories/show-and-tell) | Skills, Extensions, workflows, Projects, evals and unexpected uses, including fantasy worlds, research and education |
+| [Ideas · 想法与探索](https://github.com/Key-of-door/Threshold-capability/discussions/categories/ideas) | Rough ideas for new capabilities, applications, combinations and experiments |
+| [General · 随便聊聊](https://github.com/Key-of-door/Threshold-capability/discussions/categories/general) | Anything else worth talking about; no form to fill out |
+
+**Finished, unfinished, failed and strange experiments are all welcome.**
+No commercial value or polished result is required. 做完的、没做完的、失败的、奇怪的实验都欢迎。
+Not sure where to post? Start where it makes sense to you; we can help find the right place.
+
+**English and 中文 are both welcome.** Please remove API keys, credentials and sensitive project
+data from text, logs and screenshots. Do not attach or paste the full `auth.json`.
+请移除敏感信息，不要上传或粘贴完整的 `auth.json`。
 
 ## License
 

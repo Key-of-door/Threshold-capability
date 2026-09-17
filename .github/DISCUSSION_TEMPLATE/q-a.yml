@@ -1,0 +1,31 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Q&A · 使用求助
+        Installation, configuration, Skills, Extensions, capability combinations and workflow questions are welcome.
+        安装、配置、能力组合或工作流卡住了，都可以在这里问。
+
+        **English and 中文 are both welcome.**
+        Please remove API keys, credentials and sensitive project data. Do not attach or paste the full `auth.json`.
+        请移除 API key、凭据和项目敏感信息，不要上传或粘贴完整的 `auth.json`。
+  - type: textarea
+    id: trying-to-do
+    attributes:
+      label: What are you trying to do? · 你想做什么？
+    validations:
+      required: true
+  - type: textarea
+    id: stuck
+    attributes:
+      label: Where are you stuck? · 卡在哪里？（选填）
+      description: Include relevant versions, commands or redacted screenshots if useful. 可以附上相关版本、命令或已脱敏的截图。
+    validations:
+      required: false
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried? · 已经试过什么？（选填）
+      description: No need to try everything before asking. 不用把所有办法试完才来提问。
+    validations:
+      required: false

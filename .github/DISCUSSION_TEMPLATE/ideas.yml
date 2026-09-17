@@ -1,0 +1,24 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Ideas · 想法与探索
+        Rough ideas for capabilities, applications, combinations and experiments are welcome. No design document is needed.
+        能力、应用、组合方式或实验的初步想法都欢迎，不要求完整设计文档。
+
+        **English and 中文 are both welcome.**
+        Please remove API keys, credentials and sensitive project data. Do not attach or paste the full `auth.json`.
+        请移除 API key、凭据和项目敏感信息，不要上传或粘贴完整的 `auth.json`。
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to try? · 想尝试什么？
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it interesting or useful? · 为什么觉得有趣或有用？（选填）
+      description: Curiosity is a fine starting point. 单纯觉得好奇也可以。
+    validations:
+      required: false

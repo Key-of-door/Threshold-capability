@@ -1,0 +1,39 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Show and tell · 展示与实验
+        **Finished, unfinished, failed and strange experiments are all welcome.**
+        Share a Skill, Extension, workflow, Project, eval, fantasy world, research or education experiment — or something we did not imagine.
+        做完的、没做完的、失败的、奇怪的实验都欢迎。不需要证明商业价值，也不需要已经成熟。
+
+        **English and 中文 are both welcome.**
+        Please remove API keys, credentials and sensitive project data. Do not attach or paste the full `auth.json`.
+        请移除 API key、凭据和项目敏感信息，不要上传或粘贴完整的 `auth.json`。
+  - type: textarea
+    id: experiment
+    attributes:
+      label: What did you build or try? · 做了什么或尝试了什么？
+      description: A short description is enough. Links or demos are optional. 简单说说就好，链接或演示可选。
+    validations:
+      required: true
+  - type: textarea
+    id: how
+    attributes:
+      label: How did you run it? · 怎么跑的？（选填）
+      description: Share useful setup details or capability combinations if you want. 可以分享配置或能力组合。
+    validations:
+      required: false
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What happened? · 实际发生了什么？（选填）
+      description: Failure and incomplete results are useful observations too. 失败和未完成的结果也有价值。
+    validations:
+      required: false
+  - type: textarea
+    id: unexpected
+    attributes:
+      label: Anything unexpected? · 有什么意外？（选填）
+    validations:
+      required: false
