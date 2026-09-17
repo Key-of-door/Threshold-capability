@@ -15,6 +15,16 @@ Git observations, ordinary Pi tools or existing Risk STOP. No automatic discover
 | Project scheduler | `skills/project-scheduler` + `extensions/scheduler.ts` | Arrange ordinary peer Runs through existing Project APIs and Git worktrees |
 | Read document | `extensions/read-doc.ts` | One bounded HTTP GET, raw UTF-8 text; no search, cache, parsing, conversion or extraction |
 | GitHub read | `extensions/github-read.ts` | Fixed repository/issue/PR/files/commit-status/check-runs GETs; optional per-Run reviewer skill |
+| Source / paper reader | `skills/source-reader` | Traceable reading; separates source claims, interpretation and unread material; optional existing `read-doc.ts` |
+| JSON inspection | `extensions/inspect-json.ts` | Local JSON Pointer, types/counts and required-key checks; bounded excerpt, no writes or schema engine |
+| JSON API read | `extensions/read-json-api.ts` | One anonymous bounded JSON GET; explicit pointer/key checks, no redirects, credentials or auto-pagination |
+| Experiment observer | `skills/experiment-observer` | Preserve actual events, disagreements and limits without inventing a result or changing the experiment |
+| Requirements auditor | `skills/requirements-auditor` | Compare a deliverable with actual requirements; separate gaps, ambiguity and missing verification |
+| Fresh reviewer | `skills/fresh-reviewer` | Independent evidence-based review; no obligation to find a bug or agree with earlier findings |
+
+Start with one skill or tool. [Reading, checking and review examples](docs/reading-and-review.md)
+cover software, research and teaching experiments, including exact selection commands and limits.
+Skills do not automatically load companion tools. Paper reading does not add a PDF/OCR engine.
 
 Clone this repository anywhere. Run extensions with Pi (validated with 0.85.1), which supplies
 the `typebox` and extension API imports. The document reader uses Node's built-in fetch.
@@ -90,6 +100,9 @@ keep their old paths and identities. There is no capability manifest, registry, 
 First real installation/selection/read/failure/handoff observations: [experiment report](docs/read-doc-experiment-2026-09-14.md).
 
 GitHub read + reviewer and empty-capability successor: [experiment report](docs/github-read-experiment-2026-09-14.md).
+
+Reading/requirements audit → fresh review with real JSON tool calls and a small disagreement:
+[two-Run experiment](docs/reading-and-review-experiment-2026-09-17.md).
 
 ## Community and feedback
 
