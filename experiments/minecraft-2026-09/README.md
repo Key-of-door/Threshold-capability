@@ -2,6 +2,8 @@
 
 **看 / 审 / 复现 · Watch / audit / reproduce.** September 18–19, 2026 (Asia/Shanghai). These are exploratory runs, not a benchmark or evidence of consciousness or an emergent society. English and 中文 discussion are welcome.
 
+[Discussion：档案入口、问题与纠正](https://github.com/Key-of-door/Threshold-capability/discussions/3)
+
 三个独立 Pi worker 通过 Threshold 围绕同一个 Minecraft 世界工作。探索逐步改变资源、项目历史通道，以及是否更换全部 Run。新 worker 能继续一些工作，也会误判设施、重复建设、给出错误解释。最有意思的案例是：一位 worker 制作石铲并放入公共箱，另外两位没有取用。
 
 共同目标从一开始就包含庇护、公共储物和食物来源；没有指定职业、队长或协作协议。不能把它描述成“完全不给目标，社会自动出现”。

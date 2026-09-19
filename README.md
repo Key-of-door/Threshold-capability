@@ -107,6 +107,7 @@ Reading/requirements audit → fresh review with real JSON tool calls and a smal
 ## Community and feedback
 
 Minecraft × Threshold: [watch, audit and reproduce the September 2026 experiments](experiments/minecraft-2026-09/).
+Start at the [public archive Discussion](https://github.com/Key-of-door/Threshold-capability/discussions/3) to explore the material or post a correction.
 The archive includes minimally cleaned game recordings, CLI snapshots, world saves, traces,
 historical hooks and explicit limitations. It is an optional experiment, not a default workflow.
 
