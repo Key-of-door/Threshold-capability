@@ -1,0 +1,15 @@
+{
+  "name": "threshold-minecraft-connectivity",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "@xterm/headless": "6.0.0",
+    "@xterm/xterm": "6.0.0",
+    "mineflayer": "4.39.0",
+    "mineflayer-pathfinder": "2.4.5"
+  }
+}

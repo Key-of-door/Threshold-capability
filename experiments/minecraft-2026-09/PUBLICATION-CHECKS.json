@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-19",
+  "privacy": "allowlisted export; credentials/hidden reasoning/private observer identifiers redacted; human player files omitted; no server/client binaries, SQLite/auth or original audio published",
+  "video_checks": [
+    {
+      "id": "S03",
+      "decoded_frames": 21690,
+      "desktop_detector_candidates": 0,
+      "manual_review": "10-second contact sheets across each whole retained interval, plus source head/tail checks; no desktop found in retained samples. Not a frame-by-frame human review."
+    },
+    {
+      "id": "S05",
+      "decoded_frames": 28140,
+      "desktop_detector_candidates": 0,
+      "manual_review": "10-second contact sheets across each whole retained interval, plus source head/tail checks; no desktop found in retained samples. Not a frame-by-frame human review."
+    },
+    {
+      "id": "RC",
+      "decoded_frames": 25650,
+      "desktop_detector_candidates": 0,
+      "manual_review": "10-second contact sheets across each whole retained interval, plus source head/tail checks; no desktop found in retained samples. Not a frame-by-frame human review."
+    },
+    {
+      "id": "RI",
+      "decoded_frames": 25980,
+      "desktop_detector_candidates": 0,
+      "manual_review": "10-second contact sheets across each whole retained interval, plus source head/tail checks; no desktop found in retained samples. Not a frame-by-frame human review."
+    },
+    {
+      "id": "H0",
+      "decoded_frames": 28830,
+      "desktop_detector_candidates": 0,
+      "manual_review": "10-second contact sheets across each whole retained interval, plus source head/tail checks; no desktop found in retained samples. Not a frame-by-frame human review."
+    },
+    {
+      "id": "H1",
+      "decoded_frames": 28680,
+      "desktop_detector_candidates": 0,
+      "manual_review": "10-second contact sheets across each whole retained interval, plus source head/tail checks; no desktop found in retained samples. Not a frame-by-frame human review."
+    },
+    {
+      "id": "G2",
+      "decoded_frames": 22200,
+      "desktop_detector_candidates": 0,
+      "manual_review": "10-second contact sheets across each whole retained interval, plus source head/tail checks; no desktop found in retained samples. Not a frame-by-frame human review."
+    }
+  ],
+  "data_files": 3124,
+  "g2_offline_verification": "518 prepared requests; fresh first request roles; tool sets; chest count and final stored shovel; passed",
+  "reproduction_preparation": "New local directory + reconstructed logical DB + world copied; passed. No new model rerun or cross-platform rerun performed."
+}

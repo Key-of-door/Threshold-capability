@@ -1,0 +1,48 @@
+{
+  "source": "session-05 world + Project",
+  "arms": [
+    "control",
+    "intervention"
+  ],
+  "order": "control first, intervention second; single exploratory pair, order/provider nondeterminism not eliminated",
+  "resources": {
+    "control": "no additions",
+    "intervention": {
+      "stone": 48,
+      "coal_ore": 4,
+      "iron_ore": 6,
+      "arrangement": "two mixed exposed outcrops; no role stations or assigned ownership"
+    }
+  },
+  "workerCount": 3,
+  "segmentsPerWorker": 12,
+  "perArmBudget": {
+    "hardModelCalls": 600,
+    "hardMinutes": 30,
+    "hardCumulativeTokens": 80000000,
+    "hardOutputTokens": 1000000,
+    "softModelCalls": 500,
+    "softMinutes": 25,
+    "softCumulativeTokens": 60000000,
+    "softOutputTokens": 750000
+  },
+  "model": "deepseek-flash",
+  "contextWindow": 1000000,
+  "maxOutputTokens": 384000,
+  "sameOpeningObservation": "Search stone separately from coal_ore/iron_ore. Both arms see the same instruction. No mining goal.",
+  "sameAdapterChanges": [
+    "per-bot inventory-window serialization including crafting",
+    "explicit furnace input/fuel/take-output and observation",
+    "interact cannot open inventory windows outside the serialized tools"
+  ],
+  "time": "world tick frozen while waiting for recording; unfreeze at formal start; log game ticks and wall time; startup ticks may still differ",
+  "boundaries": "workflow/prompt boundaries, not security isolation; no shared conversation; private traces not exposed to workers",
+  "unchangedLegacyMismatch": "Task text hard limit10; actual extension16; launch objective requests8 actions per segment",
+  "hashes": {
+    "adapter/minecraft.ts": "76053b8e977e0a45851baeb19c7871658af9f563a6c2d76030f2135a7da20cd0",
+    "adapter/minecraft-actions.mjs": "69da3c92bd07766a156e9102a356477591dbd484c19622c754581c1cc3ab76d4",
+    "adapter/minecraft-windows.mjs": "e96b38ff0dced700621b8cc863e3496399680451e9442458b82abefd576ce4ae",
+    "run-pair.mjs": "29fe0fea53b51974270827ea2f674e0821763cd056caf2685f49e7a8b4f4eb99"
+  },
+  "coreCommit": "c53006438588b0b43500fa2481278dda85ce3f4c"
+}

@@ -1,0 +1,127 @@
+[
+  {
+    "file": "archive-index.zip",
+    "bytes": 596520,
+    "sha256": "dad89644a8565ca4e21bd1a369a0b8f0767215a000093765bd3a0917b7190ce4"
+  },
+  {
+    "file": "G2-cli.mp4",
+    "bytes": 7387297,
+    "sha256": "4cc9483e3030f961c78f5ca65a845415c6ee068dd5a55053e77cd237ee669bae"
+  },
+  {
+    "file": "G2-data.zip",
+    "bytes": 34402632,
+    "sha256": "7e71ffd95865bc83923f92487e0ba6122639bbd4a5af0ca9f7402a55ebb7f774"
+  },
+  {
+    "file": "G2-minecraft-silent.mp4",
+    "bytes": 605005398,
+    "sha256": "17f77eb0672753705bcdeb9258abc9e9206ecad2440d577ee731f1f886c73edf"
+  },
+  {
+    "file": "H0-cli.mp4",
+    "bytes": 9291682,
+    "sha256": "9f0300758a0a46d631524cd3d9b5137e803102d0bbe6979cf2a9e49be3f5a19e"
+  },
+  {
+    "file": "H0-data.zip",
+    "bytes": 36180351,
+    "sha256": "ce2aea4494539b009bb2970190ca34ef34bf1535049a3bd5b272035a3e9efbb9"
+  },
+  {
+    "file": "H0-minecraft-silent.mp4",
+    "bytes": 841298663,
+    "sha256": "041b2c745b5d574bb3d68da4ef2c64e4c266c7a0903a8faf036ca8fb67f0157e"
+  },
+  {
+    "file": "H1-cli.mp4",
+    "bytes": 10141528,
+    "sha256": "e351d656ea7c3dbdb4b8d5832f11e6ebc45b6cbe247d1461f67139e2f5eecce7"
+  },
+  {
+    "file": "H1-data.zip",
+    "bytes": 48729630,
+    "sha256": "2e90217dad182269625ea4f2492a779a9f78b57fb933d145bc4eaa2bd881bbe3"
+  },
+  {
+    "file": "H1-minecraft-silent.mp4",
+    "bytes": 712753567,
+    "sha256": "764e60a6c57c0e2d8b9e9ab44bf0f67839e87725e81fea5b0722a462cf034b42"
+  },
+  {
+    "file": "RC-cli.mp4",
+    "bytes": 9321681,
+    "sha256": "b24e152085f12053b752feecf78e794f11a202c51a1bf425887c55793d710c38"
+  },
+  {
+    "file": "RC-data.zip",
+    "bytes": 49852248,
+    "sha256": "0f545547cf11058dbde99d5e2bac19d92ab1d60f2c87be88f8656fb80cb1cc71"
+  },
+  {
+    "file": "RC-minecraft-silent.mp4",
+    "bytes": 516865290,
+    "sha256": "4524c17e1b9df3c0688db82c10c93201bb092cc91dfdb14a60a33f285071bf1a"
+  },
+  {
+    "file": "RI-cli.mp4",
+    "bytes": 9518178,
+    "sha256": "096d98d25d3f4c98b0c4f99291b876536bd70284a3c8a245bb3607082fbc7820"
+  },
+  {
+    "file": "RI-data.zip",
+    "bytes": 48474150,
+    "sha256": "9f14893c9207274fd1f794d4326d47acbcb686ae664bd1f1fcf511df002cf0ad"
+  },
+  {
+    "file": "RI-minecraft-silent.mp4",
+    "bytes": 520805554,
+    "sha256": "b2477cceb611f918dd08584f1392f30014249873516625043dc1b4983b61c1c9"
+  },
+  {
+    "file": "S02-cli.mp4",
+    "bytes": 2330291,
+    "sha256": "84a954f02a2ced1cac4789bbb1434101fbf0aa47560e32a0bd79b451633064ff"
+  },
+  {
+    "file": "S02-data.zip",
+    "bytes": 2794980,
+    "sha256": "7f0ff796fe336464d82fcf158800da3c7109e632a25a300d3fd8f009c1ee3ca3"
+  },
+  {
+    "file": "S03-cli.mp4",
+    "bytes": 7596608,
+    "sha256": "60015a6e587b69cb707a1dd24a309b4d0919a506304e5f5d147ad1aca86eaf6d"
+  },
+  {
+    "file": "S03-data.zip",
+    "bytes": 26215199,
+    "sha256": "4d509540f180720b90ef1c7d1b83619a76811d4dec3868c101885965719e4f3a"
+  },
+  {
+    "file": "S03-minecraft-silent.mp4",
+    "bytes": 382164189,
+    "sha256": "f01d47196df98463ada8fd61526e36529ee0da02e0eb3ba9b9bfd26dba1da5a1"
+  },
+  {
+    "file": "S05-cli.mp4",
+    "bytes": 9655101,
+    "sha256": "353bdb9484dbfce1b57d85a084b15ca3007ae81cbfbea8add4a914bd67718691"
+  },
+  {
+    "file": "S05-data.zip",
+    "bytes": 48408810,
+    "sha256": "276b60590832e985656f06b44fcde582fc185a3d3119cb6aa1464c0a658e50be"
+  },
+  {
+    "file": "S05-minecraft-silent.mp4",
+    "bytes": 572860277,
+    "sha256": "409d9eddc0c151151fb4ef993fd67ef696b96dd4f8ff771f7b6de04c2f17bb09"
+  },
+  {
+    "file": "VIDEO-EDITS.json",
+    "bytes": 4632,
+    "sha256": "c83cabf3974238a287ae5d2e21fb5c7fc157d34b128ab74488947299b5f27168"
+  }
+]

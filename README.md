@@ -106,6 +106,10 @@ Reading/requirements audit → fresh review with real JSON tool calls and a smal
 
 ## Community and feedback
 
+Minecraft × Threshold: [watch, audit and reproduce the September 2026 experiments](experiments/minecraft-2026-09/).
+The archive includes minimally cleaned game recordings, CLI snapshots, world saves, traces,
+historical hooks and explicit limitations. It is an optional experiment, not a default workflow.
+
 **Tell us what you're trying to do, and what happened.**
 
 - Problems using Threshold itself or core workflow friction → [Threshold Issues](https://github.com/Key-of-door/Threshold/issues/new/choose).

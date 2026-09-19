@@ -1,0 +1,22 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {join} from 'node:path';
+const root='E:/Minecraft/Threshold-Experiment/live/run-06',old=join(root,'../resource-pair-01');
+let index=readFileSync(join(old,'index-traces.mjs'),'utf8');
+index=index.replace("e.tool==='read_task'","['read_task','read_work'].includes(e.tool)");
+index=index.replace('preparedRequests:0','preparedRequests:0,toolSets:[],unexpectedInput:[]');
+index=index.replace("if(e.event==='provider_request_prepared')value.preparedRequests++;",`if(e.event==='provider_request_prepared'){
+ value.preparedRequests++;
+ const tools=(e.payload.tools??[]).map(t=>t.function?.name??t.name).sort();
+ if(!value.toolSets.some(x=>JSON.stringify(x)===JSON.stringify(tools)))value.toolSets.push(tools);
+ const text=JSON.stringify(e.payload.messages??[]);
+ if(text.includes('Call read_task first.'))value.unexpectedInput.push({at:e.timestamp,issue:'core bootstrap visible'});
+}`);
+writeFileSync(join(root,'index-traces.mjs'),index);
+let compare=readFileSync(join(old,'compare.mjs'),'utf8');
+compare=compare.replace("live/resource-pair-01'","live/run-06'").replace("['control','intervention']","['r17','r42']").replaceAll('s.messages-47','s.messages-52').replaceAll('id>47','id>52');
+writeFileSync(join(root,'compare.mjs'),compare);
+let finalize=readFileSync(join(old,'finalize.mjs'),'utf8');
+finalize=finalize.replace("join(pair,'index-traces.mjs')","join(base,'run-06/index-traces.mjs')");
+writeFileSync(join(root,'finalize.mjs'),finalize);
+let monitor=readFileSync(join(old,'monitor.mjs'),'utf8').replaceAll('m.id>47','m.id>52');
+writeFileSync(join(root,'monitor.mjs'),monitor);

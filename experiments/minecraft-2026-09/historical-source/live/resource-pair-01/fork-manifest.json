@@ -1,0 +1,1006 @@
+{
+  "preparedAt": "2026-09-18T15:49:50.658Z",
+  "source": "E:/Minecraft/Threshold-Experiment/live/session-05",
+  "sourceDatabaseSha256": "6b144fc5bba70f9ddf147dfd9a90ea8f25005680b71fb0eb029ebe4abcda14d6",
+  "sourceWorldFileHashes": {
+    "advancements/31a6212a-a60a-33bd-b6e8-d8cb871abff6.json": "d2fc2f4f556cf1b8e4b35f26c0908b4ff9426c89bcaacba6991b786993cb20f0",
+    "advancements/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.json": "f904ccbddafe4c9b532bb65d9c77789b30331c4b3889087a9af3dd24bf0f2b16",
+    "advancements/46c6ac7c-6cf3-3a1f-9e96-b76a924d8f54.json": "7d7027d313b58bc15b206e82ad993776a807ad63293d16a45b831eba885bbea9",
+    "advancements/87c2b459-c954-349f-8dbf-ed6a3430e906.json": "f1b6b9c88374b0928effe0eccbde2ecea46c8d1ce0741c32e4e8052e1595ae75",
+    "advancements/HUMAN-OBSERVER-UUID.json": "1b6a411b13656e06c9b2b6058fa00ed6e6fee5e86397d183f6fbc1fdbf67762c",
+    "data/raids.dat": "e859b55164ccf70d24fc29938f65ccc84e5af69e09653c0f193e4d311a553ff6",
+    "data/random_sequences.dat": "6b656145e81ec76d6bf6e015489e0536cfac6f26be96776fe2e7ff8b35bf8b0d",
+    "DIM-1/data/raids.dat": "e859b55164ccf70d24fc29938f65ccc84e5af69e09653c0f193e4d311a553ff6",
+    "DIM1/data/raids_end.dat": "e859b55164ccf70d24fc29938f65ccc84e5af69e09653c0f193e4d311a553ff6",
+    "entities/r.-1.-1.mca": "9763d08f133c099d88e384cf5dd9d828880e6d53b05effd9b408fce69ccd6bb8",
+    "entities/r.-1.0.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "entities/r.0.-1.mca": "3689e25babcd6b64b3382053c02dcda468f9fdeaaff2d5a6fd1924b7d510fbc4",
+    "entities/r.0.0.mca": "333df5cea1d6f2f48014925b87d98b54e67340a6b191c77cef4cc3ecb2eb0ed4",
+    "level.dat": "7ff268d85d0b43e0de4e1bd95666dd13c1aa9344b6f3072325785f01b621f02a",
+    "level.dat_old": "3700e7f4536cadc2a8f2f2fb7daa349561a03781af9e5d5e73711dade5491b85",
+    "playerdata/31a6212a-a60a-33bd-b6e8-d8cb871abff6.dat": "5a4b51986724406dd4b1bcf6750c3db4bea1e51a96e85204ff4a752a5c7f7ceb",
+    "playerdata/31a6212a-a60a-33bd-b6e8-d8cb871abff6.dat_old": "721586ef251450aff5768497cc48d76f8aee9b719126dcca50d6a893128ff02c",
+    "playerdata/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.dat": "dcef134748afa087b2e94aa1fa3e27e1c90f70380f873485fa7da8f8dd0647a9",
+    "playerdata/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.dat_old": "b480f9225021d73e2cbebac4d11eee35e121f29f39a94d3deef2ebeabb440925",
+    "playerdata/46c6ac7c-6cf3-3a1f-9e96-b76a924d8f54.dat": "89e83e99c5a9b6fd1756b4e297ee89fb140628271ae84e531bcc0ab7a62251c7",
+    "playerdata/87c2b459-c954-349f-8dbf-ed6a3430e906.dat": "56b77d6a76f03ef4469f94b36a0160b3269383423dcb28d259c7342a2f7224a7",
+    "playerdata/87c2b459-c954-349f-8dbf-ed6a3430e906.dat_old": "c7113ea29711c21a8e977e16db154bbd6d420c27f0bca6b46e8c98fb1821c1cb",
+    "playerdata/HUMAN-OBSERVER-UUID.dat": "63ab140a73398806e60fc92685760f7f5ec0d614422f8afba3eb131a57dc445e",
+    "playerdata/HUMAN-OBSERVER-UUID.dat_old": "373c61ba1e0c259b8039b6aea6b582bfbbda64730d8cd1d9bba613bd9d1d2969",
+    "poi/r.-1.-1.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "poi/r.-1.0.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "poi/r.0.-1.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "poi/r.0.0.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "region/r.-1.-1.mca": "80d7ff3dc749667b3c5b2a853d81cd3685a967854880676657e2fd094507e49c",
+    "region/r.-1.0.mca": "cee368cdfc20438ff229649845725a416ffd6a90b9b941852a6fc5bf044962c4",
+    "region/r.0.-1.mca": "329b77ec113e085238708e931369be698254b8132d0e19ff0114d19d3d9fdedb",
+    "region/r.0.0.mca": "2e70014da8ade3285ea33845aa5d46423d2d217df2fe106a8741b1d793346ed2",
+    "stats/31a6212a-a60a-33bd-b6e8-d8cb871abff6.json": "941ced46bb3895775c3d8d5af82b2eb48c425394e30aa11399da0d428c3cd2b6",
+    "stats/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.json": "aa4ee6df7036e9b552d153f1eabe648c67493380c3a1fe1606b25bf83823cb84",
+    "stats/46c6ac7c-6cf3-3a1f-9e96-b76a924d8f54.json": "ff56b701b09cae8f45cd16e77f07f2bb483218e5677e737ee6fd71fc43fa4d7d",
+    "stats/87c2b459-c954-349f-8dbf-ed6a3430e906.json": "fa819c1f3e97b4c1d03aeb6e928fef42230f495d642dec704c617dcb733ed4c8",
+    "stats/HUMAN-OBSERVER-UUID.json": "be62fd1e90701733b4d796b3a6370a2f5bbe1951d78e6ea576330dcbe32cddae"
+  },
+  "commonPreparation": "No bots connected. Clone booted once then tick-frozen; both snapshots taken frozen. Preparation may advance source world before freeze equally for both arms.",
+  "arms": [
+    "control",
+    "intervention"
+  ],
+  "resources": [
+    {
+      "x": -16,
+      "y": -60,
+      "z": -4,
+      "type": "stone"
+    },
+    {
+      "x": -16,
+      "y": -60,
+      "z": -3,
+      "type": "stone"
+    },
+    {
+      "x": -16,
+      "y": -60,
+      "z": -2,
+      "type": "stone"
+    },
+    {
+      "x": -16,
+      "y": -60,
+      "z": -1,
+      "type": "stone"
+    },
+    {
+      "x": -15,
+      "y": -60,
+      "z": -4,
+      "type": "stone"
+    },
+    {
+      "x": -15,
+      "y": -60,
+      "z": -3,
+      "type": "stone"
+    },
+    {
+      "x": -15,
+      "y": -60,
+      "z": -2,
+      "type": "stone"
+    },
+    {
+      "x": -15,
+      "y": -60,
+      "z": -1,
+      "type": "stone"
+    },
+    {
+      "x": -14,
+      "y": -60,
+      "z": -4,
+      "type": "stone"
+    },
+    {
+      "x": -14,
+      "y": -60,
+      "z": -3,
+      "type": "stone"
+    },
+    {
+      "x": -14,
+      "y": -60,
+      "z": -2,
+      "type": "stone"
+    },
+    {
+      "x": -14,
+      "y": -60,
+      "z": -1,
+      "type": "stone"
+    },
+    {
+      "x": -13,
+      "y": -60,
+      "z": -4,
+      "type": "stone"
+    },
+    {
+      "x": -13,
+      "y": -60,
+      "z": -3,
+      "type": "stone"
+    },
+    {
+      "x": -13,
+      "y": -60,
+      "z": -2,
+      "type": "stone"
+    },
+    {
+      "x": -13,
+      "y": -60,
+      "z": -1,
+      "type": "stone"
+    },
+    {
+      "x": -16,
+      "y": -59,
+      "z": -4,
+      "type": "stone"
+    },
+    {
+      "x": -16,
+      "y": -59,
+      "z": -3,
+      "type": "stone"
+    },
+    {
+      "x": -16,
+      "y": -59,
+      "z": -2,
+      "type": "stone"
+    },
+    {
+      "x": -16,
+      "y": -59,
+      "z": -1,
+      "type": "stone"
+    },
+    {
+      "x": -15,
+      "y": -59,
+      "z": -4,
+      "type": "stone"
+    },
+    {
+      "x": -15,
+      "y": -59,
+      "z": -3,
+      "type": "stone"
+    },
+    {
+      "x": -15,
+      "y": -59,
+      "z": -2,
+      "type": "stone"
+    },
+    {
+      "x": -15,
+      "y": -59,
+      "z": -1,
+      "type": "stone"
+    },
+    {
+      "x": -14,
+      "y": -59,
+      "z": -4,
+      "type": "coal_ore"
+    },
+    {
+      "x": -14,
+      "y": -59,
+      "z": -3,
+      "type": "coal_ore"
+    },
+    {
+      "x": -14,
+      "y": -59,
+      "z": -2,
+      "type": "iron_ore"
+    },
+    {
+      "x": -14,
+      "y": -59,
+      "z": -1,
+      "type": "iron_ore"
+    },
+    {
+      "x": -13,
+      "y": -59,
+      "z": -4,
+      "type": "iron_ore"
+    },
+    {
+      "x": 14,
+      "y": -60,
+      "z": 0,
+      "type": "stone"
+    },
+    {
+      "x": 14,
+      "y": -60,
+      "z": 1,
+      "type": "stone"
+    },
+    {
+      "x": 14,
+      "y": -60,
+      "z": 2,
+      "type": "stone"
+    },
+    {
+      "x": 14,
+      "y": -60,
+      "z": 3,
+      "type": "stone"
+    },
+    {
+      "x": 15,
+      "y": -60,
+      "z": 0,
+      "type": "stone"
+    },
+    {
+      "x": 15,
+      "y": -60,
+      "z": 1,
+      "type": "stone"
+    },
+    {
+      "x": 15,
+      "y": -60,
+      "z": 2,
+      "type": "stone"
+    },
+    {
+      "x": 15,
+      "y": -60,
+      "z": 3,
+      "type": "stone"
+    },
+    {
+      "x": 16,
+      "y": -60,
+      "z": 0,
+      "type": "stone"
+    },
+    {
+      "x": 16,
+      "y": -60,
+      "z": 1,
+      "type": "stone"
+    },
+    {
+      "x": 16,
+      "y": -60,
+      "z": 2,
+      "type": "stone"
+    },
+    {
+      "x": 16,
+      "y": -60,
+      "z": 3,
+      "type": "stone"
+    },
+    {
+      "x": 17,
+      "y": -60,
+      "z": 0,
+      "type": "stone"
+    },
+    {
+      "x": 17,
+      "y": -60,
+      "z": 1,
+      "type": "stone"
+    },
+    {
+      "x": 17,
+      "y": -60,
+      "z": 2,
+      "type": "stone"
+    },
+    {
+      "x": 17,
+      "y": -60,
+      "z": 3,
+      "type": "stone"
+    },
+    {
+      "x": 14,
+      "y": -59,
+      "z": 0,
+      "type": "stone"
+    },
+    {
+      "x": 14,
+      "y": -59,
+      "z": 1,
+      "type": "stone"
+    },
+    {
+      "x": 14,
+      "y": -59,
+      "z": 2,
+      "type": "stone"
+    },
+    {
+      "x": 14,
+      "y": -59,
+      "z": 3,
+      "type": "stone"
+    },
+    {
+      "x": 15,
+      "y": -59,
+      "z": 0,
+      "type": "stone"
+    },
+    {
+      "x": 15,
+      "y": -59,
+      "z": 1,
+      "type": "stone"
+    },
+    {
+      "x": 15,
+      "y": -59,
+      "z": 2,
+      "type": "stone"
+    },
+    {
+      "x": 15,
+      "y": -59,
+      "z": 3,
+      "type": "stone"
+    },
+    {
+      "x": 16,
+      "y": -59,
+      "z": 0,
+      "type": "coal_ore"
+    },
+    {
+      "x": 16,
+      "y": -59,
+      "z": 1,
+      "type": "coal_ore"
+    },
+    {
+      "x": 16,
+      "y": -59,
+      "z": 2,
+      "type": "iron_ore"
+    },
+    {
+      "x": 16,
+      "y": -59,
+      "z": 3,
+      "type": "iron_ore"
+    },
+    {
+      "x": 17,
+      "y": -59,
+      "z": 0,
+      "type": "iron_ore"
+    }
+  ],
+  "blockChanges": [
+    {
+      "position": "-16,-60,-4",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-15,-60,-4",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-14,-60,-4",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-13,-60,-4",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-16,-60,-3",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-15,-60,-3",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-14,-60,-3",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-13,-60,-3",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-16,-60,-2",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-15,-60,-2",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-14,-60,-2",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-13,-60,-2",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-16,-60,-1",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-15,-60,-1",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-14,-60,-1",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-13,-60,-1",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-16,-59,-4",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-15,-59,-4",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-14,-59,-4",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:coal_ore"
+      }
+    },
+    {
+      "position": "-13,-59,-4",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:iron_ore"
+      }
+    },
+    {
+      "position": "-16,-59,-3",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-15,-59,-3",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-14,-59,-3",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:coal_ore"
+      }
+    },
+    {
+      "position": "-16,-59,-2",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-15,-59,-2",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-14,-59,-2",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:iron_ore"
+      }
+    },
+    {
+      "position": "-16,-59,-1",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-15,-59,-1",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "-14,-59,-1",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:iron_ore"
+      }
+    },
+    {
+      "position": "14,-60,0",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "15,-60,0",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "14,-60,1",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "15,-60,1",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "14,-60,2",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "15,-60,2",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "14,-60,3",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "15,-60,3",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "14,-59,0",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "15,-59,0",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "14,-59,1",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "15,-59,1",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "14,-59,2",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "15,-59,2",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "14,-59,3",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "15,-59,3",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "16,-60,0",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "17,-60,0",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "16,-60,1",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "17,-60,1",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "16,-60,2",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "17,-60,2",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "16,-60,3",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "17,-60,3",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:stone"
+      }
+    },
+    {
+      "position": "16,-59,0",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:coal_ore"
+      }
+    },
+    {
+      "position": "17,-59,0",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:iron_ore"
+      }
+    },
+    {
+      "position": "16,-59,1",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:coal_ore"
+      }
+    },
+    {
+      "position": "16,-59,2",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:iron_ore"
+      }
+    },
+    {
+      "position": "16,-59,3",
+      "before": {
+        "Name": "minecraft:air"
+      },
+      "after": {
+        "Name": "minecraft:iron_ore"
+      }
+    }
+  ],
+  "containersEqual": true,
+  "playerDataEqual": true,
+  "projectDatabaseEqual": true,
+  "worldFileHashes": {
+    "control": {
+      "advancements/31a6212a-a60a-33bd-b6e8-d8cb871abff6.json": "d2fc2f4f556cf1b8e4b35f26c0908b4ff9426c89bcaacba6991b786993cb20f0",
+      "advancements/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.json": "f904ccbddafe4c9b532bb65d9c77789b30331c4b3889087a9af3dd24bf0f2b16",
+      "advancements/46c6ac7c-6cf3-3a1f-9e96-b76a924d8f54.json": "7d7027d313b58bc15b206e82ad993776a807ad63293d16a45b831eba885bbea9",
+      "advancements/87c2b459-c954-349f-8dbf-ed6a3430e906.json": "f1b6b9c88374b0928effe0eccbde2ecea46c8d1ce0741c32e4e8052e1595ae75",
+      "advancements/HUMAN-OBSERVER-UUID.json": "1b6a411b13656e06c9b2b6058fa00ed6e6fee5e86397d183f6fbc1fdbf67762c",
+      "data/raids.dat": "4558319bb245f48aa6b23193f06b7c595f25d3307d02fa4f025b3603c09db792",
+      "data/random_sequences.dat": "6b656145e81ec76d6bf6e015489e0536cfac6f26be96776fe2e7ff8b35bf8b0d",
+      "DIM-1/data/raids.dat": "4558319bb245f48aa6b23193f06b7c595f25d3307d02fa4f025b3603c09db792",
+      "DIM1/data/raids_end.dat": "4558319bb245f48aa6b23193f06b7c595f25d3307d02fa4f025b3603c09db792",
+      "entities/r.-1.-1.mca": "9763d08f133c099d88e384cf5dd9d828880e6d53b05effd9b408fce69ccd6bb8",
+      "entities/r.-1.0.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "entities/r.0.-1.mca": "65a1b91e0f488fc4133befb99aee252caeca2680eef06919b071495d6dec15d1",
+      "entities/r.0.0.mca": "333df5cea1d6f2f48014925b87d98b54e67340a6b191c77cef4cc3ecb2eb0ed4",
+      "level.dat": "73ef7e8c600ef70f54b0ab705a531f4bdebf97e76d01af5305e47eedde4e61ba",
+      "level.dat_old": "3b7dc6d9c12f5b7b11093b7e0b25a0fe608ddf33129ac91e238dc7bb49c35025",
+      "playerdata/31a6212a-a60a-33bd-b6e8-d8cb871abff6.dat": "5a4b51986724406dd4b1bcf6750c3db4bea1e51a96e85204ff4a752a5c7f7ceb",
+      "playerdata/31a6212a-a60a-33bd-b6e8-d8cb871abff6.dat_old": "721586ef251450aff5768497cc48d76f8aee9b719126dcca50d6a893128ff02c",
+      "playerdata/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.dat": "dcef134748afa087b2e94aa1fa3e27e1c90f70380f873485fa7da8f8dd0647a9",
+      "playerdata/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.dat_old": "b480f9225021d73e2cbebac4d11eee35e121f29f39a94d3deef2ebeabb440925",
+      "playerdata/46c6ac7c-6cf3-3a1f-9e96-b76a924d8f54.dat": "89e83e99c5a9b6fd1756b4e297ee89fb140628271ae84e531bcc0ab7a62251c7",
+      "playerdata/87c2b459-c954-349f-8dbf-ed6a3430e906.dat": "56b77d6a76f03ef4469f94b36a0160b3269383423dcb28d259c7342a2f7224a7",
+      "playerdata/87c2b459-c954-349f-8dbf-ed6a3430e906.dat_old": "c7113ea29711c21a8e977e16db154bbd6d420c27f0bca6b46e8c98fb1821c1cb",
+      "playerdata/HUMAN-OBSERVER-UUID.dat": "63ab140a73398806e60fc92685760f7f5ec0d614422f8afba3eb131a57dc445e",
+      "playerdata/HUMAN-OBSERVER-UUID.dat_old": "373c61ba1e0c259b8039b6aea6b582bfbbda64730d8cd1d9bba613bd9d1d2969",
+      "poi/r.-1.-1.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "poi/r.-1.0.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "poi/r.0.-1.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "poi/r.0.0.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "region/r.-1.-1.mca": "6afb85e7735b67547f9f04c7cdf8fa9d68b0410b3f2f0239c281678d4f2c1577",
+      "region/r.-1.0.mca": "2fda282d18815213f2a25a9c2e649b6347b911f9cda955effdc8f5fcfc8f2c8a",
+      "region/r.0.-1.mca": "629c2fb09265ef9decdc11f4eaabf811318ef3dae54bfce2d4bd8a253c17c381",
+      "region/r.0.0.mca": "11bdb22b40bafb232dc993fedc06b49fdf77ecc6328bb19648b981d4fe4d70f7",
+      "stats/31a6212a-a60a-33bd-b6e8-d8cb871abff6.json": "941ced46bb3895775c3d8d5af82b2eb48c425394e30aa11399da0d428c3cd2b6",
+      "stats/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.json": "aa4ee6df7036e9b552d153f1eabe648c67493380c3a1fe1606b25bf83823cb84",
+      "stats/46c6ac7c-6cf3-3a1f-9e96-b76a924d8f54.json": "ff56b701b09cae8f45cd16e77f07f2bb483218e5677e737ee6fd71fc43fa4d7d",
+      "stats/87c2b459-c954-349f-8dbf-ed6a3430e906.json": "fa819c1f3e97b4c1d03aeb6e928fef42230f495d642dec704c617dcb733ed4c8",
+      "stats/HUMAN-OBSERVER-UUID.json": "be62fd1e90701733b4d796b3a6370a2f5bbe1951d78e6ea576330dcbe32cddae"
+    },
+    "intervention": {
+      "advancements/31a6212a-a60a-33bd-b6e8-d8cb871abff6.json": "d2fc2f4f556cf1b8e4b35f26c0908b4ff9426c89bcaacba6991b786993cb20f0",
+      "advancements/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.json": "f904ccbddafe4c9b532bb65d9c77789b30331c4b3889087a9af3dd24bf0f2b16",
+      "advancements/46c6ac7c-6cf3-3a1f-9e96-b76a924d8f54.json": "7d7027d313b58bc15b206e82ad993776a807ad63293d16a45b831eba885bbea9",
+      "advancements/87c2b459-c954-349f-8dbf-ed6a3430e906.json": "f1b6b9c88374b0928effe0eccbde2ecea46c8d1ce0741c32e4e8052e1595ae75",
+      "advancements/HUMAN-OBSERVER-UUID.json": "1b6a411b13656e06c9b2b6058fa00ed6e6fee5e86397d183f6fbc1fdbf67762c",
+      "data/raids.dat": "4558319bb245f48aa6b23193f06b7c595f25d3307d02fa4f025b3603c09db792",
+      "data/random_sequences.dat": "6b656145e81ec76d6bf6e015489e0536cfac6f26be96776fe2e7ff8b35bf8b0d",
+      "DIM-1/data/raids.dat": "4558319bb245f48aa6b23193f06b7c595f25d3307d02fa4f025b3603c09db792",
+      "DIM1/data/raids_end.dat": "4558319bb245f48aa6b23193f06b7c595f25d3307d02fa4f025b3603c09db792",
+      "entities/r.-1.-1.mca": "9763d08f133c099d88e384cf5dd9d828880e6d53b05effd9b408fce69ccd6bb8",
+      "entities/r.-1.0.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "entities/r.0.-1.mca": "40cbe203ad00f3b12db9e8d9e63bd113dfc697315081c0b1fae8dec967e1af87",
+      "entities/r.0.0.mca": "333df5cea1d6f2f48014925b87d98b54e67340a6b191c77cef4cc3ecb2eb0ed4",
+      "level.dat": "1279a63687d032dc4e0d9d0b679428dafb7a7eb603375249d945ea67da9c38f8",
+      "level.dat_old": "73ef7e8c600ef70f54b0ab705a531f4bdebf97e76d01af5305e47eedde4e61ba",
+      "playerdata/31a6212a-a60a-33bd-b6e8-d8cb871abff6.dat": "5a4b51986724406dd4b1bcf6750c3db4bea1e51a96e85204ff4a752a5c7f7ceb",
+      "playerdata/31a6212a-a60a-33bd-b6e8-d8cb871abff6.dat_old": "721586ef251450aff5768497cc48d76f8aee9b719126dcca50d6a893128ff02c",
+      "playerdata/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.dat": "dcef134748afa087b2e94aa1fa3e27e1c90f70380f873485fa7da8f8dd0647a9",
+      "playerdata/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.dat_old": "b480f9225021d73e2cbebac4d11eee35e121f29f39a94d3deef2ebeabb440925",
+      "playerdata/46c6ac7c-6cf3-3a1f-9e96-b76a924d8f54.dat": "89e83e99c5a9b6fd1756b4e297ee89fb140628271ae84e531bcc0ab7a62251c7",
+      "playerdata/87c2b459-c954-349f-8dbf-ed6a3430e906.dat": "56b77d6a76f03ef4469f94b36a0160b3269383423dcb28d259c7342a2f7224a7",
+      "playerdata/87c2b459-c954-349f-8dbf-ed6a3430e906.dat_old": "c7113ea29711c21a8e977e16db154bbd6d420c27f0bca6b46e8c98fb1821c1cb",
+      "playerdata/HUMAN-OBSERVER-UUID.dat": "63ab140a73398806e60fc92685760f7f5ec0d614422f8afba3eb131a57dc445e",
+      "playerdata/HUMAN-OBSERVER-UUID.dat_old": "373c61ba1e0c259b8039b6aea6b582bfbbda64730d8cd1d9bba613bd9d1d2969",
+      "poi/r.-1.-1.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "poi/r.-1.0.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "poi/r.0.-1.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "poi/r.0.0.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "region/r.-1.-1.mca": "5e8e04c7eded3149fa7b2058803cdbaa11e80ba1f09f8a789e6dfb47ab9e1fd7",
+      "region/r.-1.0.mca": "2fda282d18815213f2a25a9c2e649b6347b911f9cda955effdc8f5fcfc8f2c8a",
+      "region/r.0.-1.mca": "629c2fb09265ef9decdc11f4eaabf811318ef3dae54bfce2d4bd8a253c17c381",
+      "region/r.0.0.mca": "d5a51a28b8aa927e44f6f1bfbd505f5014f1cf0d6ee8491f3ff2035bb9706da2",
+      "stats/31a6212a-a60a-33bd-b6e8-d8cb871abff6.json": "941ced46bb3895775c3d8d5af82b2eb48c425394e30aa11399da0d428c3cd2b6",
+      "stats/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.json": "aa4ee6df7036e9b552d153f1eabe648c67493380c3a1fe1606b25bf83823cb84",
+      "stats/46c6ac7c-6cf3-3a1f-9e96-b76a924d8f54.json": "ff56b701b09cae8f45cd16e77f07f2bb483218e5677e737ee6fd71fc43fa4d7d",
+      "stats/87c2b459-c954-349f-8dbf-ed6a3430e906.json": "fa819c1f3e97b4c1d03aeb6e928fef42230f495d642dec704c617dcb733ed4c8",
+      "stats/HUMAN-OBSERVER-UUID.json": "be62fd1e90701733b4d796b3a6370a2f5bbe1951d78e6ea576330dcbe32cddae"
+    }
+  }
+}

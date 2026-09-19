@@ -1,0 +1,3295 @@
+[
+  {
+    "id": "S02",
+    "historical_source_root": "E:\\Minecraft\\Threshold-Experiment\\live\\session-02",
+    "formal_start_utc": "2026-09-18T10:11:30.867Z",
+    "last_segment_settled_utc": null,
+    "runs": [
+      {
+        "id": "d6974f9e-2aa2-40da-a97e-9fbad891a0de",
+        "session": "01a0b3fd-31ee-743c-975b-9c7195065658",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\session-02\\probe"
+      },
+      {
+        "id": "18420c25-0bff-4654-ba03-07d39ea673b7",
+        "session": "01a0b3ff-f522-77a5-b52d-5a877641b187",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\session-02\\a"
+      },
+      {
+        "id": "37b608c3-f9cb-4cf0-a357-1608072c6332",
+        "session": "01a0b3ff-f5af-759c-863e-95aff09aa37e",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\session-02\\b"
+      },
+      {
+        "id": "a20a0aa6-332a-40e3-b0ad-87a9b537bb73",
+        "session": "01a0b3ff-f64f-7210-848e-422fd8fc0ab8",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\session-02\\c"
+      }
+    ],
+    "cli_index": [
+      {
+        "frame": 0,
+        "mp4StartSeconds": 0,
+        "mp4EndSeconds": 3,
+        "utc": "2026-09-18T10:11:31.476Z",
+        "label": "status --run a20a0aa6"
+      },
+      {
+        "frame": 1,
+        "mp4StartSeconds": 3,
+        "mp4EndSeconds": 6,
+        "utc": "2026-09-18T10:11:46.478Z",
+        "label": "status --run 18420c25"
+      },
+      {
+        "frame": 2,
+        "mp4StartSeconds": 6,
+        "mp4EndSeconds": 9,
+        "utc": "2026-09-18T10:12:01.479Z",
+        "label": "board"
+      },
+      {
+        "frame": 3,
+        "mp4StartSeconds": 9,
+        "mp4EndSeconds": 12,
+        "utc": "2026-09-18T10:12:16.484Z",
+        "label": "message read"
+      },
+      {
+        "frame": 4,
+        "mp4StartSeconds": 12,
+        "mp4EndSeconds": 15,
+        "utc": "2026-09-18T10:12:31.491Z",
+        "label": "status --run 37b608c3"
+      },
+      {
+        "frame": 5,
+        "mp4StartSeconds": 15,
+        "mp4EndSeconds": 18,
+        "utc": "2026-09-18T10:12:46.493Z",
+        "label": "status --run a20a0aa6"
+      },
+      {
+        "frame": 6,
+        "mp4StartSeconds": 18,
+        "mp4EndSeconds": 21,
+        "utc": "2026-09-18T10:12:53.317Z",
+        "label": "board"
+      },
+      {
+        "frame": 7,
+        "mp4StartSeconds": 21,
+        "mp4EndSeconds": 24,
+        "utc": "2026-09-18T10:13:01.494Z",
+        "label": "board"
+      },
+      {
+        "frame": 8,
+        "mp4StartSeconds": 24,
+        "mp4EndSeconds": 27,
+        "utc": "2026-09-18T10:13:16.499Z",
+        "label": "message read"
+      },
+      {
+        "frame": 9,
+        "mp4StartSeconds": 27,
+        "mp4EndSeconds": 30,
+        "utc": "2026-09-18T10:13:31.508Z",
+        "label": "status --run 18420c25"
+      },
+      {
+        "frame": 10,
+        "mp4StartSeconds": 30,
+        "mp4EndSeconds": 33,
+        "utc": "2026-09-18T10:13:46.517Z",
+        "label": "status --run 37b608c3"
+      },
+      {
+        "frame": 11,
+        "mp4StartSeconds": 33,
+        "mp4EndSeconds": 36,
+        "utc": "2026-09-18T10:14:01.528Z",
+        "label": "board"
+      },
+      {
+        "frame": 12,
+        "mp4StartSeconds": 36,
+        "mp4EndSeconds": 39,
+        "utc": "2026-09-18T10:14:16.529Z",
+        "label": "message read"
+      },
+      {
+        "frame": 13,
+        "mp4StartSeconds": 39,
+        "mp4EndSeconds": 42,
+        "utc": "2026-09-18T10:14:31.536Z",
+        "label": "status --run a20a0aa6"
+      },
+      {
+        "frame": 14,
+        "mp4StartSeconds": 42,
+        "mp4EndSeconds": 45,
+        "utc": "2026-09-18T10:14:46.542Z",
+        "label": "status --run 18420c25"
+      },
+      {
+        "frame": 15,
+        "mp4StartSeconds": 45,
+        "mp4EndSeconds": 48,
+        "utc": "2026-09-18T10:15:01.553Z",
+        "label": "board"
+      },
+      {
+        "frame": 16,
+        "mp4StartSeconds": 48,
+        "mp4EndSeconds": 51,
+        "utc": "2026-09-18T10:15:16.563Z",
+        "label": "message read"
+      },
+      {
+        "frame": 17,
+        "mp4StartSeconds": 51,
+        "mp4EndSeconds": 54,
+        "utc": "2026-09-18T10:15:31.576Z",
+        "label": "status --run 37b608c3"
+      },
+      {
+        "frame": 18,
+        "mp4StartSeconds": 54,
+        "mp4EndSeconds": 57,
+        "utc": "2026-09-18T10:15:46.582Z",
+        "label": "status --run a20a0aa6"
+      },
+      {
+        "frame": 19,
+        "mp4StartSeconds": 57,
+        "mp4EndSeconds": 60,
+        "utc": "2026-09-18T10:16:01.585Z",
+        "label": "board"
+      },
+      {
+        "frame": 20,
+        "mp4StartSeconds": 60,
+        "mp4EndSeconds": 63,
+        "utc": "2026-09-18T10:16:05.674Z",
+        "label": "board"
+      }
+    ],
+    "game_edit": null
+  },
+  {
+    "id": "S03",
+    "historical_source_root": "E:\\Minecraft\\Threshold-Experiment\\live\\session-03",
+    "formal_start_utc": "2026-09-18T11:19:07.312Z",
+    "last_segment_settled_utc": "2026-09-18T11:31:09.794Z",
+    "runs": [
+      {
+        "id": "4ceaa525-4ccd-42a4-bc3e-b207393e7f96",
+        "session": "01a0b43d-dadb-7087-85d9-87be66d9c41d",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\session-03\\a"
+      },
+      {
+        "id": "77d8ee7e-f707-47e6-a88c-d359c459d5f8",
+        "session": "01a0b43d-db6f-777b-a7d1-cb794eccad8f",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\session-03\\b"
+      },
+      {
+        "id": "83eacbda-8a86-43cc-8e6d-d7621016ab09",
+        "session": "01a0b43d-dc16-714f-b90e-21f0fef3a0c6",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\session-03\\c"
+      }
+    ],
+    "cli_index": [
+      {
+        "frame": 0,
+        "mp4StartSeconds": 0,
+        "mp4EndSeconds": 3,
+        "utc": "2026-09-18T11:19:13.920Z",
+        "label": "status --run 4ceaa525"
+      },
+      {
+        "frame": 1,
+        "mp4StartSeconds": 3,
+        "mp4EndSeconds": 6,
+        "utc": "2026-09-18T11:19:28.922Z",
+        "label": "status --run 77d8ee7e"
+      },
+      {
+        "frame": 2,
+        "mp4StartSeconds": 6,
+        "mp4EndSeconds": 9,
+        "utc": "2026-09-18T11:19:43.924Z",
+        "label": "board"
+      },
+      {
+        "frame": 3,
+        "mp4StartSeconds": 9,
+        "mp4EndSeconds": 12,
+        "utc": "2026-09-18T11:19:58.936Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 4,
+        "mp4StartSeconds": 12,
+        "mp4EndSeconds": 15,
+        "utc": "2026-09-18T11:20:13.929Z",
+        "label": "status --run 83eacbda"
+      },
+      {
+        "frame": 5,
+        "mp4StartSeconds": 15,
+        "mp4EndSeconds": 18,
+        "utc": "2026-09-18T11:20:28.931Z",
+        "label": "status --run 4ceaa525"
+      },
+      {
+        "frame": 6,
+        "mp4StartSeconds": 18,
+        "mp4EndSeconds": 21,
+        "utc": "2026-09-18T11:20:43.931Z",
+        "label": "board"
+      },
+      {
+        "frame": 7,
+        "mp4StartSeconds": 21,
+        "mp4EndSeconds": 24,
+        "utc": "2026-09-18T11:20:58.945Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 8,
+        "mp4StartSeconds": 24,
+        "mp4EndSeconds": 27,
+        "utc": "2026-09-18T11:21:13.934Z",
+        "label": "status --run 77d8ee7e"
+      },
+      {
+        "frame": 9,
+        "mp4StartSeconds": 27,
+        "mp4EndSeconds": 30,
+        "utc": "2026-09-18T11:21:28.939Z",
+        "label": "status --run 83eacbda"
+      },
+      {
+        "frame": 10,
+        "mp4StartSeconds": 30,
+        "mp4EndSeconds": 33,
+        "utc": "2026-09-18T11:21:43.943Z",
+        "label": "board"
+      },
+      {
+        "frame": 11,
+        "mp4StartSeconds": 33,
+        "mp4EndSeconds": 36,
+        "utc": "2026-09-18T11:21:58.950Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 12,
+        "mp4StartSeconds": 36,
+        "mp4EndSeconds": 39,
+        "utc": "2026-09-18T11:22:13.954Z",
+        "label": "status --run 4ceaa525"
+      },
+      {
+        "frame": 13,
+        "mp4StartSeconds": 39,
+        "mp4EndSeconds": 42,
+        "utc": "2026-09-18T11:22:28.964Z",
+        "label": "status --run 77d8ee7e"
+      },
+      {
+        "frame": 14,
+        "mp4StartSeconds": 42,
+        "mp4EndSeconds": 45,
+        "utc": "2026-09-18T11:22:43.965Z",
+        "label": "board"
+      },
+      {
+        "frame": 15,
+        "mp4StartSeconds": 45,
+        "mp4EndSeconds": 48,
+        "utc": "2026-09-18T11:22:58.970Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 16,
+        "mp4StartSeconds": 48,
+        "mp4EndSeconds": 51,
+        "utc": "2026-09-18T11:23:13.969Z",
+        "label": "status --run 83eacbda"
+      },
+      {
+        "frame": 17,
+        "mp4StartSeconds": 51,
+        "mp4EndSeconds": 54,
+        "utc": "2026-09-18T11:23:28.975Z",
+        "label": "status --run 4ceaa525"
+      },
+      {
+        "frame": 18,
+        "mp4StartSeconds": 54,
+        "mp4EndSeconds": 57,
+        "utc": "2026-09-18T11:23:43.983Z",
+        "label": "board"
+      },
+      {
+        "frame": 19,
+        "mp4StartSeconds": 57,
+        "mp4EndSeconds": 60,
+        "utc": "2026-09-18T11:23:58.988Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 20,
+        "mp4StartSeconds": 60,
+        "mp4EndSeconds": 63,
+        "utc": "2026-09-18T11:24:13.985Z",
+        "label": "status --run 77d8ee7e"
+      },
+      {
+        "frame": 21,
+        "mp4StartSeconds": 63,
+        "mp4EndSeconds": 66,
+        "utc": "2026-09-18T11:24:28.995Z",
+        "label": "status --run 83eacbda"
+      },
+      {
+        "frame": 22,
+        "mp4StartSeconds": 66,
+        "mp4EndSeconds": 69,
+        "utc": "2026-09-18T11:24:43.999Z",
+        "label": "board"
+      },
+      {
+        "frame": 23,
+        "mp4StartSeconds": 69,
+        "mp4EndSeconds": 72,
+        "utc": "2026-09-18T11:24:59.143Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 24,
+        "mp4StartSeconds": 72,
+        "mp4EndSeconds": 75,
+        "utc": "2026-09-18T11:25:13.999Z",
+        "label": "status --run 4ceaa525"
+      },
+      {
+        "frame": 25,
+        "mp4StartSeconds": 75,
+        "mp4EndSeconds": 78,
+        "utc": "2026-09-18T11:25:28.999Z",
+        "label": "status --run 77d8ee7e"
+      },
+      {
+        "frame": 26,
+        "mp4StartSeconds": 78,
+        "mp4EndSeconds": 81,
+        "utc": "2026-09-18T11:25:44.001Z",
+        "label": "board"
+      },
+      {
+        "frame": 27,
+        "mp4StartSeconds": 81,
+        "mp4EndSeconds": 84,
+        "utc": "2026-09-18T11:25:59.004Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 28,
+        "mp4StartSeconds": 84,
+        "mp4EndSeconds": 87,
+        "utc": "2026-09-18T11:26:14.003Z",
+        "label": "status --run 83eacbda"
+      },
+      {
+        "frame": 29,
+        "mp4StartSeconds": 87,
+        "mp4EndSeconds": 90,
+        "utc": "2026-09-18T11:26:29.004Z",
+        "label": "status --run 4ceaa525"
+      },
+      {
+        "frame": 30,
+        "mp4StartSeconds": 90,
+        "mp4EndSeconds": 93,
+        "utc": "2026-09-18T11:26:44.004Z",
+        "label": "board"
+      },
+      {
+        "frame": 31,
+        "mp4StartSeconds": 93,
+        "mp4EndSeconds": 96,
+        "utc": "2026-09-18T11:26:59.009Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 32,
+        "mp4StartSeconds": 96,
+        "mp4EndSeconds": 99,
+        "utc": "2026-09-18T11:27:14.012Z",
+        "label": "status --run 77d8ee7e"
+      },
+      {
+        "frame": 33,
+        "mp4StartSeconds": 99,
+        "mp4EndSeconds": 102,
+        "utc": "2026-09-18T11:27:29.014Z",
+        "label": "status --run 83eacbda"
+      },
+      {
+        "frame": 34,
+        "mp4StartSeconds": 102,
+        "mp4EndSeconds": 105,
+        "utc": "2026-09-18T11:27:44.014Z",
+        "label": "board"
+      },
+      {
+        "frame": 35,
+        "mp4StartSeconds": 105,
+        "mp4EndSeconds": 108,
+        "utc": "2026-09-18T11:27:59.026Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 36,
+        "mp4StartSeconds": 108,
+        "mp4EndSeconds": 111,
+        "utc": "2026-09-18T11:28:14.023Z",
+        "label": "status --run 4ceaa525"
+      },
+      {
+        "frame": 37,
+        "mp4StartSeconds": 111,
+        "mp4EndSeconds": 114,
+        "utc": "2026-09-18T11:28:29.030Z",
+        "label": "status --run 77d8ee7e"
+      },
+      {
+        "frame": 38,
+        "mp4StartSeconds": 114,
+        "mp4EndSeconds": 117,
+        "utc": "2026-09-18T11:28:44.045Z",
+        "label": "board"
+      },
+      {
+        "frame": 39,
+        "mp4StartSeconds": 117,
+        "mp4EndSeconds": 120,
+        "utc": "2026-09-18T11:28:59.057Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 40,
+        "mp4StartSeconds": 120,
+        "mp4EndSeconds": 123,
+        "utc": "2026-09-18T11:29:14.063Z",
+        "label": "status --run 83eacbda"
+      },
+      {
+        "frame": 41,
+        "mp4StartSeconds": 123,
+        "mp4EndSeconds": 126,
+        "utc": "2026-09-18T11:29:29.073Z",
+        "label": "status --run 4ceaa525"
+      },
+      {
+        "frame": 42,
+        "mp4StartSeconds": 126,
+        "mp4EndSeconds": 129,
+        "utc": "2026-09-18T11:29:44.076Z",
+        "label": "board"
+      },
+      {
+        "frame": 43,
+        "mp4StartSeconds": 129,
+        "mp4EndSeconds": 132,
+        "utc": "2026-09-18T11:29:59.093Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 44,
+        "mp4StartSeconds": 132,
+        "mp4EndSeconds": 135,
+        "utc": "2026-09-18T11:30:14.086Z",
+        "label": "status --run 77d8ee7e"
+      },
+      {
+        "frame": 45,
+        "mp4StartSeconds": 135,
+        "mp4EndSeconds": 138,
+        "utc": "2026-09-18T11:30:29.096Z",
+        "label": "status --run 83eacbda"
+      },
+      {
+        "frame": 46,
+        "mp4StartSeconds": 138,
+        "mp4EndSeconds": 141,
+        "utc": "2026-09-18T11:30:44.097Z",
+        "label": "board"
+      },
+      {
+        "frame": 47,
+        "mp4StartSeconds": 141,
+        "mp4EndSeconds": 144,
+        "utc": "2026-09-18T11:30:59.125Z",
+        "label": "message read (recent)"
+      }
+    ],
+    "game_edit": {
+      "id": "S03",
+      "file": "S03-minecraft-silent.mp4",
+      "source_file": "Minecraft 2026.09.18 - 19.18.19.06.mp4",
+      "source_estimated_start_utc": "2026-09-18T11:18:19.000Z",
+      "source_start_seconds": 48,
+      "source_end_seconds": 771,
+      "output_duration_seconds": 723,
+      "mapping": "source_seconds = published_seconds + source_start_seconds; UTC estimated from filename, not frame-accurate synchronization",
+      "changes": [
+        "all audio removed",
+        "rotated 180 degrees",
+        "1600x1000 30fps H.264 viewing copy",
+        "leading/trailing material outside formal work window omitted"
+      ],
+      "interior_cuts": []
+    }
+  },
+  {
+    "id": "S05",
+    "historical_source_root": "E:\\Minecraft\\Threshold-Experiment\\live\\session-05",
+    "formal_start_utc": "2026-09-18T14:25:58.748Z",
+    "last_segment_settled_utc": "2026-09-18T14:41:35.885Z",
+    "runs": [
+      {
+        "id": "33be26cf-eaa3-478b-b6c2-24337f419191",
+        "session": "01a0b4e8-ed7e-73ee-a506-e472a911b279",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\session-05\\a"
+      },
+      {
+        "id": "4fb34cd0-a859-40f2-b26d-8cb335fdafa6",
+        "session": "01a0b4e8-ee14-702f-88bd-1df5d599d3f6",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\session-05\\b"
+      },
+      {
+        "id": "85fc8170-da63-430f-975b-3bddc92588b5",
+        "session": "01a0b4e8-eeb1-7352-82d2-13ef2a6b416f",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\session-05\\c"
+      }
+    ],
+    "cli_index": [
+      {
+        "frame": 0,
+        "mp4StartSeconds": 0,
+        "mp4EndSeconds": 3,
+        "utc": "2026-09-18T14:26:10.891Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 1,
+        "mp4StartSeconds": 3,
+        "mp4EndSeconds": 6,
+        "utc": "2026-09-18T14:26:25.885Z",
+        "label": "status --run 33be26cf"
+      },
+      {
+        "frame": 2,
+        "mp4StartSeconds": 6,
+        "mp4EndSeconds": 9,
+        "utc": "2026-09-18T14:26:40.884Z",
+        "label": "status --run 4fb34cd0"
+      },
+      {
+        "frame": 3,
+        "mp4StartSeconds": 9,
+        "mp4EndSeconds": 12,
+        "utc": "2026-09-18T14:26:55.884Z",
+        "label": "board"
+      },
+      {
+        "frame": 4,
+        "mp4StartSeconds": 12,
+        "mp4EndSeconds": 15,
+        "utc": "2026-09-18T14:27:10.897Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 5,
+        "mp4StartSeconds": 15,
+        "mp4EndSeconds": 18,
+        "utc": "2026-09-18T14:27:25.884Z",
+        "label": "status --run 85fc8170"
+      },
+      {
+        "frame": 6,
+        "mp4StartSeconds": 18,
+        "mp4EndSeconds": 21,
+        "utc": "2026-09-18T14:27:40.884Z",
+        "label": "status --run 33be26cf"
+      },
+      {
+        "frame": 7,
+        "mp4StartSeconds": 21,
+        "mp4EndSeconds": 24,
+        "utc": "2026-09-18T14:27:55.933Z",
+        "label": "board"
+      },
+      {
+        "frame": 8,
+        "mp4StartSeconds": 24,
+        "mp4EndSeconds": 27,
+        "utc": "2026-09-18T14:28:10.945Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 9,
+        "mp4StartSeconds": 27,
+        "mp4EndSeconds": 30,
+        "utc": "2026-09-18T14:28:25.947Z",
+        "label": "status --run 4fb34cd0"
+      },
+      {
+        "frame": 10,
+        "mp4StartSeconds": 30,
+        "mp4EndSeconds": 33,
+        "utc": "2026-09-18T14:28:40.951Z",
+        "label": "status --run 85fc8170"
+      },
+      {
+        "frame": 11,
+        "mp4StartSeconds": 33,
+        "mp4EndSeconds": 36,
+        "utc": "2026-09-18T14:28:55.952Z",
+        "label": "board"
+      },
+      {
+        "frame": 12,
+        "mp4StartSeconds": 36,
+        "mp4EndSeconds": 39,
+        "utc": "2026-09-18T14:29:10.972Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 13,
+        "mp4StartSeconds": 39,
+        "mp4EndSeconds": 42,
+        "utc": "2026-09-18T14:29:25.958Z",
+        "label": "status --run 33be26cf"
+      },
+      {
+        "frame": 14,
+        "mp4StartSeconds": 42,
+        "mp4EndSeconds": 45,
+        "utc": "2026-09-18T14:29:40.962Z",
+        "label": "status --run 4fb34cd0"
+      },
+      {
+        "frame": 15,
+        "mp4StartSeconds": 45,
+        "mp4EndSeconds": 48,
+        "utc": "2026-09-18T14:29:55.962Z",
+        "label": "board"
+      },
+      {
+        "frame": 16,
+        "mp4StartSeconds": 48,
+        "mp4EndSeconds": 51,
+        "utc": "2026-09-18T14:30:10.988Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 17,
+        "mp4StartSeconds": 51,
+        "mp4EndSeconds": 54,
+        "utc": "2026-09-18T14:30:25.971Z",
+        "label": "status --run 85fc8170"
+      },
+      {
+        "frame": 18,
+        "mp4StartSeconds": 54,
+        "mp4EndSeconds": 57,
+        "utc": "2026-09-18T14:30:40.975Z",
+        "label": "status --run 33be26cf"
+      },
+      {
+        "frame": 19,
+        "mp4StartSeconds": 57,
+        "mp4EndSeconds": 60,
+        "utc": "2026-09-18T14:30:55.977Z",
+        "label": "board"
+      },
+      {
+        "frame": 20,
+        "mp4StartSeconds": 60,
+        "mp4EndSeconds": 63,
+        "utc": "2026-09-18T14:31:10.994Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 21,
+        "mp4StartSeconds": 63,
+        "mp4EndSeconds": 66,
+        "utc": "2026-09-18T14:31:25.979Z",
+        "label": "status --run 4fb34cd0"
+      },
+      {
+        "frame": 22,
+        "mp4StartSeconds": 66,
+        "mp4EndSeconds": 69,
+        "utc": "2026-09-18T14:31:40.979Z",
+        "label": "status --run 85fc8170"
+      },
+      {
+        "frame": 23,
+        "mp4StartSeconds": 69,
+        "mp4EndSeconds": 72,
+        "utc": "2026-09-18T14:31:55.988Z",
+        "label": "board"
+      },
+      {
+        "frame": 24,
+        "mp4StartSeconds": 72,
+        "mp4EndSeconds": 75,
+        "utc": "2026-09-18T14:32:11.017Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 25,
+        "mp4StartSeconds": 75,
+        "mp4EndSeconds": 78,
+        "utc": "2026-09-18T14:32:25.997Z",
+        "label": "status --run 33be26cf"
+      },
+      {
+        "frame": 26,
+        "mp4StartSeconds": 78,
+        "mp4EndSeconds": 81,
+        "utc": "2026-09-18T14:32:41.007Z",
+        "label": "status --run 4fb34cd0"
+      },
+      {
+        "frame": 27,
+        "mp4StartSeconds": 81,
+        "mp4EndSeconds": 84,
+        "utc": "2026-09-18T14:32:56.017Z",
+        "label": "board"
+      },
+      {
+        "frame": 28,
+        "mp4StartSeconds": 84,
+        "mp4EndSeconds": 87,
+        "utc": "2026-09-18T14:33:11.042Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 29,
+        "mp4StartSeconds": 87,
+        "mp4EndSeconds": 90,
+        "utc": "2026-09-18T14:33:26.028Z",
+        "label": "status --run 85fc8170"
+      },
+      {
+        "frame": 30,
+        "mp4StartSeconds": 90,
+        "mp4EndSeconds": 93,
+        "utc": "2026-09-18T14:33:41.036Z",
+        "label": "status --run 33be26cf"
+      },
+      {
+        "frame": 31,
+        "mp4StartSeconds": 93,
+        "mp4EndSeconds": 96,
+        "utc": "2026-09-18T14:33:56.048Z",
+        "label": "board"
+      },
+      {
+        "frame": 32,
+        "mp4StartSeconds": 96,
+        "mp4EndSeconds": 99,
+        "utc": "2026-09-18T14:34:11.088Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 33,
+        "mp4StartSeconds": 99,
+        "mp4EndSeconds": 102,
+        "utc": "2026-09-18T14:34:26.061Z",
+        "label": "status --run 4fb34cd0"
+      },
+      {
+        "frame": 34,
+        "mp4StartSeconds": 102,
+        "mp4EndSeconds": 105,
+        "utc": "2026-09-18T14:34:41.061Z",
+        "label": "status --run 85fc8170"
+      },
+      {
+        "frame": 35,
+        "mp4StartSeconds": 105,
+        "mp4EndSeconds": 108,
+        "utc": "2026-09-18T14:34:56.066Z",
+        "label": "board"
+      },
+      {
+        "frame": 36,
+        "mp4StartSeconds": 108,
+        "mp4EndSeconds": 111,
+        "utc": "2026-09-18T14:35:11.086Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 37,
+        "mp4StartSeconds": 111,
+        "mp4EndSeconds": 114,
+        "utc": "2026-09-18T14:35:26.080Z",
+        "label": "status --run 33be26cf"
+      },
+      {
+        "frame": 38,
+        "mp4StartSeconds": 114,
+        "mp4EndSeconds": 117,
+        "utc": "2026-09-18T14:35:41.081Z",
+        "label": "status --run 4fb34cd0"
+      },
+      {
+        "frame": 39,
+        "mp4StartSeconds": 117,
+        "mp4EndSeconds": 120,
+        "utc": "2026-09-18T14:35:56.082Z",
+        "label": "board"
+      },
+      {
+        "frame": 40,
+        "mp4StartSeconds": 120,
+        "mp4EndSeconds": 123,
+        "utc": "2026-09-18T14:36:11.115Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 41,
+        "mp4StartSeconds": 123,
+        "mp4EndSeconds": 126,
+        "utc": "2026-09-18T14:36:26.089Z",
+        "label": "status --run 85fc8170"
+      },
+      {
+        "frame": 42,
+        "mp4StartSeconds": 126,
+        "mp4EndSeconds": 129,
+        "utc": "2026-09-18T14:36:41.088Z",
+        "label": "status --run 33be26cf"
+      },
+      {
+        "frame": 43,
+        "mp4StartSeconds": 129,
+        "mp4EndSeconds": 132,
+        "utc": "2026-09-18T14:36:56.088Z",
+        "label": "board"
+      },
+      {
+        "frame": 44,
+        "mp4StartSeconds": 132,
+        "mp4EndSeconds": 135,
+        "utc": "2026-09-18T14:37:11.141Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 45,
+        "mp4StartSeconds": 135,
+        "mp4EndSeconds": 138,
+        "utc": "2026-09-18T14:37:26.097Z",
+        "label": "status --run 4fb34cd0"
+      },
+      {
+        "frame": 46,
+        "mp4StartSeconds": 138,
+        "mp4EndSeconds": 141,
+        "utc": "2026-09-18T14:37:41.097Z",
+        "label": "status --run 85fc8170"
+      },
+      {
+        "frame": 47,
+        "mp4StartSeconds": 141,
+        "mp4EndSeconds": 144,
+        "utc": "2026-09-18T14:37:56.100Z",
+        "label": "board"
+      },
+      {
+        "frame": 48,
+        "mp4StartSeconds": 144,
+        "mp4EndSeconds": 147,
+        "utc": "2026-09-18T14:38:11.125Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 49,
+        "mp4StartSeconds": 147,
+        "mp4EndSeconds": 150,
+        "utc": "2026-09-18T14:38:26.105Z",
+        "label": "status --run 33be26cf"
+      },
+      {
+        "frame": 50,
+        "mp4StartSeconds": 150,
+        "mp4EndSeconds": 153,
+        "utc": "2026-09-18T14:38:41.106Z",
+        "label": "status --run 4fb34cd0"
+      },
+      {
+        "frame": 51,
+        "mp4StartSeconds": 153,
+        "mp4EndSeconds": 156,
+        "utc": "2026-09-18T14:38:56.116Z",
+        "label": "board"
+      },
+      {
+        "frame": 52,
+        "mp4StartSeconds": 156,
+        "mp4EndSeconds": 159,
+        "utc": "2026-09-18T14:39:11.140Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 53,
+        "mp4StartSeconds": 159,
+        "mp4EndSeconds": 162,
+        "utc": "2026-09-18T14:39:26.123Z",
+        "label": "status --run 85fc8170"
+      },
+      {
+        "frame": 54,
+        "mp4StartSeconds": 162,
+        "mp4EndSeconds": 165,
+        "utc": "2026-09-18T14:39:41.129Z",
+        "label": "status --run 33be26cf"
+      },
+      {
+        "frame": 55,
+        "mp4StartSeconds": 165,
+        "mp4EndSeconds": 168,
+        "utc": "2026-09-18T14:39:56.134Z",
+        "label": "board"
+      },
+      {
+        "frame": 56,
+        "mp4StartSeconds": 168,
+        "mp4EndSeconds": 171,
+        "utc": "2026-09-18T14:40:11.155Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 57,
+        "mp4StartSeconds": 171,
+        "mp4EndSeconds": 174,
+        "utc": "2026-09-18T14:40:26.153Z",
+        "label": "status --run 4fb34cd0"
+      },
+      {
+        "frame": 58,
+        "mp4StartSeconds": 174,
+        "mp4EndSeconds": 177,
+        "utc": "2026-09-18T14:40:41.161Z",
+        "label": "status --run 85fc8170"
+      },
+      {
+        "frame": 59,
+        "mp4StartSeconds": 177,
+        "mp4EndSeconds": 180,
+        "utc": "2026-09-18T14:40:56.170Z",
+        "label": "board"
+      },
+      {
+        "frame": 60,
+        "mp4StartSeconds": 180,
+        "mp4EndSeconds": 183,
+        "utc": "2026-09-18T14:41:11.217Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 61,
+        "mp4StartSeconds": 183,
+        "mp4EndSeconds": 186,
+        "utc": "2026-09-18T14:41:26.188Z",
+        "label": "status --run 33be26cf"
+      }
+    ],
+    "game_edit": {
+      "id": "S05",
+      "file": "S05-minecraft-silent.mp4",
+      "source_file": "Minecraft 2026.09.18 - 22.25.57.07.mp4",
+      "source_estimated_start_utc": "2026-09-18T14:25:57.000Z",
+      "source_start_seconds": 1,
+      "source_end_seconds": 939,
+      "output_duration_seconds": 938,
+      "mapping": "source_seconds = published_seconds + source_start_seconds; UTC estimated from filename, not frame-accurate synchronization",
+      "changes": [
+        "all audio removed",
+        "rotated 180 degrees",
+        "1600x1000 30fps H.264 viewing copy",
+        "leading/trailing material outside formal work window omitted"
+      ],
+      "interior_cuts": []
+    }
+  },
+  {
+    "id": "RC",
+    "historical_source_root": "E:\\Minecraft\\Threshold-Experiment\\live\\resource-pair-01\\control",
+    "formal_start_utc": "2026-09-18T15:53:33.256Z",
+    "last_segment_settled_utc": "2026-09-18T16:07:47.747Z",
+    "runs": [
+      {
+        "id": "4b34e03d-4343-4127-bb52-a537f4e5c016",
+        "session": "01a0b539-1ad2-70bc-b767-cf42fef3b624",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\resource-pair-01\\control\\a"
+      },
+      {
+        "id": "7e77d2f5-d051-46c0-afd4-4505b491969c",
+        "session": "01a0b539-1b92-765f-825f-b04205a3d9b1",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\resource-pair-01\\control\\b"
+      },
+      {
+        "id": "8c9e8d4b-9d3f-4785-9f21-d4062c2dd488",
+        "session": "01a0b539-1c35-76a1-8690-4ad828b6c7a4",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\resource-pair-01\\control\\c"
+      }
+    ],
+    "cli_index": [
+      {
+        "frame": 0,
+        "mp4StartSeconds": 0,
+        "mp4EndSeconds": 3,
+        "utc": "2026-09-18T15:53:47.720Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 1,
+        "mp4StartSeconds": 3,
+        "mp4EndSeconds": 6,
+        "utc": "2026-09-18T15:54:02.703Z",
+        "label": "status --run 4b34e03d"
+      },
+      {
+        "frame": 2,
+        "mp4StartSeconds": 6,
+        "mp4EndSeconds": 9,
+        "utc": "2026-09-18T15:54:17.706Z",
+        "label": "status --run 7e77d2f5"
+      },
+      {
+        "frame": 3,
+        "mp4StartSeconds": 9,
+        "mp4EndSeconds": 12,
+        "utc": "2026-09-18T15:54:32.706Z",
+        "label": "board"
+      },
+      {
+        "frame": 4,
+        "mp4StartSeconds": 12,
+        "mp4EndSeconds": 15,
+        "utc": "2026-09-18T15:54:47.738Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 5,
+        "mp4StartSeconds": 15,
+        "mp4EndSeconds": 18,
+        "utc": "2026-09-18T15:55:02.712Z",
+        "label": "status --run 8c9e8d4b"
+      },
+      {
+        "frame": 6,
+        "mp4StartSeconds": 18,
+        "mp4EndSeconds": 21,
+        "utc": "2026-09-18T15:55:17.712Z",
+        "label": "status --run 4b34e03d"
+      },
+      {
+        "frame": 7,
+        "mp4StartSeconds": 21,
+        "mp4EndSeconds": 24,
+        "utc": "2026-09-18T15:55:32.719Z",
+        "label": "board"
+      },
+      {
+        "frame": 8,
+        "mp4StartSeconds": 24,
+        "mp4EndSeconds": 27,
+        "utc": "2026-09-18T15:55:47.736Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 9,
+        "mp4StartSeconds": 27,
+        "mp4EndSeconds": 30,
+        "utc": "2026-09-18T15:56:02.721Z",
+        "label": "status --run 7e77d2f5"
+      },
+      {
+        "frame": 10,
+        "mp4StartSeconds": 30,
+        "mp4EndSeconds": 33,
+        "utc": "2026-09-18T15:56:17.729Z",
+        "label": "status --run 8c9e8d4b"
+      },
+      {
+        "frame": 11,
+        "mp4StartSeconds": 33,
+        "mp4EndSeconds": 36,
+        "utc": "2026-09-18T15:56:32.735Z",
+        "label": "board"
+      },
+      {
+        "frame": 12,
+        "mp4StartSeconds": 36,
+        "mp4EndSeconds": 39,
+        "utc": "2026-09-18T15:56:47.766Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 13,
+        "mp4StartSeconds": 39,
+        "mp4EndSeconds": 42,
+        "utc": "2026-09-18T15:57:02.746Z",
+        "label": "status --run 4b34e03d"
+      },
+      {
+        "frame": 14,
+        "mp4StartSeconds": 42,
+        "mp4EndSeconds": 45,
+        "utc": "2026-09-18T15:57:17.750Z",
+        "label": "status --run 7e77d2f5"
+      },
+      {
+        "frame": 15,
+        "mp4StartSeconds": 45,
+        "mp4EndSeconds": 48,
+        "utc": "2026-09-18T15:57:32.756Z",
+        "label": "board"
+      },
+      {
+        "frame": 16,
+        "mp4StartSeconds": 48,
+        "mp4EndSeconds": 51,
+        "utc": "2026-09-18T15:57:47.783Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 17,
+        "mp4StartSeconds": 51,
+        "mp4EndSeconds": 54,
+        "utc": "2026-09-18T15:58:02.772Z",
+        "label": "status --run 8c9e8d4b"
+      },
+      {
+        "frame": 18,
+        "mp4StartSeconds": 54,
+        "mp4EndSeconds": 57,
+        "utc": "2026-09-18T15:58:17.773Z",
+        "label": "status --run 4b34e03d"
+      },
+      {
+        "frame": 19,
+        "mp4StartSeconds": 57,
+        "mp4EndSeconds": 60,
+        "utc": "2026-09-18T15:58:32.776Z",
+        "label": "board"
+      },
+      {
+        "frame": 20,
+        "mp4StartSeconds": 60,
+        "mp4EndSeconds": 63,
+        "utc": "2026-09-18T15:58:47.818Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 21,
+        "mp4StartSeconds": 63,
+        "mp4EndSeconds": 66,
+        "utc": "2026-09-18T15:59:02.796Z",
+        "label": "status --run 7e77d2f5"
+      },
+      {
+        "frame": 22,
+        "mp4StartSeconds": 66,
+        "mp4EndSeconds": 69,
+        "utc": "2026-09-18T15:59:17.811Z",
+        "label": "status --run 8c9e8d4b"
+      },
+      {
+        "frame": 23,
+        "mp4StartSeconds": 69,
+        "mp4EndSeconds": 72,
+        "utc": "2026-09-18T15:59:32.821Z",
+        "label": "board"
+      },
+      {
+        "frame": 24,
+        "mp4StartSeconds": 72,
+        "mp4EndSeconds": 75,
+        "utc": "2026-09-18T15:59:47.844Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 25,
+        "mp4StartSeconds": 75,
+        "mp4EndSeconds": 78,
+        "utc": "2026-09-18T16:00:02.836Z",
+        "label": "status --run 4b34e03d"
+      },
+      {
+        "frame": 26,
+        "mp4StartSeconds": 78,
+        "mp4EndSeconds": 81,
+        "utc": "2026-09-18T16:00:17.840Z",
+        "label": "status --run 7e77d2f5"
+      },
+      {
+        "frame": 27,
+        "mp4StartSeconds": 81,
+        "mp4EndSeconds": 84,
+        "utc": "2026-09-18T16:00:32.844Z",
+        "label": "board"
+      },
+      {
+        "frame": 28,
+        "mp4StartSeconds": 84,
+        "mp4EndSeconds": 87,
+        "utc": "2026-09-18T16:00:47.864Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 29,
+        "mp4StartSeconds": 87,
+        "mp4EndSeconds": 90,
+        "utc": "2026-09-18T16:01:02.856Z",
+        "label": "status --run 8c9e8d4b"
+      },
+      {
+        "frame": 30,
+        "mp4StartSeconds": 90,
+        "mp4EndSeconds": 93,
+        "utc": "2026-09-18T16:01:17.857Z",
+        "label": "status --run 4b34e03d"
+      },
+      {
+        "frame": 31,
+        "mp4StartSeconds": 93,
+        "mp4EndSeconds": 96,
+        "utc": "2026-09-18T16:01:32.862Z",
+        "label": "board"
+      },
+      {
+        "frame": 32,
+        "mp4StartSeconds": 96,
+        "mp4EndSeconds": 99,
+        "utc": "2026-09-18T16:01:47.882Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 33,
+        "mp4StartSeconds": 99,
+        "mp4EndSeconds": 102,
+        "utc": "2026-09-18T16:02:02.868Z",
+        "label": "status --run 7e77d2f5"
+      },
+      {
+        "frame": 34,
+        "mp4StartSeconds": 102,
+        "mp4EndSeconds": 105,
+        "utc": "2026-09-18T16:02:17.877Z",
+        "label": "status --run 8c9e8d4b"
+      },
+      {
+        "frame": 35,
+        "mp4StartSeconds": 105,
+        "mp4EndSeconds": 108,
+        "utc": "2026-09-18T16:02:32.877Z",
+        "label": "board"
+      },
+      {
+        "frame": 36,
+        "mp4StartSeconds": 108,
+        "mp4EndSeconds": 111,
+        "utc": "2026-09-18T16:02:47.936Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 37,
+        "mp4StartSeconds": 111,
+        "mp4EndSeconds": 114,
+        "utc": "2026-09-18T16:03:02.896Z",
+        "label": "status --run 4b34e03d"
+      },
+      {
+        "frame": 38,
+        "mp4StartSeconds": 114,
+        "mp4EndSeconds": 117,
+        "utc": "2026-09-18T16:03:17.907Z",
+        "label": "status --run 7e77d2f5"
+      },
+      {
+        "frame": 39,
+        "mp4StartSeconds": 117,
+        "mp4EndSeconds": 120,
+        "utc": "2026-09-18T16:03:32.913Z",
+        "label": "board"
+      },
+      {
+        "frame": 40,
+        "mp4StartSeconds": 120,
+        "mp4EndSeconds": 123,
+        "utc": "2026-09-18T16:03:47.946Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 41,
+        "mp4StartSeconds": 123,
+        "mp4EndSeconds": 126,
+        "utc": "2026-09-18T16:04:02.926Z",
+        "label": "status --run 8c9e8d4b"
+      },
+      {
+        "frame": 42,
+        "mp4StartSeconds": 126,
+        "mp4EndSeconds": 129,
+        "utc": "2026-09-18T16:04:17.929Z",
+        "label": "status --run 4b34e03d"
+      },
+      {
+        "frame": 43,
+        "mp4StartSeconds": 129,
+        "mp4EndSeconds": 132,
+        "utc": "2026-09-18T16:04:32.931Z",
+        "label": "board"
+      },
+      {
+        "frame": 44,
+        "mp4StartSeconds": 132,
+        "mp4EndSeconds": 135,
+        "utc": "2026-09-18T16:04:47.958Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 45,
+        "mp4StartSeconds": 135,
+        "mp4EndSeconds": 138,
+        "utc": "2026-09-18T16:05:02.955Z",
+        "label": "status --run 7e77d2f5"
+      },
+      {
+        "frame": 46,
+        "mp4StartSeconds": 138,
+        "mp4EndSeconds": 141,
+        "utc": "2026-09-18T16:05:17.963Z",
+        "label": "status --run 8c9e8d4b"
+      },
+      {
+        "frame": 47,
+        "mp4StartSeconds": 141,
+        "mp4EndSeconds": 144,
+        "utc": "2026-09-18T16:05:32.961Z",
+        "label": "board"
+      },
+      {
+        "frame": 48,
+        "mp4StartSeconds": 144,
+        "mp4EndSeconds": 147,
+        "utc": "2026-09-18T16:05:47.983Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 49,
+        "mp4StartSeconds": 147,
+        "mp4EndSeconds": 150,
+        "utc": "2026-09-18T16:06:02.974Z",
+        "label": "status --run 4b34e03d"
+      },
+      {
+        "frame": 50,
+        "mp4StartSeconds": 150,
+        "mp4EndSeconds": 153,
+        "utc": "2026-09-18T16:06:17.981Z",
+        "label": "status --run 7e77d2f5"
+      },
+      {
+        "frame": 51,
+        "mp4StartSeconds": 153,
+        "mp4EndSeconds": 156,
+        "utc": "2026-09-18T16:06:32.990Z",
+        "label": "board"
+      },
+      {
+        "frame": 52,
+        "mp4StartSeconds": 156,
+        "mp4EndSeconds": 159,
+        "utc": "2026-09-18T16:06:48.011Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 53,
+        "mp4StartSeconds": 159,
+        "mp4EndSeconds": 162,
+        "utc": "2026-09-18T16:07:02.997Z",
+        "label": "status --run 8c9e8d4b"
+      },
+      {
+        "frame": 54,
+        "mp4StartSeconds": 162,
+        "mp4EndSeconds": 165,
+        "utc": "2026-09-18T16:07:18.004Z",
+        "label": "status --run 4b34e03d"
+      },
+      {
+        "frame": 55,
+        "mp4StartSeconds": 165,
+        "mp4EndSeconds": 168,
+        "utc": "2026-09-18T16:07:33.006Z",
+        "label": "board"
+      },
+      {
+        "frame": 56,
+        "mp4StartSeconds": 168,
+        "mp4EndSeconds": 171,
+        "utc": "2026-09-18T16:07:48.043Z",
+        "label": "message read (recent)"
+      }
+    ],
+    "game_edit": {
+      "id": "RC",
+      "file": "RC-minecraft-silent.mp4",
+      "source_file": "Minecraft 2026.09.18 - 23.53.19.08.mp4",
+      "source_estimated_start_utc": "2026-09-18T15:53:19.000Z",
+      "source_start_seconds": 14,
+      "source_end_seconds": 869,
+      "output_duration_seconds": 855,
+      "mapping": "source_seconds = published_seconds + source_start_seconds; UTC estimated from filename, not frame-accurate synchronization",
+      "changes": [
+        "all audio removed",
+        "rotated 180 degrees",
+        "1600x1000 30fps H.264 viewing copy",
+        "leading/trailing material outside formal work window omitted"
+      ],
+      "interior_cuts": []
+    }
+  },
+  {
+    "id": "RI",
+    "historical_source_root": "E:\\Minecraft\\Threshold-Experiment\\live\\resource-pair-01\\intervention",
+    "formal_start_utc": "2026-09-18T16:11:20.653Z",
+    "last_segment_settled_utc": "2026-09-18T16:25:45.532Z",
+    "runs": [
+      {
+        "id": "527333a6-6e3b-4be5-9078-23d763830b70",
+        "session": "01a0b549-6467-77e5-84b7-a1bb81ba3040",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\resource-pair-01\\intervention\\a"
+      },
+      {
+        "id": "8da24088-68ff-45ec-ab86-5c74de09d05a",
+        "session": "01a0b549-64ee-766a-ac87-8a12f9ff9c82",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\resource-pair-01\\intervention\\b"
+      },
+      {
+        "id": "b2fe02f0-e798-4625-ba2b-9510e4a60a91",
+        "session": "01a0b549-659e-7100-8395-bcabebe736dc",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\resource-pair-01\\intervention\\c"
+      }
+    ],
+    "cli_index": [
+      {
+        "frame": 0,
+        "mp4StartSeconds": 0,
+        "mp4EndSeconds": 3,
+        "utc": "2026-09-18T16:11:21.213Z",
+        "label": "board"
+      },
+      {
+        "frame": 1,
+        "mp4StartSeconds": 3,
+        "mp4EndSeconds": 6,
+        "utc": "2026-09-18T16:11:36.233Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 2,
+        "mp4StartSeconds": 6,
+        "mp4EndSeconds": 9,
+        "utc": "2026-09-18T16:11:51.220Z",
+        "label": "status --run b2fe02f0"
+      },
+      {
+        "frame": 3,
+        "mp4StartSeconds": 9,
+        "mp4EndSeconds": 12,
+        "utc": "2026-09-18T16:12:06.225Z",
+        "label": "status --run 527333a6"
+      },
+      {
+        "frame": 4,
+        "mp4StartSeconds": 12,
+        "mp4EndSeconds": 15,
+        "utc": "2026-09-18T16:12:21.228Z",
+        "label": "board"
+      },
+      {
+        "frame": 5,
+        "mp4StartSeconds": 15,
+        "mp4EndSeconds": 18,
+        "utc": "2026-09-18T16:12:36.266Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 6,
+        "mp4StartSeconds": 18,
+        "mp4EndSeconds": 21,
+        "utc": "2026-09-18T16:12:51.234Z",
+        "label": "status --run 8da24088"
+      },
+      {
+        "frame": 7,
+        "mp4StartSeconds": 21,
+        "mp4EndSeconds": 24,
+        "utc": "2026-09-18T16:13:06.240Z",
+        "label": "status --run b2fe02f0"
+      },
+      {
+        "frame": 8,
+        "mp4StartSeconds": 24,
+        "mp4EndSeconds": 27,
+        "utc": "2026-09-18T16:13:21.241Z",
+        "label": "board"
+      },
+      {
+        "frame": 9,
+        "mp4StartSeconds": 27,
+        "mp4EndSeconds": 30,
+        "utc": "2026-09-18T16:13:36.283Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 10,
+        "mp4StartSeconds": 30,
+        "mp4EndSeconds": 33,
+        "utc": "2026-09-18T16:13:51.254Z",
+        "label": "status --run 527333a6"
+      },
+      {
+        "frame": 11,
+        "mp4StartSeconds": 33,
+        "mp4EndSeconds": 36,
+        "utc": "2026-09-18T16:14:06.255Z",
+        "label": "status --run 8da24088"
+      },
+      {
+        "frame": 12,
+        "mp4StartSeconds": 36,
+        "mp4EndSeconds": 39,
+        "utc": "2026-09-18T16:14:21.257Z",
+        "label": "board"
+      },
+      {
+        "frame": 13,
+        "mp4StartSeconds": 39,
+        "mp4EndSeconds": 42,
+        "utc": "2026-09-18T16:14:36.275Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 14,
+        "mp4StartSeconds": 42,
+        "mp4EndSeconds": 45,
+        "utc": "2026-09-18T16:14:51.260Z",
+        "label": "status --run b2fe02f0"
+      },
+      {
+        "frame": 15,
+        "mp4StartSeconds": 45,
+        "mp4EndSeconds": 48,
+        "utc": "2026-09-18T16:15:06.262Z",
+        "label": "status --run 527333a6"
+      },
+      {
+        "frame": 16,
+        "mp4StartSeconds": 48,
+        "mp4EndSeconds": 51,
+        "utc": "2026-09-18T16:15:21.265Z",
+        "label": "board"
+      },
+      {
+        "frame": 17,
+        "mp4StartSeconds": 51,
+        "mp4EndSeconds": 54,
+        "utc": "2026-09-18T16:15:36.286Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 18,
+        "mp4StartSeconds": 54,
+        "mp4EndSeconds": 57,
+        "utc": "2026-09-18T16:15:51.270Z",
+        "label": "status --run 8da24088"
+      },
+      {
+        "frame": 19,
+        "mp4StartSeconds": 57,
+        "mp4EndSeconds": 60,
+        "utc": "2026-09-18T16:16:06.276Z",
+        "label": "status --run b2fe02f0"
+      },
+      {
+        "frame": 20,
+        "mp4StartSeconds": 60,
+        "mp4EndSeconds": 63,
+        "utc": "2026-09-18T16:16:21.284Z",
+        "label": "board"
+      },
+      {
+        "frame": 21,
+        "mp4StartSeconds": 63,
+        "mp4EndSeconds": 66,
+        "utc": "2026-09-18T16:16:36.308Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 22,
+        "mp4StartSeconds": 66,
+        "mp4EndSeconds": 69,
+        "utc": "2026-09-18T16:16:51.290Z",
+        "label": "status --run 527333a6"
+      },
+      {
+        "frame": 23,
+        "mp4StartSeconds": 69,
+        "mp4EndSeconds": 72,
+        "utc": "2026-09-18T16:17:06.290Z",
+        "label": "status --run 8da24088"
+      },
+      {
+        "frame": 24,
+        "mp4StartSeconds": 72,
+        "mp4EndSeconds": 75,
+        "utc": "2026-09-18T16:17:21.295Z",
+        "label": "board"
+      },
+      {
+        "frame": 25,
+        "mp4StartSeconds": 75,
+        "mp4EndSeconds": 78,
+        "utc": "2026-09-18T16:17:36.324Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 26,
+        "mp4StartSeconds": 78,
+        "mp4EndSeconds": 81,
+        "utc": "2026-09-18T16:17:51.305Z",
+        "label": "status --run b2fe02f0"
+      },
+      {
+        "frame": 27,
+        "mp4StartSeconds": 81,
+        "mp4EndSeconds": 84,
+        "utc": "2026-09-18T16:18:06.320Z",
+        "label": "status --run 527333a6"
+      },
+      {
+        "frame": 28,
+        "mp4StartSeconds": 84,
+        "mp4EndSeconds": 87,
+        "utc": "2026-09-18T16:18:21.322Z",
+        "label": "board"
+      },
+      {
+        "frame": 29,
+        "mp4StartSeconds": 87,
+        "mp4EndSeconds": 90,
+        "utc": "2026-09-18T16:18:36.358Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 30,
+        "mp4StartSeconds": 90,
+        "mp4EndSeconds": 93,
+        "utc": "2026-09-18T16:18:51.341Z",
+        "label": "status --run 8da24088"
+      },
+      {
+        "frame": 31,
+        "mp4StartSeconds": 93,
+        "mp4EndSeconds": 96,
+        "utc": "2026-09-18T16:19:06.344Z",
+        "label": "status --run b2fe02f0"
+      },
+      {
+        "frame": 32,
+        "mp4StartSeconds": 96,
+        "mp4EndSeconds": 99,
+        "utc": "2026-09-18T16:19:21.347Z",
+        "label": "board"
+      },
+      {
+        "frame": 33,
+        "mp4StartSeconds": 99,
+        "mp4EndSeconds": 102,
+        "utc": "2026-09-18T16:19:36.379Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 34,
+        "mp4StartSeconds": 102,
+        "mp4EndSeconds": 105,
+        "utc": "2026-09-18T16:19:51.368Z",
+        "label": "status --run 527333a6"
+      },
+      {
+        "frame": 35,
+        "mp4StartSeconds": 105,
+        "mp4EndSeconds": 108,
+        "utc": "2026-09-18T16:20:06.372Z",
+        "label": "status --run 8da24088"
+      },
+      {
+        "frame": 36,
+        "mp4StartSeconds": 108,
+        "mp4EndSeconds": 111,
+        "utc": "2026-09-18T16:20:21.372Z",
+        "label": "board"
+      },
+      {
+        "frame": 37,
+        "mp4StartSeconds": 111,
+        "mp4EndSeconds": 114,
+        "utc": "2026-09-18T16:20:36.404Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 38,
+        "mp4StartSeconds": 114,
+        "mp4EndSeconds": 117,
+        "utc": "2026-09-18T16:20:51.380Z",
+        "label": "status --run b2fe02f0"
+      },
+      {
+        "frame": 39,
+        "mp4StartSeconds": 117,
+        "mp4EndSeconds": 120,
+        "utc": "2026-09-18T16:21:06.386Z",
+        "label": "status --run 527333a6"
+      },
+      {
+        "frame": 40,
+        "mp4StartSeconds": 120,
+        "mp4EndSeconds": 123,
+        "utc": "2026-09-18T16:21:21.398Z",
+        "label": "board"
+      },
+      {
+        "frame": 41,
+        "mp4StartSeconds": 123,
+        "mp4EndSeconds": 126,
+        "utc": "2026-09-18T16:21:36.422Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 42,
+        "mp4StartSeconds": 126,
+        "mp4EndSeconds": 129,
+        "utc": "2026-09-18T16:21:51.402Z",
+        "label": "status --run 8da24088"
+      },
+      {
+        "frame": 43,
+        "mp4StartSeconds": 129,
+        "mp4EndSeconds": 132,
+        "utc": "2026-09-18T16:22:06.402Z",
+        "label": "status --run b2fe02f0"
+      },
+      {
+        "frame": 44,
+        "mp4StartSeconds": 132,
+        "mp4EndSeconds": 135,
+        "utc": "2026-09-18T16:22:21.404Z",
+        "label": "board"
+      },
+      {
+        "frame": 45,
+        "mp4StartSeconds": 135,
+        "mp4EndSeconds": 138,
+        "utc": "2026-09-18T16:22:36.427Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 46,
+        "mp4StartSeconds": 138,
+        "mp4EndSeconds": 141,
+        "utc": "2026-09-18T16:22:51.411Z",
+        "label": "status --run 527333a6"
+      },
+      {
+        "frame": 47,
+        "mp4StartSeconds": 141,
+        "mp4EndSeconds": 144,
+        "utc": "2026-09-18T16:23:06.419Z",
+        "label": "status --run 8da24088"
+      },
+      {
+        "frame": 48,
+        "mp4StartSeconds": 144,
+        "mp4EndSeconds": 147,
+        "utc": "2026-09-18T16:23:21.425Z",
+        "label": "board"
+      },
+      {
+        "frame": 49,
+        "mp4StartSeconds": 147,
+        "mp4EndSeconds": 150,
+        "utc": "2026-09-18T16:23:36.448Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 50,
+        "mp4StartSeconds": 150,
+        "mp4EndSeconds": 153,
+        "utc": "2026-09-18T16:23:51.436Z",
+        "label": "status --run b2fe02f0"
+      },
+      {
+        "frame": 51,
+        "mp4StartSeconds": 153,
+        "mp4EndSeconds": 156,
+        "utc": "2026-09-18T16:24:06.439Z",
+        "label": "status --run 527333a6"
+      },
+      {
+        "frame": 52,
+        "mp4StartSeconds": 156,
+        "mp4EndSeconds": 159,
+        "utc": "2026-09-18T16:24:21.439Z",
+        "label": "board"
+      },
+      {
+        "frame": 53,
+        "mp4StartSeconds": 159,
+        "mp4EndSeconds": 162,
+        "utc": "2026-09-18T16:24:36.462Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 54,
+        "mp4StartSeconds": 162,
+        "mp4EndSeconds": 165,
+        "utc": "2026-09-18T16:24:51.444Z",
+        "label": "status --run 8da24088"
+      },
+      {
+        "frame": 55,
+        "mp4StartSeconds": 165,
+        "mp4EndSeconds": 168,
+        "utc": "2026-09-18T16:25:06.445Z",
+        "label": "status --run b2fe02f0"
+      },
+      {
+        "frame": 56,
+        "mp4StartSeconds": 168,
+        "mp4EndSeconds": 171,
+        "utc": "2026-09-18T16:25:21.448Z",
+        "label": "board"
+      },
+      {
+        "frame": 57,
+        "mp4StartSeconds": 171,
+        "mp4EndSeconds": 174,
+        "utc": "2026-09-18T16:25:36.488Z",
+        "label": "message read (recent)"
+      }
+    ],
+    "game_edit": {
+      "id": "RI",
+      "file": "RI-minecraft-silent.mp4",
+      "source_file": "Minecraft 2026.09.19 - 00.10.54.09.mp4",
+      "source_estimated_start_utc": "2026-09-18T16:10:54.000Z",
+      "source_start_seconds": 26,
+      "source_end_seconds": 892,
+      "output_duration_seconds": 866,
+      "mapping": "source_seconds = published_seconds + source_start_seconds; UTC estimated from filename, not frame-accurate synchronization",
+      "changes": [
+        "all audio removed",
+        "rotated 180 degrees",
+        "1600x1000 30fps H.264 viewing copy",
+        "leading/trailing material outside formal work window omitted"
+      ],
+      "interior_cuts": []
+    }
+  },
+  {
+    "id": "H0",
+    "historical_source_root": "E:\\Minecraft\\Threshold-Experiment\\live\\run-06\\r17",
+    "formal_start_utc": "2026-09-18T18:16:40.519Z",
+    "last_segment_settled_utc": "2026-09-18T18:32:40.711Z",
+    "runs": [
+      {
+        "id": "2b4f9c59-a6ec-4132-9ef8-7eaeeec7e9e6",
+        "session": "01a0b5bc-22f9-7009-b5f8-a154a038d037",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\run-06\\r17\\a"
+      },
+      {
+        "id": "314bd1cc-ce68-49c4-9b74-f59703dbd617",
+        "session": "01a0b5bc-2399-71e7-a3f1-7cdadf633580",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\run-06\\r17\\b"
+      },
+      {
+        "id": "6e6d27fd-585c-46fa-bb82-c3a372a3c146",
+        "session": "01a0b5bc-243e-7392-9526-8480514d29c6",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\run-06\\r17\\c"
+      }
+    ],
+    "cli_index": [
+      {
+        "frame": 0,
+        "mp4StartSeconds": 0,
+        "mp4EndSeconds": 3,
+        "utc": "2026-09-18T18:16:50.001Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 1,
+        "mp4StartSeconds": 3,
+        "mp4EndSeconds": 6,
+        "utc": "2026-09-18T18:17:04.991Z",
+        "label": "status --run 2b4f9c59"
+      },
+      {
+        "frame": 2,
+        "mp4StartSeconds": 6,
+        "mp4EndSeconds": 9,
+        "utc": "2026-09-18T18:17:19.996Z",
+        "label": "status --run 314bd1cc"
+      },
+      {
+        "frame": 3,
+        "mp4StartSeconds": 9,
+        "mp4EndSeconds": 12,
+        "utc": "2026-09-18T18:17:34.996Z",
+        "label": "board"
+      },
+      {
+        "frame": 4,
+        "mp4StartSeconds": 12,
+        "mp4EndSeconds": 15,
+        "utc": "2026-09-18T18:17:50.020Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 5,
+        "mp4StartSeconds": 15,
+        "mp4EndSeconds": 18,
+        "utc": "2026-09-18T18:18:05.005Z",
+        "label": "status --run 6e6d27fd"
+      },
+      {
+        "frame": 6,
+        "mp4StartSeconds": 18,
+        "mp4EndSeconds": 21,
+        "utc": "2026-09-18T18:18:20.005Z",
+        "label": "status --run 2b4f9c59"
+      },
+      {
+        "frame": 7,
+        "mp4StartSeconds": 21,
+        "mp4EndSeconds": 24,
+        "utc": "2026-09-18T18:18:35.012Z",
+        "label": "board"
+      },
+      {
+        "frame": 8,
+        "mp4StartSeconds": 24,
+        "mp4EndSeconds": 27,
+        "utc": "2026-09-18T18:18:50.033Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 9,
+        "mp4StartSeconds": 27,
+        "mp4EndSeconds": 30,
+        "utc": "2026-09-18T18:19:05.020Z",
+        "label": "status --run 314bd1cc"
+      },
+      {
+        "frame": 10,
+        "mp4StartSeconds": 30,
+        "mp4EndSeconds": 33,
+        "utc": "2026-09-18T18:19:20.023Z",
+        "label": "status --run 6e6d27fd"
+      },
+      {
+        "frame": 11,
+        "mp4StartSeconds": 33,
+        "mp4EndSeconds": 36,
+        "utc": "2026-09-18T18:19:35.032Z",
+        "label": "board"
+      },
+      {
+        "frame": 12,
+        "mp4StartSeconds": 36,
+        "mp4EndSeconds": 39,
+        "utc": "2026-09-18T18:19:50.059Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 13,
+        "mp4StartSeconds": 39,
+        "mp4EndSeconds": 42,
+        "utc": "2026-09-18T18:20:05.044Z",
+        "label": "status --run 2b4f9c59"
+      },
+      {
+        "frame": 14,
+        "mp4StartSeconds": 42,
+        "mp4EndSeconds": 45,
+        "utc": "2026-09-18T18:20:20.044Z",
+        "label": "status --run 314bd1cc"
+      },
+      {
+        "frame": 15,
+        "mp4StartSeconds": 45,
+        "mp4EndSeconds": 48,
+        "utc": "2026-09-18T18:20:35.051Z",
+        "label": "board"
+      },
+      {
+        "frame": 16,
+        "mp4StartSeconds": 48,
+        "mp4EndSeconds": 51,
+        "utc": "2026-09-18T18:20:50.062Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 17,
+        "mp4StartSeconds": 51,
+        "mp4EndSeconds": 54,
+        "utc": "2026-09-18T18:21:05.053Z",
+        "label": "status --run 6e6d27fd"
+      },
+      {
+        "frame": 18,
+        "mp4StartSeconds": 54,
+        "mp4EndSeconds": 57,
+        "utc": "2026-09-18T18:21:20.056Z",
+        "label": "status --run 2b4f9c59"
+      },
+      {
+        "frame": 19,
+        "mp4StartSeconds": 57,
+        "mp4EndSeconds": 60,
+        "utc": "2026-09-18T18:21:35.057Z",
+        "label": "board"
+      },
+      {
+        "frame": 20,
+        "mp4StartSeconds": 60,
+        "mp4EndSeconds": 63,
+        "utc": "2026-09-18T18:21:50.074Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 21,
+        "mp4StartSeconds": 63,
+        "mp4EndSeconds": 66,
+        "utc": "2026-09-18T18:22:05.059Z",
+        "label": "status --run 314bd1cc"
+      },
+      {
+        "frame": 22,
+        "mp4StartSeconds": 66,
+        "mp4EndSeconds": 69,
+        "utc": "2026-09-18T18:22:20.066Z",
+        "label": "status --run 6e6d27fd"
+      },
+      {
+        "frame": 23,
+        "mp4StartSeconds": 69,
+        "mp4EndSeconds": 72,
+        "utc": "2026-09-18T18:22:35.066Z",
+        "label": "board"
+      },
+      {
+        "frame": 24,
+        "mp4StartSeconds": 72,
+        "mp4EndSeconds": 75,
+        "utc": "2026-09-18T18:22:50.087Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 25,
+        "mp4StartSeconds": 75,
+        "mp4EndSeconds": 78,
+        "utc": "2026-09-18T18:23:05.073Z",
+        "label": "status --run 2b4f9c59"
+      },
+      {
+        "frame": 26,
+        "mp4StartSeconds": 78,
+        "mp4EndSeconds": 81,
+        "utc": "2026-09-18T18:23:20.072Z",
+        "label": "status --run 314bd1cc"
+      },
+      {
+        "frame": 27,
+        "mp4StartSeconds": 81,
+        "mp4EndSeconds": 84,
+        "utc": "2026-09-18T18:23:35.078Z",
+        "label": "board"
+      },
+      {
+        "frame": 28,
+        "mp4StartSeconds": 84,
+        "mp4EndSeconds": 87,
+        "utc": "2026-09-18T18:23:50.107Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 29,
+        "mp4StartSeconds": 87,
+        "mp4EndSeconds": 90,
+        "utc": "2026-09-18T18:24:05.091Z",
+        "label": "status --run 6e6d27fd"
+      },
+      {
+        "frame": 30,
+        "mp4StartSeconds": 90,
+        "mp4EndSeconds": 93,
+        "utc": "2026-09-18T18:24:20.092Z",
+        "label": "status --run 2b4f9c59"
+      },
+      {
+        "frame": 31,
+        "mp4StartSeconds": 93,
+        "mp4EndSeconds": 96,
+        "utc": "2026-09-18T18:24:35.105Z",
+        "label": "board"
+      },
+      {
+        "frame": 32,
+        "mp4StartSeconds": 96,
+        "mp4EndSeconds": 99,
+        "utc": "2026-09-18T18:24:50.130Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 33,
+        "mp4StartSeconds": 99,
+        "mp4EndSeconds": 102,
+        "utc": "2026-09-18T18:25:05.117Z",
+        "label": "status --run 314bd1cc"
+      },
+      {
+        "frame": 34,
+        "mp4StartSeconds": 102,
+        "mp4EndSeconds": 105,
+        "utc": "2026-09-18T18:25:20.123Z",
+        "label": "status --run 6e6d27fd"
+      },
+      {
+        "frame": 35,
+        "mp4StartSeconds": 105,
+        "mp4EndSeconds": 108,
+        "utc": "2026-09-18T18:25:35.128Z",
+        "label": "board"
+      },
+      {
+        "frame": 36,
+        "mp4StartSeconds": 108,
+        "mp4EndSeconds": 111,
+        "utc": "2026-09-18T18:25:50.157Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 37,
+        "mp4StartSeconds": 111,
+        "mp4EndSeconds": 114,
+        "utc": "2026-09-18T18:26:05.139Z",
+        "label": "status --run 2b4f9c59"
+      },
+      {
+        "frame": 38,
+        "mp4StartSeconds": 114,
+        "mp4EndSeconds": 117,
+        "utc": "2026-09-18T18:26:20.145Z",
+        "label": "status --run 314bd1cc"
+      },
+      {
+        "frame": 39,
+        "mp4StartSeconds": 117,
+        "mp4EndSeconds": 120,
+        "utc": "2026-09-18T18:26:35.146Z",
+        "label": "board"
+      },
+      {
+        "frame": 40,
+        "mp4StartSeconds": 120,
+        "mp4EndSeconds": 123,
+        "utc": "2026-09-18T18:26:50.176Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 41,
+        "mp4StartSeconds": 123,
+        "mp4EndSeconds": 126,
+        "utc": "2026-09-18T18:27:05.155Z",
+        "label": "status --run 6e6d27fd"
+      },
+      {
+        "frame": 42,
+        "mp4StartSeconds": 126,
+        "mp4EndSeconds": 129,
+        "utc": "2026-09-18T18:27:20.158Z",
+        "label": "status --run 2b4f9c59"
+      },
+      {
+        "frame": 43,
+        "mp4StartSeconds": 129,
+        "mp4EndSeconds": 132,
+        "utc": "2026-09-18T18:27:35.171Z",
+        "label": "board"
+      },
+      {
+        "frame": 44,
+        "mp4StartSeconds": 132,
+        "mp4EndSeconds": 135,
+        "utc": "2026-09-18T18:27:50.191Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 45,
+        "mp4StartSeconds": 135,
+        "mp4EndSeconds": 138,
+        "utc": "2026-09-18T18:28:05.179Z",
+        "label": "status --run 314bd1cc"
+      },
+      {
+        "frame": 46,
+        "mp4StartSeconds": 138,
+        "mp4EndSeconds": 141,
+        "utc": "2026-09-18T18:28:20.180Z",
+        "label": "status --run 6e6d27fd"
+      },
+      {
+        "frame": 47,
+        "mp4StartSeconds": 141,
+        "mp4EndSeconds": 144,
+        "utc": "2026-09-18T18:28:35.182Z",
+        "label": "board"
+      },
+      {
+        "frame": 48,
+        "mp4StartSeconds": 144,
+        "mp4EndSeconds": 147,
+        "utc": "2026-09-18T18:28:50.239Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 49,
+        "mp4StartSeconds": 147,
+        "mp4EndSeconds": 150,
+        "utc": "2026-09-18T18:29:05.191Z",
+        "label": "status --run 2b4f9c59"
+      },
+      {
+        "frame": 50,
+        "mp4StartSeconds": 150,
+        "mp4EndSeconds": 153,
+        "utc": "2026-09-18T18:29:20.196Z",
+        "label": "status --run 314bd1cc"
+      },
+      {
+        "frame": 51,
+        "mp4StartSeconds": 153,
+        "mp4EndSeconds": 156,
+        "utc": "2026-09-18T18:29:35.202Z",
+        "label": "board"
+      },
+      {
+        "frame": 52,
+        "mp4StartSeconds": 156,
+        "mp4EndSeconds": 159,
+        "utc": "2026-09-18T18:29:50.229Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 53,
+        "mp4StartSeconds": 159,
+        "mp4EndSeconds": 162,
+        "utc": "2026-09-18T18:30:05.213Z",
+        "label": "status --run 6e6d27fd"
+      },
+      {
+        "frame": 54,
+        "mp4StartSeconds": 162,
+        "mp4EndSeconds": 165,
+        "utc": "2026-09-18T18:30:20.214Z",
+        "label": "status --run 2b4f9c59"
+      },
+      {
+        "frame": 55,
+        "mp4StartSeconds": 165,
+        "mp4EndSeconds": 168,
+        "utc": "2026-09-18T18:30:35.213Z",
+        "label": "board"
+      },
+      {
+        "frame": 56,
+        "mp4StartSeconds": 168,
+        "mp4EndSeconds": 171,
+        "utc": "2026-09-18T18:30:50.250Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 57,
+        "mp4StartSeconds": 171,
+        "mp4EndSeconds": 174,
+        "utc": "2026-09-18T18:31:05.222Z",
+        "label": "status --run 314bd1cc"
+      },
+      {
+        "frame": 58,
+        "mp4StartSeconds": 174,
+        "mp4EndSeconds": 177,
+        "utc": "2026-09-18T18:31:20.226Z",
+        "label": "status --run 6e6d27fd"
+      },
+      {
+        "frame": 59,
+        "mp4StartSeconds": 177,
+        "mp4EndSeconds": 180,
+        "utc": "2026-09-18T18:31:35.228Z",
+        "label": "board"
+      },
+      {
+        "frame": 60,
+        "mp4StartSeconds": 180,
+        "mp4EndSeconds": 183,
+        "utc": "2026-09-18T18:31:50.261Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 61,
+        "mp4StartSeconds": 183,
+        "mp4EndSeconds": 186,
+        "utc": "2026-09-18T18:32:05.238Z",
+        "label": "status --run 2b4f9c59"
+      },
+      {
+        "frame": 62,
+        "mp4StartSeconds": 186,
+        "mp4EndSeconds": 189,
+        "utc": "2026-09-18T18:32:20.248Z",
+        "label": "status --run 314bd1cc"
+      },
+      {
+        "frame": 63,
+        "mp4StartSeconds": 189,
+        "mp4EndSeconds": 192,
+        "utc": "2026-09-18T18:32:35.252Z",
+        "label": "board"
+      }
+    ],
+    "game_edit": {
+      "id": "H0",
+      "file": "H0-minecraft-silent.mp4",
+      "source_file": "Minecraft 2026.09.19 - 02.16.15.10.mp4",
+      "source_estimated_start_utc": "2026-09-18T18:16:15.000Z",
+      "source_start_seconds": 25,
+      "source_end_seconds": 986,
+      "output_duration_seconds": 961,
+      "mapping": "source_seconds = published_seconds + source_start_seconds; UTC estimated from filename, not frame-accurate synchronization",
+      "changes": [
+        "all audio removed",
+        "rotated 180 degrees",
+        "1600x1000 30fps H.264 viewing copy",
+        "leading/trailing material outside formal work window omitted"
+      ],
+      "interior_cuts": []
+    }
+  },
+  {
+    "id": "H1",
+    "historical_source_root": "E:\\Minecraft\\Threshold-Experiment\\live\\run-06\\r42",
+    "formal_start_utc": "2026-09-18T18:35:27.924Z",
+    "last_segment_settled_utc": "2026-09-18T18:51:22.327Z",
+    "runs": [
+      {
+        "id": "c6d0aca4-244d-4cc9-afe5-9620fea5aba5",
+        "session": "01a0b5cd-56c5-76ca-b276-4ab74f6bed1e",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\run-06\\r42\\a"
+      },
+      {
+        "id": "bd3df018-5e99-4c12-875d-9a77ca2517bf",
+        "session": "01a0b5cd-5742-77ca-a50b-3ff7ccfb7a8f",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\run-06\\r42\\b"
+      },
+      {
+        "id": "f38b7a37-4307-415a-b241-9ee122a0061a",
+        "session": "01a0b5cd-57d1-74ef-bc0d-ab1e5735e40f",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\run-06\\r42\\c"
+      }
+    ],
+    "cli_index": [
+      {
+        "frame": 0,
+        "mp4StartSeconds": 0,
+        "mp4EndSeconds": 3,
+        "utc": "2026-09-18T18:35:32.837Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 1,
+        "mp4StartSeconds": 3,
+        "mp4EndSeconds": 6,
+        "utc": "2026-09-18T18:35:47.823Z",
+        "label": "status --run c6d0aca4"
+      },
+      {
+        "frame": 2,
+        "mp4StartSeconds": 6,
+        "mp4EndSeconds": 9,
+        "utc": "2026-09-18T18:36:02.827Z",
+        "label": "status --run bd3df018"
+      },
+      {
+        "frame": 3,
+        "mp4StartSeconds": 9,
+        "mp4EndSeconds": 12,
+        "utc": "2026-09-18T18:36:17.828Z",
+        "label": "board"
+      },
+      {
+        "frame": 4,
+        "mp4StartSeconds": 12,
+        "mp4EndSeconds": 15,
+        "utc": "2026-09-18T18:36:32.848Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 5,
+        "mp4StartSeconds": 15,
+        "mp4EndSeconds": 18,
+        "utc": "2026-09-18T18:36:47.836Z",
+        "label": "status --run f38b7a37"
+      },
+      {
+        "frame": 6,
+        "mp4StartSeconds": 18,
+        "mp4EndSeconds": 21,
+        "utc": "2026-09-18T18:37:02.838Z",
+        "label": "status --run c6d0aca4"
+      },
+      {
+        "frame": 7,
+        "mp4StartSeconds": 21,
+        "mp4EndSeconds": 24,
+        "utc": "2026-09-18T18:37:17.842Z",
+        "label": "board"
+      },
+      {
+        "frame": 8,
+        "mp4StartSeconds": 24,
+        "mp4EndSeconds": 27,
+        "utc": "2026-09-18T18:37:32.861Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 9,
+        "mp4StartSeconds": 27,
+        "mp4EndSeconds": 30,
+        "utc": "2026-09-18T18:37:47.853Z",
+        "label": "status --run bd3df018"
+      },
+      {
+        "frame": 10,
+        "mp4StartSeconds": 30,
+        "mp4EndSeconds": 33,
+        "utc": "2026-09-18T18:38:02.864Z",
+        "label": "status --run f38b7a37"
+      },
+      {
+        "frame": 11,
+        "mp4StartSeconds": 33,
+        "mp4EndSeconds": 36,
+        "utc": "2026-09-18T18:38:17.866Z",
+        "label": "board"
+      },
+      {
+        "frame": 12,
+        "mp4StartSeconds": 36,
+        "mp4EndSeconds": 39,
+        "utc": "2026-09-18T18:38:32.889Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 13,
+        "mp4StartSeconds": 39,
+        "mp4EndSeconds": 42,
+        "utc": "2026-09-18T18:38:47.876Z",
+        "label": "status --run c6d0aca4"
+      },
+      {
+        "frame": 14,
+        "mp4StartSeconds": 42,
+        "mp4EndSeconds": 45,
+        "utc": "2026-09-18T18:39:02.877Z",
+        "label": "status --run bd3df018"
+      },
+      {
+        "frame": 15,
+        "mp4StartSeconds": 45,
+        "mp4EndSeconds": 48,
+        "utc": "2026-09-18T18:39:17.878Z",
+        "label": "board"
+      },
+      {
+        "frame": 16,
+        "mp4StartSeconds": 48,
+        "mp4EndSeconds": 51,
+        "utc": "2026-09-18T18:39:32.906Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 17,
+        "mp4StartSeconds": 51,
+        "mp4EndSeconds": 54,
+        "utc": "2026-09-18T18:39:47.887Z",
+        "label": "status --run f38b7a37"
+      },
+      {
+        "frame": 18,
+        "mp4StartSeconds": 54,
+        "mp4EndSeconds": 57,
+        "utc": "2026-09-18T18:40:02.889Z",
+        "label": "status --run c6d0aca4"
+      },
+      {
+        "frame": 19,
+        "mp4StartSeconds": 57,
+        "mp4EndSeconds": 60,
+        "utc": "2026-09-18T18:40:17.894Z",
+        "label": "board"
+      },
+      {
+        "frame": 20,
+        "mp4StartSeconds": 60,
+        "mp4EndSeconds": 63,
+        "utc": "2026-09-18T18:40:32.930Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 21,
+        "mp4StartSeconds": 63,
+        "mp4EndSeconds": 66,
+        "utc": "2026-09-18T18:40:47.901Z",
+        "label": "status --run bd3df018"
+      },
+      {
+        "frame": 22,
+        "mp4StartSeconds": 66,
+        "mp4EndSeconds": 69,
+        "utc": "2026-09-18T18:41:02.902Z",
+        "label": "status --run f38b7a37"
+      },
+      {
+        "frame": 23,
+        "mp4StartSeconds": 69,
+        "mp4EndSeconds": 72,
+        "utc": "2026-09-18T18:41:17.908Z",
+        "label": "board"
+      },
+      {
+        "frame": 24,
+        "mp4StartSeconds": 72,
+        "mp4EndSeconds": 75,
+        "utc": "2026-09-18T18:41:32.935Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 25,
+        "mp4StartSeconds": 75,
+        "mp4EndSeconds": 78,
+        "utc": "2026-09-18T18:41:47.911Z",
+        "label": "status --run c6d0aca4"
+      },
+      {
+        "frame": 26,
+        "mp4StartSeconds": 78,
+        "mp4EndSeconds": 81,
+        "utc": "2026-09-18T18:42:02.913Z",
+        "label": "status --run bd3df018"
+      },
+      {
+        "frame": 27,
+        "mp4StartSeconds": 81,
+        "mp4EndSeconds": 84,
+        "utc": "2026-09-18T18:42:17.922Z",
+        "label": "board"
+      },
+      {
+        "frame": 28,
+        "mp4StartSeconds": 84,
+        "mp4EndSeconds": 87,
+        "utc": "2026-09-18T18:42:32.956Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 29,
+        "mp4StartSeconds": 87,
+        "mp4EndSeconds": 90,
+        "utc": "2026-09-18T18:42:47.933Z",
+        "label": "status --run f38b7a37"
+      },
+      {
+        "frame": 30,
+        "mp4StartSeconds": 90,
+        "mp4EndSeconds": 93,
+        "utc": "2026-09-18T18:43:02.934Z",
+        "label": "status --run c6d0aca4"
+      },
+      {
+        "frame": 31,
+        "mp4StartSeconds": 93,
+        "mp4EndSeconds": 96,
+        "utc": "2026-09-18T18:43:17.938Z",
+        "label": "board"
+      },
+      {
+        "frame": 32,
+        "mp4StartSeconds": 96,
+        "mp4EndSeconds": 99,
+        "utc": "2026-09-18T18:43:32.963Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 33,
+        "mp4StartSeconds": 99,
+        "mp4EndSeconds": 102,
+        "utc": "2026-09-18T18:43:47.954Z",
+        "label": "status --run bd3df018"
+      },
+      {
+        "frame": 34,
+        "mp4StartSeconds": 102,
+        "mp4EndSeconds": 105,
+        "utc": "2026-09-18T18:44:02.958Z",
+        "label": "status --run f38b7a37"
+      },
+      {
+        "frame": 35,
+        "mp4StartSeconds": 105,
+        "mp4EndSeconds": 108,
+        "utc": "2026-09-18T18:44:17.960Z",
+        "label": "board"
+      },
+      {
+        "frame": 36,
+        "mp4StartSeconds": 108,
+        "mp4EndSeconds": 111,
+        "utc": "2026-09-18T18:44:32.989Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 37,
+        "mp4StartSeconds": 111,
+        "mp4EndSeconds": 114,
+        "utc": "2026-09-18T18:44:47.964Z",
+        "label": "status --run c6d0aca4"
+      },
+      {
+        "frame": 38,
+        "mp4StartSeconds": 114,
+        "mp4EndSeconds": 117,
+        "utc": "2026-09-18T18:45:02.970Z",
+        "label": "status --run bd3df018"
+      },
+      {
+        "frame": 39,
+        "mp4StartSeconds": 117,
+        "mp4EndSeconds": 120,
+        "utc": "2026-09-18T18:45:17.970Z",
+        "label": "board"
+      },
+      {
+        "frame": 40,
+        "mp4StartSeconds": 120,
+        "mp4EndSeconds": 123,
+        "utc": "2026-09-18T18:45:33.006Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 41,
+        "mp4StartSeconds": 123,
+        "mp4EndSeconds": 126,
+        "utc": "2026-09-18T18:45:47.974Z",
+        "label": "status --run f38b7a37"
+      },
+      {
+        "frame": 42,
+        "mp4StartSeconds": 126,
+        "mp4EndSeconds": 129,
+        "utc": "2026-09-18T18:46:02.976Z",
+        "label": "status --run c6d0aca4"
+      },
+      {
+        "frame": 43,
+        "mp4StartSeconds": 129,
+        "mp4EndSeconds": 132,
+        "utc": "2026-09-18T18:46:17.978Z",
+        "label": "board"
+      },
+      {
+        "frame": 44,
+        "mp4StartSeconds": 132,
+        "mp4EndSeconds": 135,
+        "utc": "2026-09-18T18:46:33.014Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 45,
+        "mp4StartSeconds": 135,
+        "mp4EndSeconds": 138,
+        "utc": "2026-09-18T18:46:47.981Z",
+        "label": "status --run bd3df018"
+      },
+      {
+        "frame": 46,
+        "mp4StartSeconds": 138,
+        "mp4EndSeconds": 141,
+        "utc": "2026-09-18T18:47:02.986Z",
+        "label": "status --run f38b7a37"
+      },
+      {
+        "frame": 47,
+        "mp4StartSeconds": 141,
+        "mp4EndSeconds": 144,
+        "utc": "2026-09-18T18:47:17.986Z",
+        "label": "board"
+      },
+      {
+        "frame": 48,
+        "mp4StartSeconds": 144,
+        "mp4EndSeconds": 147,
+        "utc": "2026-09-18T18:47:33.079Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 49,
+        "mp4StartSeconds": 147,
+        "mp4EndSeconds": 150,
+        "utc": "2026-09-18T18:47:48.001Z",
+        "label": "status --run c6d0aca4"
+      },
+      {
+        "frame": 50,
+        "mp4StartSeconds": 150,
+        "mp4EndSeconds": 153,
+        "utc": "2026-09-18T18:48:03.014Z",
+        "label": "status --run bd3df018"
+      },
+      {
+        "frame": 51,
+        "mp4StartSeconds": 153,
+        "mp4EndSeconds": 156,
+        "utc": "2026-09-18T18:48:18.015Z",
+        "label": "board"
+      },
+      {
+        "frame": 52,
+        "mp4StartSeconds": 156,
+        "mp4EndSeconds": 159,
+        "utc": "2026-09-18T18:48:33.087Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 53,
+        "mp4StartSeconds": 159,
+        "mp4EndSeconds": 162,
+        "utc": "2026-09-18T18:48:48.033Z",
+        "label": "status --run f38b7a37"
+      },
+      {
+        "frame": 54,
+        "mp4StartSeconds": 162,
+        "mp4EndSeconds": 165,
+        "utc": "2026-09-18T18:49:03.041Z",
+        "label": "status --run c6d0aca4"
+      },
+      {
+        "frame": 55,
+        "mp4StartSeconds": 165,
+        "mp4EndSeconds": 168,
+        "utc": "2026-09-18T18:49:18.049Z",
+        "label": "board"
+      },
+      {
+        "frame": 56,
+        "mp4StartSeconds": 168,
+        "mp4EndSeconds": 171,
+        "utc": "2026-09-18T18:49:33.078Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 57,
+        "mp4StartSeconds": 171,
+        "mp4EndSeconds": 174,
+        "utc": "2026-09-18T18:49:48.052Z",
+        "label": "status --run bd3df018"
+      },
+      {
+        "frame": 58,
+        "mp4StartSeconds": 174,
+        "mp4EndSeconds": 177,
+        "utc": "2026-09-18T18:50:03.065Z",
+        "label": "status --run f38b7a37"
+      },
+      {
+        "frame": 59,
+        "mp4StartSeconds": 177,
+        "mp4EndSeconds": 180,
+        "utc": "2026-09-18T18:50:18.073Z",
+        "label": "board"
+      },
+      {
+        "frame": 60,
+        "mp4StartSeconds": 180,
+        "mp4EndSeconds": 183,
+        "utc": "2026-09-18T18:50:33.146Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 61,
+        "mp4StartSeconds": 183,
+        "mp4EndSeconds": 186,
+        "utc": "2026-09-18T18:50:48.083Z",
+        "label": "status --run c6d0aca4"
+      },
+      {
+        "frame": 62,
+        "mp4StartSeconds": 186,
+        "mp4EndSeconds": 189,
+        "utc": "2026-09-18T18:51:03.084Z",
+        "label": "status --run bd3df018"
+      },
+      {
+        "frame": 63,
+        "mp4StartSeconds": 189,
+        "mp4EndSeconds": 192,
+        "utc": "2026-09-18T18:51:18.093Z",
+        "label": "board"
+      }
+    ],
+    "game_edit": {
+      "id": "H1",
+      "file": "H1-minecraft-silent.mp4",
+      "source_file": "Minecraft 2026.09.19 - 02.34.51.11.mp4",
+      "source_estimated_start_utc": "2026-09-18T18:34:51.000Z",
+      "source_start_seconds": 36,
+      "source_end_seconds": 992,
+      "output_duration_seconds": 956,
+      "mapping": "source_seconds = published_seconds + source_start_seconds; UTC estimated from filename, not frame-accurate synchronization",
+      "changes": [
+        "all audio removed",
+        "rotated 180 degrees",
+        "1600x1000 30fps H.264 viewing copy",
+        "leading/trailing material outside formal work window omitted"
+      ],
+      "interior_cuts": []
+    }
+  },
+  {
+    "id": "G2",
+    "historical_source_root": "E:\\Minecraft\\Threshold-Experiment\\live\\run-07\\r01",
+    "formal_start_utc": "2026-09-18T19:18:01.188Z",
+    "last_segment_settled_utc": "2026-09-18T19:30:20.167Z",
+    "runs": [
+      {
+        "id": "7a22c7c1-8d4e-48f8-9e98-bd5e43f7aaa3",
+        "session": "01a0b5f4-4c8d-7250-92fc-cfa694f3af71",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\run-07\\r01\\a"
+      },
+      {
+        "id": "39e627fb-ccf4-4b6b-9129-9abaa168b251",
+        "session": "01a0b5f4-4d19-73f8-b45a-41ed835a87df",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\run-07\\r01\\b"
+      },
+      {
+        "id": "4b0d2f64-6693-49b9-9a2a-b13af804e7dc",
+        "session": "01a0b5f4-4db8-74cb-be92-a974c2758571",
+        "workspace": "E:\\Minecraft\\Threshold-Experiment\\live\\run-07\\r01\\c"
+      }
+    ],
+    "cli_index": [
+      {
+        "frame": 0,
+        "mp4StartSeconds": 0,
+        "mp4EndSeconds": 3,
+        "utc": "2026-09-18T19:18:04.948Z",
+        "label": "board"
+      },
+      {
+        "frame": 1,
+        "mp4StartSeconds": 3,
+        "mp4EndSeconds": 6,
+        "utc": "2026-09-18T19:18:19.968Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 2,
+        "mp4StartSeconds": 6,
+        "mp4EndSeconds": 9,
+        "utc": "2026-09-18T19:18:34.954Z",
+        "label": "status --run 7a22c7c1"
+      },
+      {
+        "frame": 3,
+        "mp4StartSeconds": 9,
+        "mp4EndSeconds": 12,
+        "utc": "2026-09-18T19:18:49.958Z",
+        "label": "status --run 39e627fb"
+      },
+      {
+        "frame": 4,
+        "mp4StartSeconds": 12,
+        "mp4EndSeconds": 15,
+        "utc": "2026-09-18T19:19:04.973Z",
+        "label": "board"
+      },
+      {
+        "frame": 5,
+        "mp4StartSeconds": 15,
+        "mp4EndSeconds": 18,
+        "utc": "2026-09-18T19:19:20.015Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 6,
+        "mp4StartSeconds": 18,
+        "mp4EndSeconds": 21,
+        "utc": "2026-09-18T19:19:34.987Z",
+        "label": "status --run 4b0d2f64"
+      },
+      {
+        "frame": 7,
+        "mp4StartSeconds": 21,
+        "mp4EndSeconds": 24,
+        "utc": "2026-09-18T19:19:49.997Z",
+        "label": "status --run 7a22c7c1"
+      },
+      {
+        "frame": 8,
+        "mp4StartSeconds": 24,
+        "mp4EndSeconds": 27,
+        "utc": "2026-09-18T19:20:05.000Z",
+        "label": "board"
+      },
+      {
+        "frame": 9,
+        "mp4StartSeconds": 27,
+        "mp4EndSeconds": 30,
+        "utc": "2026-09-18T19:20:20.026Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 10,
+        "mp4StartSeconds": 30,
+        "mp4EndSeconds": 33,
+        "utc": "2026-09-18T19:20:35.008Z",
+        "label": "status --run 39e627fb"
+      },
+      {
+        "frame": 11,
+        "mp4StartSeconds": 33,
+        "mp4EndSeconds": 36,
+        "utc": "2026-09-18T19:20:50.007Z",
+        "label": "status --run 4b0d2f64"
+      },
+      {
+        "frame": 12,
+        "mp4StartSeconds": 36,
+        "mp4EndSeconds": 39,
+        "utc": "2026-09-18T19:21:05.010Z",
+        "label": "board"
+      },
+      {
+        "frame": 13,
+        "mp4StartSeconds": 39,
+        "mp4EndSeconds": 42,
+        "utc": "2026-09-18T19:21:20.034Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 14,
+        "mp4StartSeconds": 42,
+        "mp4EndSeconds": 45,
+        "utc": "2026-09-18T19:21:35.017Z",
+        "label": "status --run 7a22c7c1"
+      },
+      {
+        "frame": 15,
+        "mp4StartSeconds": 45,
+        "mp4EndSeconds": 48,
+        "utc": "2026-09-18T19:21:50.022Z",
+        "label": "status --run 39e627fb"
+      },
+      {
+        "frame": 16,
+        "mp4StartSeconds": 48,
+        "mp4EndSeconds": 51,
+        "utc": "2026-09-18T19:22:05.029Z",
+        "label": "board"
+      },
+      {
+        "frame": 17,
+        "mp4StartSeconds": 51,
+        "mp4EndSeconds": 54,
+        "utc": "2026-09-18T19:22:20.048Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 18,
+        "mp4StartSeconds": 54,
+        "mp4EndSeconds": 57,
+        "utc": "2026-09-18T19:22:35.038Z",
+        "label": "status --run 4b0d2f64"
+      },
+      {
+        "frame": 19,
+        "mp4StartSeconds": 57,
+        "mp4EndSeconds": 60,
+        "utc": "2026-09-18T19:22:50.046Z",
+        "label": "status --run 7a22c7c1"
+      },
+      {
+        "frame": 20,
+        "mp4StartSeconds": 60,
+        "mp4EndSeconds": 63,
+        "utc": "2026-09-18T19:23:05.046Z",
+        "label": "board"
+      },
+      {
+        "frame": 21,
+        "mp4StartSeconds": 63,
+        "mp4EndSeconds": 66,
+        "utc": "2026-09-18T19:23:20.059Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 22,
+        "mp4StartSeconds": 66,
+        "mp4EndSeconds": 69,
+        "utc": "2026-09-18T19:23:35.047Z",
+        "label": "status --run 39e627fb"
+      },
+      {
+        "frame": 23,
+        "mp4StartSeconds": 69,
+        "mp4EndSeconds": 72,
+        "utc": "2026-09-18T19:23:50.056Z",
+        "label": "status --run 4b0d2f64"
+      },
+      {
+        "frame": 24,
+        "mp4StartSeconds": 72,
+        "mp4EndSeconds": 75,
+        "utc": "2026-09-18T19:24:05.068Z",
+        "label": "board"
+      },
+      {
+        "frame": 25,
+        "mp4StartSeconds": 75,
+        "mp4EndSeconds": 78,
+        "utc": "2026-09-18T19:24:20.088Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 26,
+        "mp4StartSeconds": 78,
+        "mp4EndSeconds": 81,
+        "utc": "2026-09-18T19:24:35.078Z",
+        "label": "status --run 7a22c7c1"
+      },
+      {
+        "frame": 27,
+        "mp4StartSeconds": 81,
+        "mp4EndSeconds": 84,
+        "utc": "2026-09-18T19:24:50.081Z",
+        "label": "status --run 39e627fb"
+      },
+      {
+        "frame": 28,
+        "mp4StartSeconds": 84,
+        "mp4EndSeconds": 87,
+        "utc": "2026-09-18T19:25:05.087Z",
+        "label": "board"
+      },
+      {
+        "frame": 29,
+        "mp4StartSeconds": 87,
+        "mp4EndSeconds": 90,
+        "utc": "2026-09-18T19:25:20.107Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 30,
+        "mp4StartSeconds": 90,
+        "mp4EndSeconds": 93,
+        "utc": "2026-09-18T19:25:35.088Z",
+        "label": "status --run 4b0d2f64"
+      },
+      {
+        "frame": 31,
+        "mp4StartSeconds": 93,
+        "mp4EndSeconds": 96,
+        "utc": "2026-09-18T19:25:50.098Z",
+        "label": "status --run 7a22c7c1"
+      },
+      {
+        "frame": 32,
+        "mp4StartSeconds": 96,
+        "mp4EndSeconds": 99,
+        "utc": "2026-09-18T19:26:05.113Z",
+        "label": "board"
+      },
+      {
+        "frame": 33,
+        "mp4StartSeconds": 99,
+        "mp4EndSeconds": 102,
+        "utc": "2026-09-18T19:26:20.134Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 34,
+        "mp4StartSeconds": 102,
+        "mp4EndSeconds": 105,
+        "utc": "2026-09-18T19:26:35.122Z",
+        "label": "status --run 39e627fb"
+      },
+      {
+        "frame": 35,
+        "mp4StartSeconds": 105,
+        "mp4EndSeconds": 108,
+        "utc": "2026-09-18T19:26:50.122Z",
+        "label": "status --run 4b0d2f64"
+      },
+      {
+        "frame": 36,
+        "mp4StartSeconds": 108,
+        "mp4EndSeconds": 111,
+        "utc": "2026-09-18T19:27:05.124Z",
+        "label": "board"
+      },
+      {
+        "frame": 37,
+        "mp4StartSeconds": 111,
+        "mp4EndSeconds": 114,
+        "utc": "2026-09-18T19:27:20.138Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 38,
+        "mp4StartSeconds": 114,
+        "mp4EndSeconds": 117,
+        "utc": "2026-09-18T19:27:35.137Z",
+        "label": "status --run 7a22c7c1"
+      },
+      {
+        "frame": 39,
+        "mp4StartSeconds": 117,
+        "mp4EndSeconds": 120,
+        "utc": "2026-09-18T19:27:50.138Z",
+        "label": "status --run 39e627fb"
+      },
+      {
+        "frame": 40,
+        "mp4StartSeconds": 120,
+        "mp4EndSeconds": 123,
+        "utc": "2026-09-18T19:28:05.139Z",
+        "label": "board"
+      },
+      {
+        "frame": 41,
+        "mp4StartSeconds": 123,
+        "mp4EndSeconds": 126,
+        "utc": "2026-09-18T19:28:20.173Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 42,
+        "mp4StartSeconds": 126,
+        "mp4EndSeconds": 129,
+        "utc": "2026-09-18T19:28:35.144Z",
+        "label": "status --run 4b0d2f64"
+      },
+      {
+        "frame": 43,
+        "mp4StartSeconds": 129,
+        "mp4EndSeconds": 132,
+        "utc": "2026-09-18T19:28:50.144Z",
+        "label": "status --run 7a22c7c1"
+      },
+      {
+        "frame": 44,
+        "mp4StartSeconds": 132,
+        "mp4EndSeconds": 135,
+        "utc": "2026-09-18T19:29:05.148Z",
+        "label": "board"
+      },
+      {
+        "frame": 45,
+        "mp4StartSeconds": 135,
+        "mp4EndSeconds": 138,
+        "utc": "2026-09-18T19:29:20.192Z",
+        "label": "message read (recent)"
+      },
+      {
+        "frame": 46,
+        "mp4StartSeconds": 138,
+        "mp4EndSeconds": 141,
+        "utc": "2026-09-18T19:29:35.163Z",
+        "label": "status --run 39e627fb"
+      },
+      {
+        "frame": 47,
+        "mp4StartSeconds": 141,
+        "mp4EndSeconds": 144,
+        "utc": "2026-09-18T19:29:50.165Z",
+        "label": "status --run 4b0d2f64"
+      },
+      {
+        "frame": 48,
+        "mp4StartSeconds": 144,
+        "mp4EndSeconds": 147,
+        "utc": "2026-09-18T19:30:05.169Z",
+        "label": "board"
+      },
+      {
+        "frame": 49,
+        "mp4StartSeconds": 147,
+        "mp4EndSeconds": 150,
+        "utc": "2026-09-18T19:30:20.213Z",
+        "label": "message read (recent)"
+      }
+    ],
+    "game_edit": {
+      "id": "G2",
+      "file": "G2-minecraft-silent.mp4",
+      "source_file": "Minecraft 2026.09.19 - 03.17.52.12.mp4",
+      "source_estimated_start_utc": "2026-09-18T19:17:52.000Z",
+      "source_start_seconds": 9,
+      "source_end_seconds": 749,
+      "output_duration_seconds": 740,
+      "mapping": "source_seconds = published_seconds + source_start_seconds; UTC estimated from filename, not frame-accurate synchronization",
+      "changes": [
+        "all audio removed",
+        "rotated 180 degrees",
+        "1600x1000 30fps H.264 viewing copy",
+        "leading/trailing material outside formal work window omitted"
+      ],
+      "interior_cuts": []
+    }
+  }
+]

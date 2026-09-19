@@ -1,0 +1,121 @@
+[
+  {
+    "id": "S03",
+    "file": "S03-minecraft-silent.mp4",
+    "source_file": "Minecraft 2026.09.18 - 19.18.19.06.mp4",
+    "source_estimated_start_utc": "2026-09-18T11:18:19.000Z",
+    "source_start_seconds": 48,
+    "source_end_seconds": 771,
+    "output_duration_seconds": 723,
+    "mapping": "source_seconds = published_seconds + source_start_seconds; UTC estimated from filename, not frame-accurate synchronization",
+    "changes": [
+      "all audio removed",
+      "rotated 180 degrees",
+      "1600x1000 30fps H.264 viewing copy",
+      "leading/trailing material outside formal work window omitted"
+    ],
+    "interior_cuts": []
+  },
+  {
+    "id": "S05",
+    "file": "S05-minecraft-silent.mp4",
+    "source_file": "Minecraft 2026.09.18 - 22.25.57.07.mp4",
+    "source_estimated_start_utc": "2026-09-18T14:25:57.000Z",
+    "source_start_seconds": 1,
+    "source_end_seconds": 939,
+    "output_duration_seconds": 938,
+    "mapping": "source_seconds = published_seconds + source_start_seconds; UTC estimated from filename, not frame-accurate synchronization",
+    "changes": [
+      "all audio removed",
+      "rotated 180 degrees",
+      "1600x1000 30fps H.264 viewing copy",
+      "leading/trailing material outside formal work window omitted"
+    ],
+    "interior_cuts": []
+  },
+  {
+    "id": "RC",
+    "file": "RC-minecraft-silent.mp4",
+    "source_file": "Minecraft 2026.09.18 - 23.53.19.08.mp4",
+    "source_estimated_start_utc": "2026-09-18T15:53:19.000Z",
+    "source_start_seconds": 14,
+    "source_end_seconds": 869,
+    "output_duration_seconds": 855,
+    "mapping": "source_seconds = published_seconds + source_start_seconds; UTC estimated from filename, not frame-accurate synchronization",
+    "changes": [
+      "all audio removed",
+      "rotated 180 degrees",
+      "1600x1000 30fps H.264 viewing copy",
+      "leading/trailing material outside formal work window omitted"
+    ],
+    "interior_cuts": []
+  },
+  {
+    "id": "RI",
+    "file": "RI-minecraft-silent.mp4",
+    "source_file": "Minecraft 2026.09.19 - 00.10.54.09.mp4",
+    "source_estimated_start_utc": "2026-09-18T16:10:54.000Z",
+    "source_start_seconds": 26,
+    "source_end_seconds": 892,
+    "output_duration_seconds": 866,
+    "mapping": "source_seconds = published_seconds + source_start_seconds; UTC estimated from filename, not frame-accurate synchronization",
+    "changes": [
+      "all audio removed",
+      "rotated 180 degrees",
+      "1600x1000 30fps H.264 viewing copy",
+      "leading/trailing material outside formal work window omitted"
+    ],
+    "interior_cuts": []
+  },
+  {
+    "id": "H0",
+    "file": "H0-minecraft-silent.mp4",
+    "source_file": "Minecraft 2026.09.19 - 02.16.15.10.mp4",
+    "source_estimated_start_utc": "2026-09-18T18:16:15.000Z",
+    "source_start_seconds": 25,
+    "source_end_seconds": 986,
+    "output_duration_seconds": 961,
+    "mapping": "source_seconds = published_seconds + source_start_seconds; UTC estimated from filename, not frame-accurate synchronization",
+    "changes": [
+      "all audio removed",
+      "rotated 180 degrees",
+      "1600x1000 30fps H.264 viewing copy",
+      "leading/trailing material outside formal work window omitted"
+    ],
+    "interior_cuts": []
+  },
+  {
+    "id": "H1",
+    "file": "H1-minecraft-silent.mp4",
+    "source_file": "Minecraft 2026.09.19 - 02.34.51.11.mp4",
+    "source_estimated_start_utc": "2026-09-18T18:34:51.000Z",
+    "source_start_seconds": 36,
+    "source_end_seconds": 992,
+    "output_duration_seconds": 956,
+    "mapping": "source_seconds = published_seconds + source_start_seconds; UTC estimated from filename, not frame-accurate synchronization",
+    "changes": [
+      "all audio removed",
+      "rotated 180 degrees",
+      "1600x1000 30fps H.264 viewing copy",
+      "leading/trailing material outside formal work window omitted"
+    ],
+    "interior_cuts": []
+  },
+  {
+    "id": "G2",
+    "file": "G2-minecraft-silent.mp4",
+    "source_file": "Minecraft 2026.09.19 - 03.17.52.12.mp4",
+    "source_estimated_start_utc": "2026-09-18T19:17:52.000Z",
+    "source_start_seconds": 9,
+    "source_end_seconds": 749,
+    "output_duration_seconds": 740,
+    "mapping": "source_seconds = published_seconds + source_start_seconds; UTC estimated from filename, not frame-accurate synchronization",
+    "changes": [
+      "all audio removed",
+      "rotated 180 degrees",
+      "1600x1000 30fps H.264 viewing copy",
+      "leading/trailing material outside formal work window omitted"
+    ],
+    "interior_cuts": []
+  }
+]

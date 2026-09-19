@@ -1,0 +1,7 @@
+{
+  "package.json": "088f888b7a3f716844e318aec021d69d00cbe19a17889b55669597492da33b12",
+  "package-lock.json": "321f0d895a7c2eeccebd5d42739ddb9564962fa9b85b9900d87be97ea73e4c12",
+  "node_modules/mineflayer/lib/plugins/inventory.js": "c7c4eb12a4ba606b2abd6ea62701933fd10f3751297590e6b2ee56d78798b4a8",
+  "node_modules/mineflayer/lib/plugins/craft.js": "5c896528cf6364642df182b1678884ed1e7bbbc552856c461fe77fdd21c79551",
+  "node_modules/mineflayer/lib/plugins/furnace.js": "5b985cd542ef882fff41b65743614724173911e6e8223674388978fd9ffafcba"
+}

@@ -1,0 +1,76 @@
+{
+  "preparedAt": "2026-09-18T19:16:22.432Z",
+  "source": "E:\\Minecraft\\Threshold-Experiment\\live\\run-06\\r17",
+  "sourceWorldHashes": {
+    "advancements/31a6212a-a60a-33bd-b6e8-d8cb871abff6.json": "85c5243ca786c6fa0ebcdb59f58e71cd456bde3261a8f7fae0df3b74ea95082c",
+    "advancements/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.json": "7cb5cb144b323cf0f4c18a2713c8a77f6ddc93460375df9a1c8b6b7d0785220a",
+    "advancements/46c6ac7c-6cf3-3a1f-9e96-b76a924d8f54.json": "7d7027d313b58bc15b206e82ad993776a807ad63293d16a45b831eba885bbea9",
+    "advancements/87c2b459-c954-349f-8dbf-ed6a3430e906.json": "293c6ea6dc9b7d6d9d310ad758add7e485be4e380da4488916779a7f5726beb0",
+    "advancements/HUMAN-OBSERVER-UUID.json": "1b6a411b13656e06c9b2b6058fa00ed6e6fee5e86397d183f6fbc1fdbf67762c",
+    "data/raids.dat": "01e77bbfcd4b22157873d4bf069b171b5c04c88de5cc541e4ca13c54d669d3f3",
+    "data/random_sequences.dat": "ac4b31624e01ff7a09a580e04d10c2c47d17a47d2b835f676febc8efad7b0193",
+    "DIM-1/data/raids.dat": "01e77bbfcd4b22157873d4bf069b171b5c04c88de5cc541e4ca13c54d669d3f3",
+    "DIM1/data/raids_end.dat": "01e77bbfcd4b22157873d4bf069b171b5c04c88de5cc541e4ca13c54d669d3f3",
+    "entities/r.-1.-1.mca": "a92783889de2ec8ea878a710bb5916b73aedebf98d604ef4c328967fb817d6ab",
+    "entities/r.-1.0.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "entities/r.0.-1.mca": "23a351c11151e60ac37868564062facbdff996fae3d65fb1f96f6e76c1f1da6f",
+    "entities/r.0.0.mca": "6cd7a15d11e22523ffdc5b4d9ac401f498caf1cff0897ca3083ee7dc8326c5a1",
+    "level.dat": "82380c36d6d7c1767ee3849f1204fe4aa12980ceba26ebd8fa49ebf441138d42",
+    "level.dat_old": "c696eefb7984f9adddebebb14381e287a1cafb1b0d3da00ea7d8e4203af0a5db",
+    "playerdata/31a6212a-a60a-33bd-b6e8-d8cb871abff6.dat": "80c7d9581de33505dda49e2b99b3fe150e1ec74c8ad7b895d2336cfefb6c5462",
+    "playerdata/31a6212a-a60a-33bd-b6e8-d8cb871abff6.dat_old": "0b2ccb474b0c18be1cbe41e1878ea5f6664af946fa7d44607469da1b9dee941a",
+    "playerdata/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.dat": "a7760e06c55ba77d08594ac3bc84d6d1d39492d416cfed535bf3fbb9af6d8173",
+    "playerdata/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.dat_old": "a76ffdd1bbed185d614c3e9f5d8d1cbeed7c74a127b2aa4b7e068617347546f0",
+    "playerdata/46c6ac7c-6cf3-3a1f-9e96-b76a924d8f54.dat": "89e83e99c5a9b6fd1756b4e297ee89fb140628271ae84e531bcc0ab7a62251c7",
+    "playerdata/87c2b459-c954-349f-8dbf-ed6a3430e906.dat": "b8c48f6d80190bdfaa43278fece7775a8692276ee4f27d7fa8e19016f2ced0a1",
+    "playerdata/87c2b459-c954-349f-8dbf-ed6a3430e906.dat_old": "4bd985103b3e3bb8ac2b868ee0b690b579e34f6863ba07137bce7605443dfabe",
+    "playerdata/HUMAN-OBSERVER-UUID.dat": "734fe7fd03f0dcf4cce89df96002f7816791aab782fad123d9467fe2717192ee",
+    "playerdata/HUMAN-OBSERVER-UUID.dat_old": "ad54e5cb8d2273f1cada978e977835256322b3e47469e54e3d01b9dba613f94f",
+    "poi/r.-1.-1.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "poi/r.-1.0.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "poi/r.0.-1.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "poi/r.0.0.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "region/r.-1.-1.mca": "cc892a269c5f4141aa4e2ffb405758345717be1a1cd937dda69a053b18ac80fe",
+    "region/r.-1.0.mca": "347e0bcbc05ad6177423632ff2958512b47394eb393e08b09c209ccf05de8538",
+    "region/r.0.-1.mca": "9f1b72ea0e4d579e6be8f5ea47b3cbed7515abc6f88f508bd5ad5a66d9e02832",
+    "region/r.0.0.mca": "7370074914d8932cf6f928b2321a02bb5f5f8ca59e46015156e19da7eab14195",
+    "stats/31a6212a-a60a-33bd-b6e8-d8cb871abff6.json": "7f64bccc2a3b5a37394fb25b476b7050930473e5a61a622b132989a2d6dcd0d7",
+    "stats/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.json": "5dd40fd744ee6eeda6c01666e931c5cb3e5024c5cd14d81c230a4249304aa8e1",
+    "stats/46c6ac7c-6cf3-3a1f-9e96-b76a924d8f54.json": "ff56b701b09cae8f45cd16e77f07f2bb483218e5677e737ee6fd71fc43fa4d7d",
+    "stats/87c2b459-c954-349f-8dbf-ed6a3430e906.json": "74797280a221992e464773b9f06d03b881cd67e351477ec1e1e8c7e560ad0b28",
+    "stats/HUMAN-OBSERVER-UUID.json": "e21ff164fb83ec2ed48643f8dda19fe44170cd1e6047c4fb4ceae5b5ea215e5f"
+  },
+  "sourceDatabaseSha256": "33771b97005f0ca970d32d7c838fb4ef58cc8d64261c5b8fc1e12c23133d15d2",
+  "conditions": [
+    {
+      "id": "r01",
+      "historyAvailable": false
+    }
+  ],
+  "order": [
+    "r01"
+  ],
+  "intervention": "Replace all three current-session conversations with fresh Runs, retaining r17 final world and bot bodies.",
+  "commonTask": "你们是三个独立、平等的 Minecraft 工作者。共同目标：建立可共同使用的庇护空间、公共储物，以及食物补充来源。没有预设职业或队长，由你根据现场自行判断下一步。工具看到的是有界已加载世界，不是全知视角；其他人可能改动世界。无需调查代码或Git，不要向人类寻求分工。每段最多8次改变世界的mc_action调用（接口硬上限16），可以少做。做一个有用增量后用中文回复，等待下一段继续提示。不要伪造完成，不要为了合作而表演一致。",
+  "prompts": {
+    "BOOT": "先调用read_work读取当前任务，再开始工作。你是本次进入已有基地的工作者，身份绑定到同名bot。完成一个对共同基地有用的增量，然后回复。之后继续处理你认为有用的工作。",
+    "NEXT": "继续下一个有用增量，完成后回复。",
+    "END": "本次工作窗口进入收尾。结束手上工作并回复，不要开启新的大工程。",
+    "OBJECTIVE": "你是本次进入已有基地的工作者，身份绑定到同名bot。完成一个对共同基地有用的增量，然后回复。之后继续处理你认为有用的工作。"
+  },
+  "sourcePreserved": true,
+  "coreCommit": "c53006438588b0b43500fa2481278dda85ce3f4c",
+  "unchangedFromPrevious": {
+    "shared.mjs": "2a36be5a4a3d4eafb1b88a3c3f16d6f9a46f63ec479ccf74b334845fd5990dd5",
+    "channel.ts": "3e404f8a24df29b67f97d062aa2494dafb43b5ad47ac99fec672191cbac86502",
+    "adapter/minecraft.ts": "51e582a5befad16162822400182d215076185c3f7ba29092951fa6719c855cc0",
+    "adapter/minecraft-actions.mjs": "69da3c92bd07766a156e9102a356477591dbd484c19622c754581c1cc3ab76d4",
+    "adapter/minecraft-windows.mjs": "e96b38ff0dced700621b8cc863e3496399680451e9442458b82abefd576ce4ae"
+  },
+  "priorRunIds": [
+    "2b4f9c59-a6ec-4132-9ef8-7eaeeec7e9e6",
+    "314bd1cc-ce68-49c4-9b74-f59703dbd617",
+    "6e6d27fd-585c-46fa-bb82-c3a372a3c146"
+  ],
+  "limits": "One successor generation, not a matched retained-conversation comparison. Prior resource depletion and construction remain part of the starting world."
+}

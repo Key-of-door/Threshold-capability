@@ -1,0 +1,649 @@
+{
+  "control": {
+    "start": "2026-09-18T15:53:33.256Z",
+    "end": "2026-09-18T16:07:47.747Z",
+    "seconds": 854.491,
+    "gameTicks": 17113,
+    "calls": 456,
+    "totalTokens": 47475661,
+    "outputTokens": 269533,
+    "segments": [
+      12,
+      12,
+      12
+    ],
+    "actionCalls": 243,
+    "actionErrors": 31,
+    "observations": 404,
+    "maxContexts": {
+      "MicaA": 189288,
+      "MicaB": 180350,
+      "MicaC": 192886
+    },
+    "newMessages": 9,
+    "newMessageReads": {
+      "MicaA": [],
+      "MicaB": [],
+      "MicaC": []
+    },
+    "modelErrors": [
+      {
+        "bot": "MicaC",
+        "at": "2026-09-18T16:04:21.489Z",
+        "stopReason": "error"
+      }
+    ],
+    "initialBlocks": {
+      "minecraft:cobblestone": 8,
+      "minecraft:oak_planks": 70,
+      "minecraft:furnace": 1,
+      "minecraft:farmland": 35,
+      "minecraft:water": 5,
+      "minecraft:oak_sapling": 8,
+      "minecraft:wheat": 12,
+      "minecraft:chest": 2,
+      "minecraft:oak_door": 4
+    },
+    "finalBlocks": {
+      "minecraft:cobblestone": 8,
+      "minecraft:oak_planks": 70,
+      "minecraft:chest": 3,
+      "minecraft:furnace": 1,
+      "minecraft:oak_sapling": 13,
+      "minecraft:farmland": 32,
+      "minecraft:water": 5,
+      "minecraft:wheat": 15,
+      "minecraft:oak_door": 4,
+      "minecraft:torch": 1
+    },
+    "changes": {
+      "minecraft:oak_fence": 24,
+      "minecraft:oak_leaves": 646,
+      "minecraft:chest": 1,
+      "minecraft:oak_sapling": 11,
+      "minecraft:grass_block": 5,
+      "minecraft:dirt": 3,
+      "minecraft:farmland": 1,
+      "minecraft:air": 75,
+      "minecraft:oak_log": 34,
+      "minecraft:wheat": 15,
+      "minecraft:oak_fence_gate": 1,
+      "minecraft:composter": 1,
+      "minecraft:torch": 1
+    },
+    "containers": [
+      {
+        "at": [
+          -1,
+          -60,
+          0
+        ],
+        "kind": "minecraft:furnace",
+        "items": []
+      },
+      {
+        "at": [
+          -2,
+          -60,
+          0
+        ],
+        "kind": "minecraft:chest",
+        "items": []
+      },
+      {
+        "at": [
+          3,
+          -60,
+          2
+        ],
+        "kind": "minecraft:chest",
+        "items": [
+          {
+            "id": "minecraft:oak_door",
+            "count": 1
+          },
+          {
+            "id": "minecraft:oak_log",
+            "count": 6
+          },
+          {
+            "id": "minecraft:oak_planks",
+            "count": 27
+          }
+        ]
+      },
+      {
+        "at": [
+          0,
+          -60,
+          0
+        ],
+        "kind": "minecraft:chest",
+        "items": [
+          {
+            "id": "minecraft:oak_log",
+            "count": 26
+          },
+          {
+            "id": "minecraft:bread",
+            "count": 12
+          },
+          {
+            "id": "minecraft:oak_planks",
+            "count": 35
+          },
+          {
+            "id": "minecraft:dirt",
+            "count": 1
+          },
+          {
+            "id": "minecraft:stick",
+            "count": 24
+          },
+          {
+            "id": "minecraft:apple",
+            "count": 2
+          },
+          {
+            "id": "minecraft:bucket",
+            "count": 1
+          },
+          {
+            "id": "minecraft:wooden_axe",
+            "count": 1
+          },
+          {
+            "id": "minecraft:wooden_hoe",
+            "count": 1
+          },
+          {
+            "id": "minecraft:oak_slab",
+            "count": 23
+          },
+          {
+            "id": "minecraft:torch",
+            "count": 3
+          },
+          {
+            "id": "minecraft:charcoal",
+            "count": 1
+          },
+          {
+            "id": "minecraft:wheat",
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "finalPlayers": {
+      "MicaA": {
+        "uuid": "31c6ae9a-d8dd-3a72-b551-d341d3a6c78b",
+        "position": [
+          3.0508616153929284,
+          -60,
+          0.05262374521218571
+        ],
+        "inventory": [
+          {
+            "count": 1,
+            "Slot": 0,
+            "id": "minecraft:wooden_axe"
+          },
+          {
+            "count": 1,
+            "Slot": 1,
+            "id": "minecraft:wooden_pickaxe"
+          },
+          {
+            "count": 1,
+            "Slot": 2,
+            "components": {
+              "minecraft:damage": 9
+            },
+            "id": "minecraft:wooden_hoe"
+          },
+          {
+            "count": 4,
+            "Slot": 3,
+            "id": "minecraft:bread"
+          }
+        ],
+        "health": 20,
+        "foodLevel": 20
+      },
+      "MicaB": {
+        "uuid": "31a6212a-a60a-33bd-b6e8-d8cb871abff6",
+        "position": [
+          1.5,
+          -60.0625,
+          -2.5
+        ],
+        "inventory": [
+          {
+            "count": 1,
+            "Slot": 0,
+            "components": {
+              "minecraft:damage": 1
+            },
+            "id": "minecraft:wooden_axe"
+          },
+          {
+            "count": 1,
+            "Slot": 1,
+            "id": "minecraft:wooden_pickaxe"
+          },
+          {
+            "count": 1,
+            "Slot": 2,
+            "components": {
+              "minecraft:damage": 32
+            },
+            "id": "minecraft:wooden_hoe"
+          },
+          {
+            "count": 3,
+            "Slot": 3,
+            "id": "minecraft:bread"
+          }
+        ],
+        "health": 20,
+        "foodLevel": 20
+      },
+      "MicaC": {
+        "uuid": "87c2b459-c954-349f-8dbf-ed6a3430e906",
+        "position": [
+          1.492102894609978,
+          -60,
+          1.5945365615248712
+        ],
+        "inventory": [
+          {
+            "count": 1,
+            "Slot": 0,
+            "components": {
+              "minecraft:damage": 4
+            },
+            "id": "minecraft:wooden_axe"
+          },
+          {
+            "count": 1,
+            "Slot": 1,
+            "id": "minecraft:wooden_pickaxe"
+          },
+          {
+            "count": 1,
+            "Slot": 2,
+            "id": "minecraft:wooden_hoe"
+          },
+          {
+            "count": 4,
+            "Slot": 3,
+            "id": "minecraft:bread"
+          }
+        ],
+        "health": 20,
+        "foodLevel": 20
+      }
+    },
+    "runIds": [
+      "4b34e03d-4343-4127-bb52-a537f4e5c016",
+      "7e77d2f5-d051-46c0-afd4-4505b491969c",
+      "8c9e8d4b-9d3f-4785-9f21-d4062c2dd488"
+    ]
+  },
+  "intervention": {
+    "start": "2026-09-18T16:11:20.653Z",
+    "end": "2026-09-18T16:25:45.532Z",
+    "seconds": 864.879,
+    "gameTicks": 17318,
+    "calls": 455,
+    "totalTokens": 44670622,
+    "outputTokens": 258137,
+    "segments": [
+      12,
+      12,
+      12
+    ],
+    "actionCalls": 252,
+    "actionErrors": 39,
+    "observations": 396,
+    "maxContexts": {
+      "MicaA": 194504,
+      "MicaB": 180573,
+      "MicaC": 165555
+    },
+    "newMessages": 5,
+    "newMessageReads": {
+      "MicaA": [],
+      "MicaB": [],
+      "MicaC": []
+    },
+    "modelErrors": [],
+    "initialBlocks": {
+      "minecraft:stone": 48,
+      "minecraft:cobblestone": 8,
+      "minecraft:coal_ore": 4,
+      "minecraft:iron_ore": 6,
+      "minecraft:oak_planks": 70,
+      "minecraft:furnace": 1,
+      "minecraft:farmland": 35,
+      "minecraft:water": 5,
+      "minecraft:oak_sapling": 8,
+      "minecraft:wheat": 12,
+      "minecraft:chest": 2,
+      "minecraft:oak_door": 4
+    },
+    "finalBlocks": {
+      "minecraft:stone": 30,
+      "minecraft:oak_planks": 70,
+      "minecraft:furnace": 2,
+      "minecraft:farmland": 33,
+      "minecraft:water": 5,
+      "minecraft:oak_sapling": 2,
+      "minecraft:wheat": 12,
+      "minecraft:cobblestone": 2,
+      "minecraft:chest": 2,
+      "minecraft:oak_door": 4
+    },
+    "changes": {
+      "minecraft:air": 46,
+      "minecraft:dirt": 23,
+      "minecraft:grass_block": 7,
+      "minecraft:oak_leaves": 353,
+      "minecraft:farmland": 1,
+      "minecraft:oak_log": 26,
+      "minecraft:oak_fence": 3,
+      "minecraft:oak_sapling": 1,
+      "minecraft:wheat": 10,
+      "minecraft:furnace": 1,
+      "minecraft:oak_door": 4
+    },
+    "containers": [
+      {
+        "at": [
+          -1,
+          -60,
+          0
+        ],
+        "kind": "minecraft:furnace",
+        "items": [
+          {
+            "id": "minecraft:charcoal",
+            "count": 1
+          },
+          {
+            "id": "minecraft:charcoal",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "at": [
+          3,
+          -60,
+          0
+        ],
+        "kind": "minecraft:furnace",
+        "items": []
+      },
+      {
+        "at": [
+          3,
+          -60,
+          2
+        ],
+        "kind": "minecraft:chest",
+        "items": [
+          {
+            "id": "minecraft:oak_door",
+            "count": 1
+          },
+          {
+            "id": "minecraft:oak_log",
+            "count": 5
+          },
+          {
+            "id": "minecraft:oak_planks",
+            "count": 36
+          },
+          {
+            "id": "minecraft:stick",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "at": [
+          0,
+          -60,
+          0
+        ],
+        "kind": "minecraft:chest",
+        "items": [
+          {
+            "id": "minecraft:oak_planks",
+            "count": 18
+          },
+          {
+            "id": "minecraft:bread",
+            "count": 12
+          },
+          {
+            "id": "minecraft:oak_log",
+            "count": 3
+          },
+          {
+            "id": "minecraft:dirt",
+            "count": 1
+          },
+          {
+            "id": "minecraft:stick",
+            "count": 9
+          },
+          {
+            "id": "minecraft:apple",
+            "count": 1
+          },
+          {
+            "id": "minecraft:bucket",
+            "count": 1
+          },
+          {
+            "id": "minecraft:wooden_axe",
+            "count": 1
+          },
+          {
+            "id": "minecraft:wooden_hoe",
+            "count": 1
+          },
+          {
+            "id": "minecraft:iron_pickaxe",
+            "count": 1
+          },
+          {
+            "id": "minecraft:coal",
+            "count": 1
+          },
+          {
+            "id": "minecraft:cobblestone",
+            "count": 1
+          },
+          {
+            "id": "minecraft:wooden_pickaxe",
+            "count": 1
+          },
+          {
+            "id": "minecraft:charcoal",
+            "count": 16
+          },
+          {
+            "id": "minecraft:stone_pickaxe",
+            "count": 1
+          },
+          {
+            "id": "minecraft:oak_fence",
+            "count": 6
+          }
+        ]
+      }
+    ],
+    "finalPlayers": {
+      "MicaA": {
+        "uuid": "31c6ae9a-d8dd-3a72-b551-d341d3a6c78b",
+        "position": [
+          2.4736058043964655,
+          -60,
+          0.5
+        ],
+        "inventory": [
+          {
+            "count": 1,
+            "Slot": 0,
+            "components": {
+              "minecraft:damage": 5
+            },
+            "id": "minecraft:wooden_axe"
+          },
+          {
+            "count": 1,
+            "Slot": 1,
+            "components": {
+              "minecraft:damage": 2
+            },
+            "id": "minecraft:wooden_pickaxe"
+          },
+          {
+            "count": 1,
+            "Slot": 2,
+            "components": {
+              "minecraft:damage": 9
+            },
+            "id": "minecraft:wooden_hoe"
+          },
+          {
+            "count": 4,
+            "Slot": 3,
+            "id": "minecraft:bread"
+          },
+          {
+            "count": 1,
+            "Slot": 4,
+            "components": {
+              "minecraft:damage": 3
+            },
+            "id": "minecraft:stone_pickaxe"
+          }
+        ],
+        "health": 20,
+        "foodLevel": 20
+      },
+      "MicaB": {
+        "uuid": "31a6212a-a60a-33bd-b6e8-d8cb871abff6",
+        "position": [
+          0.6054447182478888,
+          -60.0625,
+          -1.6700195184554747
+        ],
+        "inventory": [
+          {
+            "count": 1,
+            "Slot": 0,
+            "components": {
+              "minecraft:damage": 1
+            },
+            "id": "minecraft:wooden_axe"
+          },
+          {
+            "count": 1,
+            "Slot": 2,
+            "components": {
+              "minecraft:damage": 33
+            },
+            "id": "minecraft:wooden_hoe"
+          },
+          {
+            "count": 1,
+            "Slot": 4,
+            "components": {
+              "minecraft:damage": 7
+            },
+            "id": "minecraft:stone_pickaxe"
+          },
+          {
+            "count": 4,
+            "Slot": 9,
+            "id": "minecraft:bread"
+          }
+        ],
+        "health": 20,
+        "foodLevel": 20
+      },
+      "MicaC": {
+        "uuid": "87c2b459-c954-349f-8dbf-ed6a3430e906",
+        "position": [
+          1.5,
+          -60.0625,
+          -1.5
+        ],
+        "inventory": [
+          {
+            "count": 1,
+            "Slot": 0,
+            "components": {
+              "minecraft:damage": 4
+            },
+            "id": "minecraft:wooden_axe"
+          },
+          {
+            "count": 1,
+            "Slot": 1,
+            "components": {
+              "minecraft:damage": 10
+            },
+            "id": "minecraft:wooden_pickaxe"
+          },
+          {
+            "count": 1,
+            "Slot": 2,
+            "id": "minecraft:wooden_hoe"
+          },
+          {
+            "count": 4,
+            "Slot": 3,
+            "id": "minecraft:bread"
+          },
+          {
+            "count": 1,
+            "Slot": 4,
+            "components": {
+              "minecraft:damage": 7
+            },
+            "id": "minecraft:stone_pickaxe"
+          },
+          {
+            "count": 1,
+            "Slot": 9,
+            "id": "minecraft:cobblestone"
+          },
+          {
+            "count": 1,
+            "Slot": 11,
+            "id": "minecraft:iron_ingot"
+          },
+          {
+            "count": 4,
+            "Slot": 13,
+            "id": "minecraft:stick"
+          }
+        ],
+        "health": 20,
+        "foodLevel": 20
+      }
+    },
+    "runIds": [
+      "527333a6-6e3b-4be5-9078-23d763830b70",
+      "8da24088-68ff-45ec-ab86-5c74de09d05a",
+      "b2fe02f0-e798-4625-ba2b-9510e4a60a91"
+    ]
+  }
+}

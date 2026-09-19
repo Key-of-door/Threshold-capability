@@ -1,0 +1,69 @@
+{
+  "preparedAt": "2026-09-18T18:12:57.004Z",
+  "source": "E:/Minecraft/Threshold-Experiment/live/resource-pair-01/intervention",
+  "sourceWorldHashes": {
+    "advancements/31a6212a-a60a-33bd-b6e8-d8cb871abff6.json": "e16ba74b682d00141ff51b443a17802656cb27f799d61d0fe1788afa949dc56c",
+    "advancements/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.json": "6cc1b8287b4b33c904af1646994ceecc9b0fd7088ca02ffa42af09496b8f33a3",
+    "advancements/46c6ac7c-6cf3-3a1f-9e96-b76a924d8f54.json": "7d7027d313b58bc15b206e82ad993776a807ad63293d16a45b831eba885bbea9",
+    "advancements/87c2b459-c954-349f-8dbf-ed6a3430e906.json": "f3b54d9bcfeedf79ca47caec568d05517a0fa62b47e0e1685d87f482c66a7dd3",
+    "advancements/HUMAN-OBSERVER-UUID.json": "1b6a411b13656e06c9b2b6058fa00ed6e6fee5e86397d183f6fbc1fdbf67762c",
+    "data/raids.dat": "b15f08177edce641a652c06c52c44d33cb0493ac615c075b23ca2914f53af93b",
+    "data/random_sequences.dat": "95c67d47861378a330696483592f3df7a1458d4c4731a3e39a3dfe00ba139f55",
+    "DIM-1/data/raids.dat": "b15f08177edce641a652c06c52c44d33cb0493ac615c075b23ca2914f53af93b",
+    "DIM1/data/raids_end.dat": "b15f08177edce641a652c06c52c44d33cb0493ac615c075b23ca2914f53af93b",
+    "entities/r.-1.-1.mca": "fa5278e4725871130d2122a95065c24339b84cb3f528c35a5a329b1eeb2e293b",
+    "entities/r.-1.0.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "entities/r.0.-1.mca": "6542fe81c51d9395fa6319e646405f5e01896afb29763b167c09b16b92c8575b",
+    "entities/r.0.0.mca": "61aabbff21ffd8af6707a478bf54e5bef47e5f8699f0a050717946663f4365fa",
+    "level.dat": "cd5eb17457553750cad9a4b6e2ee772adabd2d997922aceb7a19c11b98530087",
+    "level.dat_old": "f36ee75790be93876a682699fdb8cef43ca5a6d1bccdfb1585cf96813ea2577e",
+    "playerdata/31a6212a-a60a-33bd-b6e8-d8cb871abff6.dat": "72eb40291ff27436248e363b4deb2361701d439bfe12ec23457371b4d2256adf",
+    "playerdata/31a6212a-a60a-33bd-b6e8-d8cb871abff6.dat_old": "fb5d3c782be15e130abb02e04a16fb8e9c48eeabce1229137ef037a6a5f342c6",
+    "playerdata/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.dat": "a23ec829bd9f4b17df88fd90e7670584aed7f32bafbc4975454569d9d639f07c",
+    "playerdata/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.dat_old": "d90fc23a0f578a5a0853a2dbd733496e16d7e99ad0bd7e745ef91a727fb27995",
+    "playerdata/46c6ac7c-6cf3-3a1f-9e96-b76a924d8f54.dat": "89e83e99c5a9b6fd1756b4e297ee89fb140628271ae84e531bcc0ab7a62251c7",
+    "playerdata/87c2b459-c954-349f-8dbf-ed6a3430e906.dat": "3c530e502f3eef5c97924e9b2cd56f3e95c71ef652ca84eca0f62d88ab1e80f6",
+    "playerdata/87c2b459-c954-349f-8dbf-ed6a3430e906.dat_old": "90d3dcdbc5989216579ce3e77cc5c3541d835c7934f9e39d706bcc6d20788409",
+    "playerdata/HUMAN-OBSERVER-UUID.dat": "e91dfbbcfdb0510250809f0a9d9da6c7a779976ba97dbbb4b2715f92f4028514",
+    "playerdata/HUMAN-OBSERVER-UUID.dat_old": "843bbb5051e2a1d4f603599a820a207ce24c2aba47598b6b64969d349b78a63b",
+    "poi/r.-1.-1.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "poi/r.-1.0.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "poi/r.0.-1.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "poi/r.0.0.mca": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "region/r.-1.-1.mca": "0fac0f5b23fca483ef845b79ef0a7175e973aa99cc6292910d077d1b0cda3235",
+    "region/r.-1.0.mca": "a143413067c2939b13dfe517ffd247b3ae358f7362b95c0b64917edb1e39b52b",
+    "region/r.0.-1.mca": "7e31cec8622e88d7c14cec6a051768fb0234090117633d1aacd67b846ce5193e",
+    "region/r.0.0.mca": "6b6234f5ddb0fe0f9f6e8cc0a113bb6140ed9974154d306b792bcc7db1852311",
+    "stats/31a6212a-a60a-33bd-b6e8-d8cb871abff6.json": "1ce74ea9ab52cf6d8496e621f4d3f3723eaf4a2e71ab37d68a97df6a51a6999a",
+    "stats/31c6ae9a-d8dd-3a72-b551-d341d3a6c78b.json": "c9ab155d588c0cc831001a586b1a3abe15cd1e95ab45e162d89288136a074287",
+    "stats/46c6ac7c-6cf3-3a1f-9e96-b76a924d8f54.json": "ff56b701b09cae8f45cd16e77f07f2bb483218e5677e737ee6fd71fc43fa4d7d",
+    "stats/87c2b459-c954-349f-8dbf-ed6a3430e906.json": "8d2b3aa700a5d86481090c6d93fdb1c88bd3f3ffc65c5fcac52cae7685b897fd",
+    "stats/HUMAN-OBSERVER-UUID.json": "379a3d4047edad16b1e2a4ca8ab5d1f01f96f8a8ca4eac2738dc836a07a7a137"
+  },
+  "sourceDatabaseSha256": "38a562b64f540c64e9ae01be726ad02be17f6ba76c5a5e03d6a4fdb9e61a1808",
+  "commonTask": "你们是三个独立、平等的 Minecraft 工作者。共同目标：建立可共同使用的庇护空间、公共储物，以及食物补充来源。没有预设职业或队长，由你根据现场自行判断下一步。工具看到的是有界已加载世界，不是全知视角；其他人可能改动世界。无需调查代码或Git，不要向人类寻求分工。每段最多8次改变世界的mc_action调用（接口硬上限16），可以少做。做一个有用增量后用中文回复，等待下一段继续提示。不要伪造完成，不要为了合作而表演一致。",
+  "conditions": [
+    {
+      "id": "r17",
+      "historyAvailable": false
+    },
+    {
+      "id": "r42",
+      "historyAvailable": true
+    }
+  ],
+  "order": [
+    "r17",
+    "r42"
+  ],
+  "initialWorldIdentical": true,
+  "initialDatabaseIdentical": true,
+  "sourcePreserved": true,
+  "coreCommit": "c53006438588b0b43500fa2481278dda85ce3f4c",
+  "adapterChanges": "Only two checkpoint-directed text strings changed identically. All Minecraft mechanics, observation/provider hooks, snapshot/CLI facilities retained.",
+  "adapterHashes": {
+    "minecraft.ts": "51e582a5befad16162822400182d215076185c3f7ba29092951fa6719c855cc0",
+    "minecraft-actions.mjs": "69da3c92bd07766a156e9102a356477591dbd484c19622c754581c1cc3ab76d4",
+    "minecraft-windows.mjs": "e96b38ff0dced700621b8cc863e3496399680451e9442458b82abefd576ce4ae"
+  }
+}

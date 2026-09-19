@@ -1,0 +1,53 @@
+{
+  "sourceUnchanged": true,
+  "coreWorkingTreeClean": true,
+  "arms": {
+    "control": {
+      "serverExited": true,
+      "taskStatus": "in_progress",
+      "workers": [
+        {
+          "id": "4b34e03d-4343-4127-bb52-a537f4e5c016",
+          "status": "ended",
+          "exit_code": 0
+        },
+        {
+          "id": "7e77d2f5-d051-46c0-afd4-4505b491969c",
+          "status": "ended",
+          "exit_code": 0
+        },
+        {
+          "id": "8c9e8d4b-9d3f-4785-9f21-d4062c2dd488",
+          "status": "ended",
+          "exit_code": 0
+        }
+      ],
+      "credentialScan": "{\"credentialLiteralMatches\":[]}",
+      "videoBytes": 9321681
+    },
+    "intervention": {
+      "serverExited": true,
+      "taskStatus": "in_progress",
+      "workers": [
+        {
+          "id": "527333a6-6e3b-4be5-9078-23d763830b70",
+          "status": "ended",
+          "exit_code": 0
+        },
+        {
+          "id": "8da24088-68ff-45ec-ab86-5c74de09d05a",
+          "status": "ended",
+          "exit_code": 0
+        },
+        {
+          "id": "b2fe02f0-e798-4625-ba2b-9510e4a60a91",
+          "status": "ended",
+          "exit_code": 0
+        }
+      ],
+      "credentialScan": "{\"credentialLiteralMatches\":[]}",
+      "videoBytes": 9518178
+    }
+  },
+  "missingLinks": []
+}
