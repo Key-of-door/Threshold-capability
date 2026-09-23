@@ -107,6 +107,7 @@ Reading/requirements audit → fresh review with real JSON tool calls and a smal
 ## Community and feedback
 
 Terminal-Bench × Threshold: [read the bilingual reports, named task outcomes and audit evidence](experiments/terminal-bench-public-20260923/).
+Start at the [Terminal-Bench archive Discussion](https://github.com/Key-of-door/Threshold-capability/discussions/4) to inspect the evidence or post a correction.
 The archive preserves the original tight-budget results, two diagnostics, a budget-relaxed replication and its integrity audit; offline verification needs no model credentials.
 
 Minecraft × Threshold: [watch, audit and reproduce the September 2026 experiments](experiments/minecraft-2026-09/).
