@@ -1,0 +1,420 @@
+{
+  "selection_rule": "Intersection of task IDs with valid cells in all three conditions in both studies; scores not used for selection.",
+  "common_tasks": [
+    "write-compressor",
+    "break-filter-js-from-html",
+    "mteb-retrieve",
+    "polyglot-rust-c",
+    "chess-best-move",
+    "bn-fit-modify",
+    "extract-elf",
+    "feal-linear-cryptanalysis",
+    "kv-store-grpc"
+  ],
+  "rows": [
+    {
+      "study": "original-formal-v1",
+      "condition": "A0",
+      "planned": 12,
+      "valid": 9,
+      "pass": 4,
+      "common_valid_n": 9,
+      "common_valid_pass": 4
+    },
+    {
+      "study": "original-formal-v1",
+      "condition": "A1",
+      "planned": 12,
+      "valid": 10,
+      "pass": 2,
+      "common_valid_n": 9,
+      "common_valid_pass": 2
+    },
+    {
+      "study": "original-formal-v1",
+      "condition": "B1",
+      "planned": 12,
+      "valid": 10,
+      "pass": 1,
+      "common_valid_n": 9,
+      "common_valid_pass": 1
+    },
+    {
+      "study": "formal-v1-high-budget",
+      "condition": "A0",
+      "planned": 12,
+      "valid": 12,
+      "pass": 10,
+      "common_valid_n": 9,
+      "common_valid_pass": 8
+    },
+    {
+      "study": "formal-v1-high-budget",
+      "condition": "A1",
+      "planned": 12,
+      "valid": 12,
+      "pass": 10,
+      "common_valid_n": 9,
+      "common_valid_pass": 8
+    },
+    {
+      "study": "formal-v1-high-budget",
+      "condition": "B1",
+      "planned": 12,
+      "valid": 12,
+      "pass": 10,
+      "common_valid_n": 9,
+      "common_valid_pass": 8
+    }
+  ],
+  "original_cells": [
+    {
+      "id": "a7185392cac4f7e235a6",
+      "task": "write-compressor",
+      "condition": "A0",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 96480,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "18644fc3c33e35a90d61",
+      "task": "write-compressor",
+      "condition": "A1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 97565,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "81ec890569e5fec1bbcb",
+      "task": "write-compressor",
+      "condition": "B1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 117669,
+      "terminal": null
+    },
+    {
+      "id": "47707a060df0eeb683e2",
+      "task": "break-filter-js-from-html",
+      "condition": "A0",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 1,
+      "tokens": 103820,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "1830016aefea2c4aa0b4",
+      "task": "break-filter-js-from-html",
+      "condition": "B1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 108017,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "3e0f18551e0dcaf0fa30",
+      "task": "break-filter-js-from-html",
+      "condition": "A1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 1,
+      "tokens": 106604,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "002a3391e3eaecf0eb35",
+      "task": "extract-moves-from-video",
+      "condition": "A1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 107577,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "d66c693159b509332db9",
+      "task": "extract-moves-from-video",
+      "condition": "A0",
+      "valid": false,
+      "status": "invalid",
+      "reward": null,
+      "tokens": 112311,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "c03f172b07e16d7146a0",
+      "task": "extract-moves-from-video",
+      "condition": "B1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 113191,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "92bbc0375af0323ccfed",
+      "task": "mteb-retrieve",
+      "condition": "A1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 112138,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "2940b09f8340b8ef4585",
+      "task": "mteb-retrieve",
+      "condition": "B1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 110338,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "d70df472ebbfcffba6a8",
+      "task": "mteb-retrieve",
+      "condition": "A0",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 111535,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "dd84e426dfee1cbb2b13",
+      "task": "polyglot-rust-c",
+      "condition": "B1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 98868,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "d3dccac20ab9656bc45f",
+      "task": "polyglot-rust-c",
+      "condition": "A0",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 1,
+      "tokens": 92260,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "96116676a052d60ced36",
+      "task": "polyglot-rust-c",
+      "condition": "A1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 89201,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "c107c7994bc73dbe6a87",
+      "task": "polyglot-c-py",
+      "condition": "B1",
+      "valid": false,
+      "status": "setup-invalid",
+      "reward": null
+    },
+    {
+      "id": "4c05a0e52b4ddea071ee",
+      "task": "polyglot-c-py",
+      "condition": "A1",
+      "valid": false,
+      "status": "setup-invalid",
+      "reward": null
+    },
+    {
+      "id": "72edbfcead0251c196f3",
+      "task": "polyglot-c-py",
+      "condition": "A0",
+      "valid": false,
+      "status": "setup-invalid",
+      "reward": null
+    },
+    {
+      "id": "e521c54917003fa9481a",
+      "task": "chess-best-move",
+      "condition": "A0",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 114461,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "0f5f4c5fed80df31948b",
+      "task": "chess-best-move",
+      "condition": "A1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 101424,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "0fe0c46529f8db56bf66",
+      "task": "chess-best-move",
+      "condition": "B1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 112732,
+      "terminal": null
+    },
+    {
+      "id": "6079baf114decec3bfc2",
+      "task": "bn-fit-modify",
+      "condition": "A0",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 116917,
+      "terminal": null
+    },
+    {
+      "id": "5557cfe258f8e1bb174d",
+      "task": "bn-fit-modify",
+      "condition": "B1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 110585,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "9c36343e4a8b7ad699ee",
+      "task": "bn-fit-modify",
+      "condition": "A1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 108042,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "c7ba6ce029f791b4b6ea",
+      "task": "extract-elf",
+      "condition": "A1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 99641,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "ffed2912cb74e702fd50",
+      "task": "extract-elf",
+      "condition": "A0",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 112370,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "b74cb89dae9ab556783b",
+      "task": "extract-elf",
+      "condition": "B1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 117205,
+      "terminal": null
+    },
+    {
+      "id": "996b064d256e176362ec",
+      "task": "feal-differential-cryptanalysis",
+      "condition": "A1",
+      "valid": false,
+      "status": "setup-invalid",
+      "reward": null
+    },
+    {
+      "id": "52ced4d9c35078216c54",
+      "task": "feal-differential-cryptanalysis",
+      "condition": "B1",
+      "valid": false,
+      "status": "setup-invalid",
+      "reward": null
+    },
+    {
+      "id": "5484b6c8e3d03140b222",
+      "task": "feal-differential-cryptanalysis",
+      "condition": "A0",
+      "valid": false,
+      "status": "setup-invalid",
+      "reward": null
+    },
+    {
+      "id": "361d3b6e60ffa929475d",
+      "task": "feal-linear-cryptanalysis",
+      "condition": "B1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 97039,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "269992b7228a1e425eb2",
+      "task": "feal-linear-cryptanalysis",
+      "condition": "A0",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 1,
+      "tokens": 115658,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "4ef32637e06590bd0ea8",
+      "task": "feal-linear-cryptanalysis",
+      "condition": "A1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 0,
+      "tokens": 107447,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "9f5b537f0ca66066628d",
+      "task": "kv-store-grpc",
+      "condition": "B1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 1,
+      "tokens": 116562,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "16a77164cec9a37c0e01",
+      "task": "kv-store-grpc",
+      "condition": "A1",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 1,
+      "tokens": 106792,
+      "terminal": "input_reservation_stop"
+    },
+    {
+      "id": "08cc7da841cd0e1db949",
+      "task": "kv-store-grpc",
+      "condition": "A0",
+      "valid": true,
+      "status": "completed_pending_integrity_audit",
+      "reward": 1,
+      "tokens": 62522,
+      "terminal": "normal_completion"
+    }
+  ]
+}

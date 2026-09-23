@@ -1,0 +1,69 @@
+{
+  "P": [
+    {
+      "condition": "P0",
+      "started": 12,
+      "valid": 12,
+      "pass": 8,
+      "invalid": 0,
+      "medianTokens": 104806.5,
+      "meta": {
+        "read_task": 12,
+        "read_messages": 2,
+        "read_project_board": 1,
+        "save_checkpoint": 0,
+        "update_task_status": 0
+      },
+      "normal": 0,
+      "reservation": 12
+    },
+    {
+      "condition": "P1",
+      "started": 12,
+      "valid": 11,
+      "pass": 8,
+      "invalid": 1,
+      "medianTokens": 109110,
+      "meta": {
+        "read_task": 12,
+        "read_messages": 0,
+        "read_project_board": 2,
+        "save_checkpoint": 1,
+        "update_task_status": 0
+      },
+      "normal": 0,
+      "reservation": 11
+    }
+  ],
+  "Q": [
+    {
+      "arm": "Q0",
+      "finished": 12,
+      "valid": 11,
+      "success": 11,
+      "normal": 11,
+      "deadline": 0,
+      "quotaCensored": 0,
+      "tokens": 4373296,
+      "requests": 181,
+      "readTask": 12,
+      "firstBatchReadTask": 12,
+      "readTaskWithAction": 1
+    },
+    {
+      "arm": "Q1",
+      "finished": 12,
+      "valid": 12,
+      "success": 12,
+      "normal": 12,
+      "deadline": 0,
+      "quotaCensored": 0,
+      "tokens": 6247680,
+      "requests": 191,
+      "readTask": 9,
+      "firstBatchReadTask": 6,
+      "readTaskWithAction": 6
+    }
+  ],
+  "Q_calibration_excluded_from_formal": true
+}

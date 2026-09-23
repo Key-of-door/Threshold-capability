@@ -1,0 +1,38 @@
+[
+  {
+    "condition": "A0",
+    "n": 12,
+    "pass": 10,
+    "normal": 11,
+    "deadline": 1,
+    "input": 10443662,
+    "output": 490221,
+    "tokens": 10933883,
+    "requests": 262,
+    "actual_replacements": 0
+  },
+  {
+    "condition": "A1",
+    "n": 12,
+    "pass": 10,
+    "normal": 10,
+    "deadline": 2,
+    "input": 11879706,
+    "output": 508859,
+    "tokens": 12388565,
+    "requests": 316,
+    "actual_replacements": 0
+  },
+  {
+    "condition": "B1",
+    "n": 12,
+    "pass": 10,
+    "normal": 11,
+    "deadline": 1,
+    "input": 9368429,
+    "output": 691035,
+    "tokens": 10059464,
+    "requests": 360,
+    "actual_replacements": 12
+  }
+]

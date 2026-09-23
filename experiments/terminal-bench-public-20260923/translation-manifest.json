@@ -1,0 +1,66 @@
+[
+  {
+    "source": "frozen-source/formal-results-v1.md",
+    "chinese": "studies/original-formal-v1/report.zh.md",
+    "english": "studies/original-formal-v1/report.en.md",
+    "chinese_byte_identical": true,
+    "source_sha256": "d1bbf4ca3a3e26c106b58d377bd81c2eb3c04239778615ff00976725ef048e5f",
+    "translation_kind": "full narrative translation; numerical tables copied; navigation adapted and labeled",
+    "numeric_tables_checked": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Same assistant translation and bilingual review; not an independent professional translation."
+  },
+  {
+    "source": "frozen-source/integration-diagnostic-results-v1.md",
+    "chinese": "studies/post-orientation-diagnostic/report.zh.md",
+    "english": "studies/post-orientation-diagnostic/report.en.md",
+    "chinese_byte_identical": true,
+    "source_sha256": "e07c96d4ce8dab8fa89c39ce0cea427cf26c140a8beca23ee19a039df749f2e1",
+    "translation_kind": "full narrative translation; numerical tables copied; navigation adapted and labeled",
+    "numeric_tables_checked": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "Same assistant translation and bilingual review; not an independent professional translation."
+  },
+  {
+    "source": "frozen-source/orientation-diagnostic-v1-report.md",
+    "chinese": "studies/direct-task-orientation-diagnostic/report.zh.md",
+    "english": "studies/direct-task-orientation-diagnostic/report.en.md",
+    "chinese_byte_identical": true,
+    "source_sha256": "e9161347bdcc50ae10acb88dddbe583a70e14f67edf9279056d5bc27f12531d9",
+    "translation_kind": "full narrative translation; numerical tables copied; navigation adapted and labeled",
+    "numeric_tables_checked": [
+      0,
+      1
+    ],
+    "review": "Same assistant translation and bilingual review; not an independent professional translation."
+  },
+  {
+    "source": "frozen-source/formal-v1-high-budget-integrity-report.md",
+    "chinese": "studies/formal-v1-high-budget/integrity.zh.md",
+    "english": "studies/formal-v1-high-budget/integrity.en.md",
+    "chinese_byte_identical": true,
+    "source_sha256": "48392e6e4728471c8fc84bde51553de76669d81cd0a2aa55f46cf6d6142ed075",
+    "translation_kind": "full narrative translation; numerical tables copied; navigation adapted and labeled",
+    "numeric_tables_checked": [
+      0,
+      1
+    ],
+    "review": "Same assistant translation and bilingual review; not an independent professional translation."
+  },
+  {
+    "source": null,
+    "chinese": "studies/formal-v1-high-budget/results.zh.md",
+    "english": "studies/formal-v1-high-budget/results.en.md",
+    "chinese_byte_identical": false,
+    "translation_kind": "new bilingual extraction from audited results, not a historical report"
+  }
+]

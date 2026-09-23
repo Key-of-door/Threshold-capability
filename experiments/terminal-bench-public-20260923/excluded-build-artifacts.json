@@ -1,0 +1,1448 @@
+[
+  {
+    "source_file": "evidence-root/formal-preflight-v1/selected-original.tar",
+    "sha256": "46e8e7ef02ea518bf7948fcb7d7074ae215ce4dd73a337eeb11df865479780f4",
+    "bytes": 12574720,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks/break-filter-js-from-html/build/node-linux.tar.gz",
+    "sha256": "201e8e4b05e83c94f1dcdd87f25c01da67beea1828536b42d9d0336b808f44db",
+    "bytes": 57595138,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks/break-filter-js-from-html/build/threshold-runtime.tar.gz",
+    "sha256": "f727b2bf0f9605e0d86cd66a6a86b0842212638b75068953e32482852688dfc3",
+    "bytes": 143280146,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks/break-filter-js-from-html/build/threshold-source.tar.gz",
+    "sha256": "5a341fc5425eaa3984276349a979da0797939f830ac209f221a4a4de9eaa3bc4",
+    "bytes": 56922,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks/write-compressor/build/node-linux.tar.gz",
+    "sha256": "201e8e4b05e83c94f1dcdd87f25c01da67beea1828536b42d9d0336b808f44db",
+    "bytes": 57595138,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks/write-compressor/build/threshold-runtime.tar.gz",
+    "sha256": "f727b2bf0f9605e0d86cd66a6a86b0842212638b75068953e32482852688dfc3",
+    "bytes": 143280146,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks/write-compressor/build/threshold-source.tar.gz",
+    "sha256": "5a341fc5425eaa3984276349a979da0797939f830ac209f221a4a4de9eaa3bc4",
+    "bytes": 56922,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/bn-fit-modify/build/node-linux.tar.gz",
+    "sha256": "201e8e4b05e83c94f1dcdd87f25c01da67beea1828536b42d9d0336b808f44db",
+    "bytes": 57595138,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/bn-fit-modify/build/threshold-runtime.tar.gz",
+    "sha256": "f727b2bf0f9605e0d86cd66a6a86b0842212638b75068953e32482852688dfc3",
+    "bytes": 143280146,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/bn-fit-modify/build/threshold-source.tar.gz",
+    "sha256": "5a341fc5425eaa3984276349a979da0797939f830ac209f221a4a4de9eaa3bc4",
+    "bytes": 56922,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/break-filter-js-from-html/build/node-linux.tar.gz",
+    "sha256": "201e8e4b05e83c94f1dcdd87f25c01da67beea1828536b42d9d0336b808f44db",
+    "bytes": 57595138,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/break-filter-js-from-html/build/threshold-runtime.tar.gz",
+    "sha256": "f727b2bf0f9605e0d86cd66a6a86b0842212638b75068953e32482852688dfc3",
+    "bytes": 143280146,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/break-filter-js-from-html/build/threshold-source.tar.gz",
+    "sha256": "5a341fc5425eaa3984276349a979da0797939f830ac209f221a4a4de9eaa3bc4",
+    "bytes": 56922,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/chess-best-move/build/node-linux.tar.gz",
+    "sha256": "201e8e4b05e83c94f1dcdd87f25c01da67beea1828536b42d9d0336b808f44db",
+    "bytes": 57595138,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/chess-best-move/build/threshold-runtime.tar.gz",
+    "sha256": "f727b2bf0f9605e0d86cd66a6a86b0842212638b75068953e32482852688dfc3",
+    "bytes": 143280146,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/chess-best-move/build/threshold-source.tar.gz",
+    "sha256": "5a341fc5425eaa3984276349a979da0797939f830ac209f221a4a4de9eaa3bc4",
+    "bytes": 56922,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/extract-elf/build/node-linux.tar.gz",
+    "sha256": "201e8e4b05e83c94f1dcdd87f25c01da67beea1828536b42d9d0336b808f44db",
+    "bytes": 57595138,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/extract-elf/build/threshold-runtime.tar.gz",
+    "sha256": "f727b2bf0f9605e0d86cd66a6a86b0842212638b75068953e32482852688dfc3",
+    "bytes": 143280146,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/extract-elf/build/threshold-source.tar.gz",
+    "sha256": "5a341fc5425eaa3984276349a979da0797939f830ac209f221a4a4de9eaa3bc4",
+    "bytes": 56922,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/extract-moves-from-video/build/node-linux.tar.gz",
+    "sha256": "201e8e4b05e83c94f1dcdd87f25c01da67beea1828536b42d9d0336b808f44db",
+    "bytes": 57595138,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/extract-moves-from-video/build/threshold-runtime.tar.gz",
+    "sha256": "f727b2bf0f9605e0d86cd66a6a86b0842212638b75068953e32482852688dfc3",
+    "bytes": 143280146,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/extract-moves-from-video/build/threshold-source.tar.gz",
+    "sha256": "5a341fc5425eaa3984276349a979da0797939f830ac209f221a4a4de9eaa3bc4",
+    "bytes": 56922,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/feal-differential-cryptanalysis/build/node-linux.tar.gz",
+    "sha256": "201e8e4b05e83c94f1dcdd87f25c01da67beea1828536b42d9d0336b808f44db",
+    "bytes": 57595138,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/feal-differential-cryptanalysis/build/threshold-runtime.tar.gz",
+    "sha256": "f727b2bf0f9605e0d86cd66a6a86b0842212638b75068953e32482852688dfc3",
+    "bytes": 143280146,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/feal-differential-cryptanalysis/build/threshold-source.tar.gz",
+    "sha256": "5a341fc5425eaa3984276349a979da0797939f830ac209f221a4a4de9eaa3bc4",
+    "bytes": 56922,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/feal-linear-cryptanalysis/build/node-linux.tar.gz",
+    "sha256": "201e8e4b05e83c94f1dcdd87f25c01da67beea1828536b42d9d0336b808f44db",
+    "bytes": 57595138,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/feal-linear-cryptanalysis/build/threshold-runtime.tar.gz",
+    "sha256": "f727b2bf0f9605e0d86cd66a6a86b0842212638b75068953e32482852688dfc3",
+    "bytes": 143280146,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/feal-linear-cryptanalysis/build/threshold-source.tar.gz",
+    "sha256": "5a341fc5425eaa3984276349a979da0797939f830ac209f221a4a4de9eaa3bc4",
+    "bytes": 56922,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/kv-store-grpc/build/node-linux.tar.gz",
+    "sha256": "201e8e4b05e83c94f1dcdd87f25c01da67beea1828536b42d9d0336b808f44db",
+    "bytes": 57595138,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/kv-store-grpc/build/threshold-runtime.tar.gz",
+    "sha256": "f727b2bf0f9605e0d86cd66a6a86b0842212638b75068953e32482852688dfc3",
+    "bytes": 143280146,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/kv-store-grpc/build/threshold-source.tar.gz",
+    "sha256": "5a341fc5425eaa3984276349a979da0797939f830ac209f221a4a4de9eaa3bc4",
+    "bytes": 56922,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/mteb-retrieve/build/node-linux.tar.gz",
+    "sha256": "201e8e4b05e83c94f1dcdd87f25c01da67beea1828536b42d9d0336b808f44db",
+    "bytes": 57595138,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/mteb-retrieve/build/threshold-runtime.tar.gz",
+    "sha256": "f727b2bf0f9605e0d86cd66a6a86b0842212638b75068953e32482852688dfc3",
+    "bytes": 143280146,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/mteb-retrieve/build/threshold-source.tar.gz",
+    "sha256": "5a341fc5425eaa3984276349a979da0797939f830ac209f221a4a4de9eaa3bc4",
+    "bytes": 56922,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/polyglot-c-py/build/node-linux.tar.gz",
+    "sha256": "201e8e4b05e83c94f1dcdd87f25c01da67beea1828536b42d9d0336b808f44db",
+    "bytes": 57595138,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/polyglot-c-py/build/threshold-runtime.tar.gz",
+    "sha256": "f727b2bf0f9605e0d86cd66a6a86b0842212638b75068953e32482852688dfc3",
+    "bytes": 143280146,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/polyglot-c-py/build/threshold-source.tar.gz",
+    "sha256": "5a341fc5425eaa3984276349a979da0797939f830ac209f221a4a4de9eaa3bc4",
+    "bytes": 56922,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/polyglot-rust-c/build/node-linux.tar.gz",
+    "sha256": "201e8e4b05e83c94f1dcdd87f25c01da67beea1828536b42d9d0336b808f44db",
+    "bytes": 57595138,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/polyglot-rust-c/build/threshold-runtime.tar.gz",
+    "sha256": "f727b2bf0f9605e0d86cd66a6a86b0842212638b75068953e32482852688dfc3",
+    "bytes": 143280146,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/polyglot-rust-c/build/threshold-source.tar.gz",
+    "sha256": "5a341fc5425eaa3984276349a979da0797939f830ac209f221a4a4de9eaa3bc4",
+    "bytes": 56922,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/write-compressor/build/node-linux.tar.gz",
+    "sha256": "201e8e4b05e83c94f1dcdd87f25c01da67beea1828536b42d9d0336b808f44db",
+    "bytes": 57595138,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/write-compressor/build/threshold-runtime.tar.gz",
+    "sha256": "f727b2bf0f9605e0d86cd66a6a86b0842212638b75068953e32482852688dfc3",
+    "bytes": 143280146,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-preflight-v1/tasks-r2/write-compressor/build/threshold-source.tar.gz",
+    "sha256": "5a341fc5425eaa3984276349a979da0797939f830ac209f221a4a4de9eaa3bc4",
+    "bytes": 56922,
+    "reason": "Build/runtime archive; not an observation. Hash retained; rebuild dependency, not silently omitted evidence."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/002a3391e3eaecf0eb35/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/002a3391e3eaecf0eb35/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/002a3391e3eaecf0eb35/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/002a3391e3eaecf0eb35/.pytest_cache/v/cache/lastfailed",
+    "sha256": "8682f15fe0c663cedbf882dfc0b29cf22221b97095997e61f68f526143206180",
+    "bytes": 117,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/002a3391e3eaecf0eb35/.pytest_cache/v/cache/nodeids",
+    "sha256": "146aacb6385ebfc5dfc17bce9fc56509c140d922e5bbfddeb06607ba0d94b65e",
+    "bytes": 105,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/002a3391e3eaecf0eb35/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "28833412e0cf4769bc8ae8c72934362ee01292ffe053dab617aa73f73c131acc",
+    "bytes": 5267,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/08cc7da841cd0e1db949/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/08cc7da841cd0e1db949/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/08cc7da841cd0e1db949/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/08cc7da841cd0e1db949/.pytest_cache/v/cache/nodeids",
+    "sha256": "493671276a52e1f9e33de61fc443f5824c0c8aca9a97fb03dd3998d39fbb3855",
+    "bytes": 351,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/08cc7da841cd0e1db949/__pycache__/test_outputs.cpython-313-pytest-8.4.2.pyc",
+    "sha256": "f0e02d9050b96fbc7e583fb7390b03c4e03401dcad916b52b2ffac4074deba1a",
+    "bytes": 17280,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/0f5f4c5fed80df31948b/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/0f5f4c5fed80df31948b/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/0f5f4c5fed80df31948b/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/0f5f4c5fed80df31948b/.pytest_cache/v/cache/lastfailed",
+    "sha256": "ebe3ab592fbdb9108848af89db5ddb8209bf213f598032e4742755c80c2eaaf2",
+    "bytes": 48,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/0f5f4c5fed80df31948b/.pytest_cache/v/cache/nodeids",
+    "sha256": "cb77603154a3b52f17ad4c417f6e07a9d5ae81e0ef5ac43e4d3da8da673fa22c",
+    "bytes": 42,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/0f5f4c5fed80df31948b/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "4af3f84f4cbfcf95e7ac402ad919d1359fcf57f4b10bccaf4c53c8fe81977022",
+    "bytes": 2566,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/0fe0c46529f8db56bf66/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/0fe0c46529f8db56bf66/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/0fe0c46529f8db56bf66/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/0fe0c46529f8db56bf66/.pytest_cache/v/cache/nodeids",
+    "sha256": "cb77603154a3b52f17ad4c417f6e07a9d5ae81e0ef5ac43e4d3da8da673fa22c",
+    "bytes": 42,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/0fe0c46529f8db56bf66/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "4af3f84f4cbfcf95e7ac402ad919d1359fcf57f4b10bccaf4c53c8fe81977022",
+    "bytes": 2566,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/16a77164cec9a37c0e01/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/16a77164cec9a37c0e01/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/16a77164cec9a37c0e01/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/16a77164cec9a37c0e01/.pytest_cache/v/cache/nodeids",
+    "sha256": "493671276a52e1f9e33de61fc443f5824c0c8aca9a97fb03dd3998d39fbb3855",
+    "bytes": 351,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/16a77164cec9a37c0e01/__pycache__/test_outputs.cpython-313-pytest-8.4.2.pyc",
+    "sha256": "f0e02d9050b96fbc7e583fb7390b03c4e03401dcad916b52b2ffac4074deba1a",
+    "bytes": 17280,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/1830016aefea2c4aa0b4/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/1830016aefea2c4aa0b4/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/1830016aefea2c4aa0b4/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/1830016aefea2c4aa0b4/.pytest_cache/v/cache/nodeids",
+    "sha256": "425608895b0d9e2cdad849e56d3b4c517d980334decbe03acb2e24800b256fd7",
+    "bytes": 54,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/1830016aefea2c4aa0b4/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "5a00fee6b5a43942a8c5c696b75d8ea0834b295e1f3f3492a9f915ba1fa3d679",
+    "bytes": 5583,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/18644fc3c33e35a90d61/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/18644fc3c33e35a90d61/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/18644fc3c33e35a90d61/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/18644fc3c33e35a90d61/.pytest_cache/v/cache/nodeids",
+    "sha256": "7df43a90d85b0e5ac2653e38a111ea6378833c4477fe3e16576f65b9e1ad3b76",
+    "bytes": 155,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/18644fc3c33e35a90d61/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "d166ac14ba006ea0d17a9f249a8f9da0ff13ae0210a3d1d6469e2c3f419016d5",
+    "bytes": 8189,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/269992b7228a1e425eb2/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/269992b7228a1e425eb2/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/269992b7228a1e425eb2/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/269992b7228a1e425eb2/.pytest_cache/v/cache/nodeids",
+    "sha256": "86c1c3b182c1280425b323d5d0a0239036f41630006cb3c602a0b83a8f9d7602",
+    "bytes": 36,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/269992b7228a1e425eb2/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "0bc5b67d06a7a5f8d02cb742d35bce6454897ba925be062a8322d334f1da59e7",
+    "bytes": 3952,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/2940b09f8340b8ef4585/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/2940b09f8340b8ef4585/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/2940b09f8340b8ef4585/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/2940b09f8340b8ef4585/.pytest_cache/v/cache/nodeids",
+    "sha256": "8c612e34d733312f51cf33c25021ddb420b22ffd5e6cc82c013e7fd22c85d42d",
+    "bytes": 83,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/2940b09f8340b8ef4585/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "1edc2d6bea0de3bde3ae6b7a1efad81fa191990a9bfaaedb3749c6b5118dad0c",
+    "bytes": 3789,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/361d3b6e60ffa929475d/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/361d3b6e60ffa929475d/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/361d3b6e60ffa929475d/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/361d3b6e60ffa929475d/.pytest_cache/v/cache/nodeids",
+    "sha256": "86c1c3b182c1280425b323d5d0a0239036f41630006cb3c602a0b83a8f9d7602",
+    "bytes": 36,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/361d3b6e60ffa929475d/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "0bc5b67d06a7a5f8d02cb742d35bce6454897ba925be062a8322d334f1da59e7",
+    "bytes": 3952,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/3e0f18551e0dcaf0fa30/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/3e0f18551e0dcaf0fa30/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/3e0f18551e0dcaf0fa30/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/3e0f18551e0dcaf0fa30/.pytest_cache/v/cache/nodeids",
+    "sha256": "425608895b0d9e2cdad849e56d3b4c517d980334decbe03acb2e24800b256fd7",
+    "bytes": 54,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/3e0f18551e0dcaf0fa30/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "5a00fee6b5a43942a8c5c696b75d8ea0834b295e1f3f3492a9f915ba1fa3d679",
+    "bytes": 5583,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/47707a060df0eeb683e2/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/47707a060df0eeb683e2/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/47707a060df0eeb683e2/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/47707a060df0eeb683e2/.pytest_cache/v/cache/nodeids",
+    "sha256": "425608895b0d9e2cdad849e56d3b4c517d980334decbe03acb2e24800b256fd7",
+    "bytes": 54,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/47707a060df0eeb683e2/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "5a00fee6b5a43942a8c5c696b75d8ea0834b295e1f3f3492a9f915ba1fa3d679",
+    "bytes": 5583,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/4c05a0e52b4ddea071ee/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/4c05a0e52b4ddea071ee/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/4c05a0e52b4ddea071ee/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/4c05a0e52b4ddea071ee/.pytest_cache/v/cache/nodeids",
+    "sha256": "0fbd1e95ed0b4b47bf514731ff81540201524f579b5f4dfbe52275e6c371bceb",
+    "bytes": 48,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/4c05a0e52b4ddea071ee/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "9dd6f9b17062acc440a60a5bed926dea79210bd18c63dd6da02eb08c186a8330",
+    "bytes": 4591,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/4ef32637e06590bd0ea8/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/4ef32637e06590bd0ea8/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/4ef32637e06590bd0ea8/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/4ef32637e06590bd0ea8/.pytest_cache/v/cache/nodeids",
+    "sha256": "86c1c3b182c1280425b323d5d0a0239036f41630006cb3c602a0b83a8f9d7602",
+    "bytes": 36,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/4ef32637e06590bd0ea8/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "0bc5b67d06a7a5f8d02cb742d35bce6454897ba925be062a8322d334f1da59e7",
+    "bytes": 3952,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/52ced4d9c35078216c54/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/52ced4d9c35078216c54/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/52ced4d9c35078216c54/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/52ced4d9c35078216c54/.pytest_cache/v/cache/nodeids",
+    "sha256": "ce2b541dc19ac5641ad328bdf928e1cd02d6b8efd2b77b872ece36a758dd1096",
+    "bytes": 68,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/52ced4d9c35078216c54/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "8f673aa1137b89c60017257d4af13992a31350e400bf8d01b45dfd5667525ac6",
+    "bytes": 2281,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/52ced4d9c35078216c54/build/lib.linux-x86_64-cpython-313/feal_in_c.cpython-313-x86_64-linux-gnu.so",
+    "sha256": "b1d131c80340d36f55c037e48279bdf19014102a53db08cc1df68365aa0d9e3b",
+    "bytes": 33528,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/52ced4d9c35078216c54/build/temp.linux-x86_64-cpython-313/feal.o",
+    "sha256": "0d8a19c4b994accf101d7036bb65039a9209dcb9e7d6c36f8e0ae39e1a1d6e22",
+    "bytes": 14304,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/52ced4d9c35078216c54/build/temp.linux-x86_64-cpython-313/feal_module.o",
+    "sha256": "f433f2a40772ebcaa11e47f825b64b8e795c742cab6ad01528a7a1122f6788b4",
+    "bytes": 23528,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/52ced4d9c35078216c54/feal_in_c.cpython-313-x86_64-linux-gnu.so",
+    "sha256": "b1d131c80340d36f55c037e48279bdf19014102a53db08cc1df68365aa0d9e3b",
+    "bytes": 33528,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/5484b6c8e3d03140b222/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/5484b6c8e3d03140b222/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/5484b6c8e3d03140b222/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/5484b6c8e3d03140b222/.pytest_cache/v/cache/nodeids",
+    "sha256": "ce2b541dc19ac5641ad328bdf928e1cd02d6b8efd2b77b872ece36a758dd1096",
+    "bytes": 68,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/5484b6c8e3d03140b222/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "8f673aa1137b89c60017257d4af13992a31350e400bf8d01b45dfd5667525ac6",
+    "bytes": 2281,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/5484b6c8e3d03140b222/build/lib.linux-x86_64-cpython-313/feal_in_c.cpython-313-x86_64-linux-gnu.so",
+    "sha256": "b1d131c80340d36f55c037e48279bdf19014102a53db08cc1df68365aa0d9e3b",
+    "bytes": 33528,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/5484b6c8e3d03140b222/build/temp.linux-x86_64-cpython-313/feal.o",
+    "sha256": "0d8a19c4b994accf101d7036bb65039a9209dcb9e7d6c36f8e0ae39e1a1d6e22",
+    "bytes": 14304,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/5484b6c8e3d03140b222/build/temp.linux-x86_64-cpython-313/feal_module.o",
+    "sha256": "f433f2a40772ebcaa11e47f825b64b8e795c742cab6ad01528a7a1122f6788b4",
+    "bytes": 23528,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/5484b6c8e3d03140b222/feal_in_c.cpython-313-x86_64-linux-gnu.so",
+    "sha256": "b1d131c80340d36f55c037e48279bdf19014102a53db08cc1df68365aa0d9e3b",
+    "bytes": 33528,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/5557cfe258f8e1bb174d/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/5557cfe258f8e1bb174d/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/5557cfe258f8e1bb174d/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/5557cfe258f8e1bb174d/.pytest_cache/v/cache/nodeids",
+    "sha256": "395c98eaae9cc4727eda6d658beaa7f34407123d97885324f326190062c9efca",
+    "bytes": 482,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/5557cfe258f8e1bb174d/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "66b5c98cf4206e2c7bea24de84187a9f1c6fedeb531e78164afaa0c861db6e3d",
+    "bytes": 15470,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/6079baf114decec3bfc2/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/6079baf114decec3bfc2/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/6079baf114decec3bfc2/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/6079baf114decec3bfc2/.pytest_cache/v/cache/nodeids",
+    "sha256": "395c98eaae9cc4727eda6d658beaa7f34407123d97885324f326190062c9efca",
+    "bytes": 482,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/6079baf114decec3bfc2/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "66b5c98cf4206e2c7bea24de84187a9f1c6fedeb531e78164afaa0c861db6e3d",
+    "bytes": 15470,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/72edbfcead0251c196f3/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/72edbfcead0251c196f3/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/72edbfcead0251c196f3/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/72edbfcead0251c196f3/.pytest_cache/v/cache/nodeids",
+    "sha256": "0fbd1e95ed0b4b47bf514731ff81540201524f579b5f4dfbe52275e6c371bceb",
+    "bytes": 48,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/72edbfcead0251c196f3/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "9dd6f9b17062acc440a60a5bed926dea79210bd18c63dd6da02eb08c186a8330",
+    "bytes": 4591,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/81ec890569e5fec1bbcb/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/81ec890569e5fec1bbcb/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/81ec890569e5fec1bbcb/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/81ec890569e5fec1bbcb/.pytest_cache/v/cache/nodeids",
+    "sha256": "7df43a90d85b0e5ac2653e38a111ea6378833c4477fe3e16576f65b9e1ad3b76",
+    "bytes": 155,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/81ec890569e5fec1bbcb/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "d166ac14ba006ea0d17a9f249a8f9da0ff13ae0210a3d1d6469e2c3f419016d5",
+    "bytes": 8189,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/92bbc0375af0323ccfed/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/92bbc0375af0323ccfed/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/92bbc0375af0323ccfed/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/92bbc0375af0323ccfed/.pytest_cache/v/cache/nodeids",
+    "sha256": "8c612e34d733312f51cf33c25021ddb420b22ffd5e6cc82c013e7fd22c85d42d",
+    "bytes": 83,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/92bbc0375af0323ccfed/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "1edc2d6bea0de3bde3ae6b7a1efad81fa191990a9bfaaedb3749c6b5118dad0c",
+    "bytes": 3789,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/96116676a052d60ced36/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/96116676a052d60ced36/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/96116676a052d60ced36/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/96116676a052d60ced36/.pytest_cache/v/cache/nodeids",
+    "sha256": "0fbd1e95ed0b4b47bf514731ff81540201524f579b5f4dfbe52275e6c371bceb",
+    "bytes": 48,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/96116676a052d60ced36/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "a4ef7e4d9a638ea035024b060c4e3819326418cf2d06538e24d83726132da980",
+    "bytes": 4468,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/996b064d256e176362ec/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/996b064d256e176362ec/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/996b064d256e176362ec/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/996b064d256e176362ec/.pytest_cache/v/cache/nodeids",
+    "sha256": "ce2b541dc19ac5641ad328bdf928e1cd02d6b8efd2b77b872ece36a758dd1096",
+    "bytes": 68,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/996b064d256e176362ec/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "8f673aa1137b89c60017257d4af13992a31350e400bf8d01b45dfd5667525ac6",
+    "bytes": 2281,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/996b064d256e176362ec/build/lib.linux-x86_64-cpython-313/feal_in_c.cpython-313-x86_64-linux-gnu.so",
+    "sha256": "b1d131c80340d36f55c037e48279bdf19014102a53db08cc1df68365aa0d9e3b",
+    "bytes": 33528,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/996b064d256e176362ec/build/temp.linux-x86_64-cpython-313/feal.o",
+    "sha256": "0d8a19c4b994accf101d7036bb65039a9209dcb9e7d6c36f8e0ae39e1a1d6e22",
+    "bytes": 14304,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/996b064d256e176362ec/build/temp.linux-x86_64-cpython-313/feal_module.o",
+    "sha256": "f433f2a40772ebcaa11e47f825b64b8e795c742cab6ad01528a7a1122f6788b4",
+    "bytes": 23528,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/996b064d256e176362ec/feal_in_c.cpython-313-x86_64-linux-gnu.so",
+    "sha256": "b1d131c80340d36f55c037e48279bdf19014102a53db08cc1df68365aa0d9e3b",
+    "bytes": 33528,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/9c36343e4a8b7ad699ee/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/9c36343e4a8b7ad699ee/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/9c36343e4a8b7ad699ee/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/9c36343e4a8b7ad699ee/.pytest_cache/v/cache/nodeids",
+    "sha256": "395c98eaae9cc4727eda6d658beaa7f34407123d97885324f326190062c9efca",
+    "bytes": 482,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/9c36343e4a8b7ad699ee/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "66b5c98cf4206e2c7bea24de84187a9f1c6fedeb531e78164afaa0c861db6e3d",
+    "bytes": 15470,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/9f5b537f0ca66066628d/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/9f5b537f0ca66066628d/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/9f5b537f0ca66066628d/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/9f5b537f0ca66066628d/.pytest_cache/v/cache/nodeids",
+    "sha256": "493671276a52e1f9e33de61fc443f5824c0c8aca9a97fb03dd3998d39fbb3855",
+    "bytes": 351,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/9f5b537f0ca66066628d/__pycache__/test_outputs.cpython-313-pytest-8.4.2.pyc",
+    "sha256": "f0e02d9050b96fbc7e583fb7390b03c4e03401dcad916b52b2ffac4074deba1a",
+    "bytes": 17280,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/a7185392cac4f7e235a6/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/a7185392cac4f7e235a6/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/a7185392cac4f7e235a6/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/a7185392cac4f7e235a6/.pytest_cache/v/cache/nodeids",
+    "sha256": "7df43a90d85b0e5ac2653e38a111ea6378833c4477fe3e16576f65b9e1ad3b76",
+    "bytes": 155,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/a7185392cac4f7e235a6/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "d166ac14ba006ea0d17a9f249a8f9da0ff13ae0210a3d1d6469e2c3f419016d5",
+    "bytes": 8189,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/b74cb89dae9ab556783b/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/b74cb89dae9ab556783b/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/b74cb89dae9ab556783b/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/b74cb89dae9ab556783b/.pytest_cache/v/cache/lastfailed",
+    "sha256": "dddf0eccfb2db764e5c1f15d0c662cdde6a2b3276350f7ebc6577b3e21dd6056",
+    "bytes": 60,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/b74cb89dae9ab556783b/.pytest_cache/v/cache/nodeids",
+    "sha256": "091900fadc7487161914e08793285f2382d9da91a7f17e9a13bbacd1ec572633",
+    "bytes": 99,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/b74cb89dae9ab556783b/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "e7718014bc44b2686d7c83362fc3c500467cab9d000328b12d45adaae23d6ce6",
+    "bytes": 19267,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c03f172b07e16d7146a0/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c03f172b07e16d7146a0/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c03f172b07e16d7146a0/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c03f172b07e16d7146a0/.pytest_cache/v/cache/lastfailed",
+    "sha256": "8682f15fe0c663cedbf882dfc0b29cf22221b97095997e61f68f526143206180",
+    "bytes": 117,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c03f172b07e16d7146a0/.pytest_cache/v/cache/nodeids",
+    "sha256": "146aacb6385ebfc5dfc17bce9fc56509c140d922e5bbfddeb06607ba0d94b65e",
+    "bytes": 105,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c03f172b07e16d7146a0/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "28833412e0cf4769bc8ae8c72934362ee01292ffe053dab617aa73f73c131acc",
+    "bytes": 5267,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c107c7994bc73dbe6a87/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c107c7994bc73dbe6a87/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c107c7994bc73dbe6a87/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c107c7994bc73dbe6a87/.pytest_cache/v/cache/nodeids",
+    "sha256": "0fbd1e95ed0b4b47bf514731ff81540201524f579b5f4dfbe52275e6c371bceb",
+    "bytes": 48,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c107c7994bc73dbe6a87/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "9dd6f9b17062acc440a60a5bed926dea79210bd18c63dd6da02eb08c186a8330",
+    "bytes": 4591,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c7ba6ce029f791b4b6ea/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c7ba6ce029f791b4b6ea/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c7ba6ce029f791b4b6ea/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c7ba6ce029f791b4b6ea/.pytest_cache/v/cache/nodeids",
+    "sha256": "091900fadc7487161914e08793285f2382d9da91a7f17e9a13bbacd1ec572633",
+    "bytes": 99,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/c7ba6ce029f791b4b6ea/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "e7718014bc44b2686d7c83362fc3c500467cab9d000328b12d45adaae23d6ce6",
+    "bytes": 19267,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d3dccac20ab9656bc45f/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d3dccac20ab9656bc45f/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d3dccac20ab9656bc45f/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d3dccac20ab9656bc45f/.pytest_cache/v/cache/nodeids",
+    "sha256": "0fbd1e95ed0b4b47bf514731ff81540201524f579b5f4dfbe52275e6c371bceb",
+    "bytes": 48,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d3dccac20ab9656bc45f/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "a4ef7e4d9a638ea035024b060c4e3819326418cf2d06538e24d83726132da980",
+    "bytes": 4468,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d66c693159b509332db9/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d66c693159b509332db9/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d66c693159b509332db9/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d66c693159b509332db9/.pytest_cache/v/cache/lastfailed",
+    "sha256": "8682f15fe0c663cedbf882dfc0b29cf22221b97095997e61f68f526143206180",
+    "bytes": 117,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d66c693159b509332db9/.pytest_cache/v/cache/nodeids",
+    "sha256": "146aacb6385ebfc5dfc17bce9fc56509c140d922e5bbfddeb06607ba0d94b65e",
+    "bytes": 105,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d66c693159b509332db9/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "28833412e0cf4769bc8ae8c72934362ee01292ffe053dab617aa73f73c131acc",
+    "bytes": 5267,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d70df472ebbfcffba6a8/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d70df472ebbfcffba6a8/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d70df472ebbfcffba6a8/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d70df472ebbfcffba6a8/.pytest_cache/v/cache/nodeids",
+    "sha256": "8c612e34d733312f51cf33c25021ddb420b22ffd5e6cc82c013e7fd22c85d42d",
+    "bytes": 83,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/d70df472ebbfcffba6a8/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "1edc2d6bea0de3bde3ae6b7a1efad81fa191990a9bfaaedb3749c6b5118dad0c",
+    "bytes": 3789,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/dd84e426dfee1cbb2b13/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/dd84e426dfee1cbb2b13/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/dd84e426dfee1cbb2b13/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/dd84e426dfee1cbb2b13/.pytest_cache/v/cache/nodeids",
+    "sha256": "0fbd1e95ed0b4b47bf514731ff81540201524f579b5f4dfbe52275e6c371bceb",
+    "bytes": 48,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/dd84e426dfee1cbb2b13/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "a4ef7e4d9a638ea035024b060c4e3819326418cf2d06538e24d83726132da980",
+    "bytes": 4468,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/e521c54917003fa9481a/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/e521c54917003fa9481a/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/e521c54917003fa9481a/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/e521c54917003fa9481a/.pytest_cache/v/cache/nodeids",
+    "sha256": "cb77603154a3b52f17ad4c417f6e07a9d5ae81e0ef5ac43e4d3da8da673fa22c",
+    "bytes": 42,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/e521c54917003fa9481a/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "4af3f84f4cbfcf95e7ac402ad919d1359fcf57f4b10bccaf4c53c8fe81977022",
+    "bytes": 2566,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/ffed2912cb74e702fd50/.pytest_cache/.gitignore",
+    "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "bytes": 37,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/ffed2912cb74e702fd50/.pytest_cache/CACHEDIR.TAG",
+    "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "bytes": 191,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/ffed2912cb74e702fd50/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/ffed2912cb74e702fd50/.pytest_cache/v/cache/lastfailed",
+    "sha256": "dddf0eccfb2db764e5c1f15d0c662cdde6a2b3276350f7ebc6577b3e21dd6056",
+    "bytes": 60,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/ffed2912cb74e702fd50/.pytest_cache/v/cache/nodeids",
+    "sha256": "091900fadc7487161914e08793285f2382d9da91a7f17e9a13bbacd1ec572633",
+    "bytes": 99,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  },
+  {
+    "source_file": "evidence-root/formal-v1-high-budget/integrity-audit/grader-files/ffed2912cb74e702fd50/__pycache__/test_outputs.cpython-313-pytest-8.4.1.pyc",
+    "sha256": "e7718014bc44b2686d7c83362fc3c500467cab9d000328b12d45adaae23d6ce6",
+    "bytes": 19267,
+    "reason": "Generated build/test cache or native build output. Source and grading evidence retained."
+  }
+]

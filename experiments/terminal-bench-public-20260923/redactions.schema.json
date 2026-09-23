@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "One redactions.jsonl entry",
+  "type": "object",
+  "properties": {
+    "source_file": {
+      "type": "string"
+    },
+    "public_file": {
+      "type": "string"
+    },
+    "line_1based": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "column_1based": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "public_column_1based": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "original_char_length": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "replacement": {
+      "type": "string"
+    },
+    "category": {
+      "enum": [
+        "credential",
+        "runtime_token",
+        "host_sensitive"
+      ]
+    },
+    "cell_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "event_id": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "event_kind": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "event_time": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "generation": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "location_basis": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "source_file",
+    "public_file",
+    "line_1based",
+    "column_1based",
+    "public_column_1based",
+    "original_char_length",
+    "replacement",
+    "category",
+    "cell_id",
+    "event_id",
+    "event_kind",
+    "event_time",
+    "generation",
+    "location_basis"
+  ],
+  "additionalProperties": false
+}
