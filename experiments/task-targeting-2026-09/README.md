@@ -42,7 +42,7 @@ is retained, not edited away.
 
 - [Download the full archive / 下载完整档案](https://github.com/Key-of-door/Threshold-capability/releases/tag/task-targeting-pilot-2026-09-v1)
 - [Offline verification and replication notes / 离线核验与重新采样说明](REPRODUCTION.md)
-- [Discussion / 讨论入口](https://github.com/Key-of-door/Threshold-capability/discussions)
+- [Discussion / 讨论入口](https://github.com/Key-of-door/Threshold-capability/discussions/5)
 
 The repository contains the readable reports, evidence pages and small audit files.
 The downloadable ZIP additionally contains all 24 redacted traces, fixture Git bundles,

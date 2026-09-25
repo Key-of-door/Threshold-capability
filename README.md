@@ -107,6 +107,7 @@ Reading/requirements audit → fresh review with real JSON tool calls and a smal
 ## Community and feedback
 
 Task inbox targeting: [中文 / English reports and 12 paired outcomes](experiments/task-targeting-2026-09/).
+[Join the bilingual archive Discussion](https://github.com/Key-of-door/Threshold-capability/discussions/5).
 Full-claim exposure was 1/12 vs 12/12; total costs did not decrease. The archive includes contrary evidence, a frozen rubric and offline verification.
 
 
