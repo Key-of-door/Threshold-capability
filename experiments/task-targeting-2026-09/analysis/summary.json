@@ -1,0 +1,530 @@
+{
+  "freeze": "d848ab7b27c64c22eba61590d22fc992c15810ea3146d8323cd3b921be8a848e",
+  "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+  "nPairs": 12,
+  "nTrajectories": 24,
+  "byArm": {
+    "baseline": {
+      "n": 12,
+      "exposed": 1,
+      "notExposedCensored": 11,
+      "reobservedAfterExposure": 1,
+      "emptyPollTrajectories": 2,
+      "sentCorrection": 0,
+      "finalCorrect": 12,
+      "productiveChangeTrajectories": 9,
+      "repeatedWorkTrajectories": 0,
+      "unclearTrajectories": 1,
+      "workSegmentCounts": {
+        "independent_verification": 104,
+        "productive_change": 9,
+        "repeated_work": 0,
+        "unclear": 1
+      },
+      "totalTokens": {
+        "n": 12,
+        "sum": 521869,
+        "mean": 43489.083333333336,
+        "median": 43035,
+        "min": 27746,
+        "max": 56371
+      },
+      "requests": {
+        "n": 12,
+        "sum": 96,
+        "mean": 8,
+        "median": 8,
+        "min": 6,
+        "max": 9
+      },
+      "toolCalls": {
+        "n": 12,
+        "sum": 143,
+        "mean": 11.916666666666666,
+        "median": 12,
+        "min": 10,
+        "max": 14
+      },
+      "elapsedSeconds": {
+        "n": 12,
+        "sum": 227.408,
+        "mean": 18.950666666666667,
+        "median": 18.265,
+        "min": 12.211,
+        "max": 26.384
+      },
+      "exposedOnlyDiscovery": {
+        "input": {
+          "n": 1,
+          "sum": 14544,
+          "mean": 14544,
+          "median": 14544,
+          "min": 14544,
+          "max": 14544
+        },
+        "output": {
+          "n": 1,
+          "sum": 678,
+          "mean": 678,
+          "median": 678,
+          "min": 678,
+          "max": 678
+        },
+        "tokens": {
+          "n": 1,
+          "sum": 15222,
+          "mean": 15222,
+          "median": 15222,
+          "min": 15222,
+          "max": 15222
+        },
+        "requests": {
+          "n": 1,
+          "sum": 4,
+          "mean": 4,
+          "median": 4,
+          "min": 4,
+          "max": 4
+        },
+        "toolCalls": {
+          "n": 1,
+          "sum": 9,
+          "mean": 9,
+          "median": 9,
+          "min": 9,
+          "max": 9
+        },
+        "seconds": {
+          "n": 1,
+          "sum": 7.311,
+          "mean": 7.311,
+          "median": 7.311,
+          "min": 7.311,
+          "max": 7.311
+        }
+      }
+    },
+    "treatment": {
+      "n": 12,
+      "exposed": 12,
+      "notExposedCensored": 0,
+      "reobservedAfterExposure": 12,
+      "emptyPollTrajectories": 0,
+      "sentCorrection": 6,
+      "finalCorrect": 12,
+      "productiveChangeTrajectories": 9,
+      "repeatedWorkTrajectories": 0,
+      "unclearTrajectories": 0,
+      "workSegmentCounts": {
+        "independent_verification": 108,
+        "productive_change": 9,
+        "repeated_work": 0,
+        "unclear": 0
+      },
+      "totalTokens": {
+        "n": 12,
+        "sum": 588726,
+        "mean": 49060.5,
+        "median": 45203,
+        "min": 32905,
+        "max": 69849
+      },
+      "requests": {
+        "n": 12,
+        "sum": 102,
+        "mean": 8.5,
+        "median": 8,
+        "min": 6,
+        "max": 11
+      },
+      "toolCalls": {
+        "n": 12,
+        "sum": 162,
+        "mean": 13.5,
+        "median": 13,
+        "min": 12,
+        "max": 16
+      },
+      "elapsedSeconds": {
+        "n": 12,
+        "sum": 256.681,
+        "mean": 21.390083333333333,
+        "median": 20.2655,
+        "min": 17.23,
+        "max": 27.429
+      },
+      "exposedOnlyDiscovery": {
+        "input": {
+          "n": 12,
+          "sum": 73280,
+          "mean": 6106.666666666667,
+          "median": 6105.5,
+          "min": 6092,
+          "max": 6127
+        },
+        "output": {
+          "n": 12,
+          "sum": 1767,
+          "mean": 147.25,
+          "median": 147.5,
+          "min": 108,
+          "max": 177
+        },
+        "tokens": {
+          "n": 12,
+          "sum": 75047,
+          "mean": 6253.916666666667,
+          "median": 6256.5,
+          "min": 6212,
+          "max": 6283
+        },
+        "requests": {
+          "n": 12,
+          "sum": 24,
+          "mean": 2,
+          "median": 2,
+          "min": 2,
+          "max": 2
+        },
+        "toolCalls": {
+          "n": 12,
+          "sum": 36,
+          "mean": 3,
+          "median": 3,
+          "min": 3,
+          "max": 3
+        },
+        "seconds": {
+          "n": 12,
+          "sum": 31.899,
+          "mean": 2.6582500000000002,
+          "median": 2.697,
+          "min": 2.463,
+          "max": 2.761
+        }
+      }
+    }
+  },
+  "paired": {
+    "bothExposed": 1,
+    "treatmentOnly": 11,
+    "baselineOnly": 0,
+    "neither": 0,
+    "tokens": {
+      "n": 12,
+      "sum": 66857,
+      "mean": 5571.416666666667,
+      "median": 5833,
+      "min": -17387,
+      "max": 26416
+    },
+    "requests": {
+      "n": 12,
+      "sum": 6,
+      "mean": 0.5,
+      "median": 0.5,
+      "min": -2,
+      "max": 3
+    },
+    "tools": {
+      "n": 12,
+      "sum": 19,
+      "mean": 1.5833333333333333,
+      "median": 1.5,
+      "min": -1,
+      "max": 5
+    },
+    "seconds": {
+      "n": 12,
+      "sum": 29.272999999999996,
+      "mean": 2.4394166666666663,
+      "median": 1.477500000000001,
+      "min": -8.100000000000001,
+      "max": 10.190999999999999
+    }
+  },
+  "pairs": [
+    {
+      "pairId": "C1-R1",
+      "case": "correct",
+      "position": 1,
+      "order": [
+        "baseline",
+        "treatment"
+      ],
+      "baseline": "T05",
+      "treatment": "T10",
+      "baselineExposed": true,
+      "treatmentExposed": true,
+      "baselineTokens": 56371,
+      "treatmentTokens": 42034,
+      "tokenDifference": -14337,
+      "requestDifference": -1,
+      "toolDifference": 0,
+      "secondsDifference": -8.100000000000001,
+      "baselineSeconds": 26.384,
+      "treatmentSeconds": 18.284,
+      "baselineSends": 0,
+      "treatmentSends": 0
+    },
+    {
+      "pairId": "C4-R2",
+      "case": "conflicting",
+      "position": 2,
+      "order": [
+        "baseline",
+        "treatment"
+      ],
+      "baseline": "T04",
+      "treatment": "T06",
+      "baselineExposed": false,
+      "treatmentExposed": true,
+      "baselineTokens": 41846,
+      "treatmentTokens": 32905,
+      "tokenDifference": -8941,
+      "requestDifference": -2,
+      "toolDifference": 0,
+      "secondsDifference": 1.9469999999999992,
+      "baselineSeconds": 16.276,
+      "treatmentSeconds": 18.223,
+      "baselineSends": 0,
+      "treatmentSends": 1
+    },
+    {
+      "pairId": "C2-R3",
+      "case": "false",
+      "position": 3,
+      "order": [
+        "treatment",
+        "baseline"
+      ],
+      "baseline": "T12",
+      "treatment": "T24",
+      "baselineExposed": false,
+      "treatmentExposed": true,
+      "baselineTokens": 34785,
+      "treatmentTokens": 43164,
+      "tokenDifference": 8379,
+      "requestDifference": 1,
+      "toolDifference": 1,
+      "secondsDifference": 1.0080000000000027,
+      "baselineSeconds": 16.243,
+      "treatmentSeconds": 17.251,
+      "baselineSends": 0,
+      "treatmentSends": 1
+    },
+    {
+      "pairId": "C1-R3",
+      "case": "correct",
+      "position": 4,
+      "order": [
+        "baseline",
+        "treatment"
+      ],
+      "baseline": "T09",
+      "treatment": "T08",
+      "baselineExposed": false,
+      "treatmentExposed": true,
+      "baselineTokens": 40472,
+      "treatmentTokens": 41559,
+      "tokenDifference": 1087,
+      "requestDifference": 0,
+      "toolDifference": 1,
+      "secondsDifference": -1.0399999999999991,
+      "baselineSeconds": 18.27,
+      "treatmentSeconds": 17.23,
+      "baselineSends": 0,
+      "treatmentSends": 0
+    },
+    {
+      "pairId": "C3-R1",
+      "case": "stale",
+      "position": 5,
+      "order": [
+        "baseline",
+        "treatment"
+      ],
+      "baseline": "T16",
+      "treatment": "T13",
+      "baselineExposed": false,
+      "treatmentExposed": true,
+      "baselineTokens": 43433,
+      "treatmentTokens": 69849,
+      "tokenDifference": 26416,
+      "requestDifference": 3,
+      "toolDifference": 5,
+      "secondsDifference": 7.078000000000003,
+      "baselineSeconds": 18.278,
+      "treatmentSeconds": 25.356,
+      "baselineSends": 0,
+      "treatmentSends": 1
+    },
+    {
+      "pairId": "C3-R2",
+      "case": "stale",
+      "position": 6,
+      "order": [
+        "treatment",
+        "baseline"
+      ],
+      "baseline": "T19",
+      "treatment": "T18",
+      "baselineExposed": false,
+      "treatmentExposed": true,
+      "baselineTokens": 52455,
+      "treatmentTokens": 35068,
+      "tokenDifference": -17387,
+      "requestDifference": -2,
+      "toolDifference": -1,
+      "secondsDifference": -3.9720000000000013,
+      "baselineSeconds": 22.286,
+      "treatmentSeconds": 18.314,
+      "baselineSends": 0,
+      "treatmentSends": 0
+    },
+    {
+      "pairId": "C2-R1",
+      "case": "false",
+      "position": 7,
+      "order": [
+        "treatment",
+        "baseline"
+      ],
+      "baseline": "T20",
+      "treatment": "T15",
+      "baselineExposed": false,
+      "treatmentExposed": true,
+      "baselineTokens": 39201,
+      "treatmentTokens": 57254,
+      "tokenDifference": 18053,
+      "requestDifference": 1,
+      "toolDifference": 3,
+      "secondsDifference": 10.190999999999999,
+      "baselineSeconds": 15.264,
+      "treatmentSeconds": 25.455,
+      "baselineSends": 0,
+      "treatmentSends": 1
+    },
+    {
+      "pairId": "C4-R1",
+      "case": "conflicting",
+      "position": 8,
+      "order": [
+        "treatment",
+        "baseline"
+      ],
+      "baseline": "T01",
+      "treatment": "T07",
+      "baselineExposed": false,
+      "treatmentExposed": true,
+      "baselineTokens": 50313,
+      "treatmentTokens": 57412,
+      "tokenDifference": 7099,
+      "requestDifference": 1,
+      "toolDifference": 2,
+      "secondsDifference": -0.0400000000000027,
+      "baselineSeconds": 23.341,
+      "treatmentSeconds": 23.301,
+      "baselineSends": 0,
+      "treatmentSends": 1
+    },
+    {
+      "pairId": "C2-R2",
+      "case": "false",
+      "position": 9,
+      "order": [
+        "baseline",
+        "treatment"
+      ],
+      "baseline": "T21",
+      "treatment": "T11",
+      "baselineExposed": false,
+      "treatmentExposed": true,
+      "baselineTokens": 45694,
+      "treatmentTokens": 50261,
+      "tokenDifference": 4567,
+      "requestDifference": 0,
+      "toolDifference": 2,
+      "secondsDifference": 9.029,
+      "baselineSeconds": 16.278,
+      "treatmentSeconds": 25.307,
+      "baselineSends": 0,
+      "treatmentSends": 1
+    },
+    {
+      "pairId": "C3-R3",
+      "case": "stale",
+      "position": 10,
+      "order": [
+        "baseline",
+        "treatment"
+      ],
+      "baseline": "T23",
+      "treatment": "T14",
+      "baselineExposed": false,
+      "treatmentExposed": true,
+      "baselineTokens": 42637,
+      "treatmentTokens": 68814,
+      "tokenDifference": 26177,
+      "requestDifference": 3,
+      "toolDifference": 5,
+      "secondsDifference": 9.168999999999997,
+      "baselineSeconds": 18.26,
+      "treatmentSeconds": 27.429,
+      "baselineSends": 0,
+      "treatmentSends": 0
+    },
+    {
+      "pairId": "C4-R3",
+      "case": "conflicting",
+      "position": 11,
+      "order": [
+        "treatment",
+        "baseline"
+      ],
+      "baseline": "T02",
+      "treatment": "T17",
+      "baselineExposed": false,
+      "treatmentExposed": true,
+      "baselineTokens": 27746,
+      "treatmentTokens": 46529,
+      "tokenDifference": 18783,
+      "requestDifference": 2,
+      "toolDifference": 2,
+      "secondsDifference": 7.066999999999998,
+      "baselineSeconds": 12.211,
+      "treatmentSeconds": 19.278,
+      "baselineSends": 0,
+      "treatmentSends": 0
+    },
+    {
+      "pairId": "C1-R2",
+      "case": "correct",
+      "position": 12,
+      "order": [
+        "treatment",
+        "baseline"
+      ],
+      "baseline": "T03",
+      "treatment": "T22",
+      "baselineExposed": false,
+      "treatmentExposed": true,
+      "baselineTokens": 46916,
+      "treatmentTokens": 43877,
+      "tokenDifference": -3039,
+      "requestDifference": 0,
+      "toolDifference": -1,
+      "secondsDifference": -3.064,
+      "baselineSeconds": 24.317,
+      "treatmentSeconds": 21.253,
+      "baselineSends": 0,
+      "treatmentSends": 0
+    }
+  ],
+  "providerModels": [
+    "deepseek-flash"
+  ],
+  "knownTotal": 1110595,
+  "quoteChecks": "all matched exact trace text",
+  "finalArtifactChecks": "all match immutable fixture expected value; source inputs, generator, requirements and test hashes unchanged"
+}

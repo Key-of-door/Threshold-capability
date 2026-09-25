@@ -1,0 +1,60 @@
+{
+  "schema": "task-targeting-pilot-v1",
+  "caseCount": 4,
+  "repetitionsPerCase": 3,
+  "pairs": 12,
+  "plannedTrajectories": 24,
+  "contrast": {
+    "baseline": "messages.task_id = source Task",
+    "treatment": "messages.task_id = target Task",
+    "otherChanges": "none except necessary isolated workspace paths and newly allocated target Run/session identities; retain actual inputs"
+  },
+  "runtime": {
+    "node": "24.21.0",
+    "nodePath": "[RUNTIME]/node-v24.21.0.exe",
+    "nodeSha256": "ba4e6d110e8c1592a1ecd390f6b05f3da124b13871a5be62b341a07a853c6c32",
+    "pi": "0.85.1",
+    "thresholdVersionLabel": "0.2.0-alpha.4 + frozen unreleased source; use hashes, not label alone"
+  },
+  "model": {
+    "provider": "deepseek",
+    "id": "deepseek-flash",
+    "baseUrl": "https://api.deepseek.com",
+    "api": "openai-completions",
+    "thinking": "max",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 384000,
+    "versionCaveat": "Provider alias is not an immutable model snapshot; retain returned model, request IDs and timestamps"
+  },
+  "capabilities": {
+    "skills": [],
+    "extensions": [],
+    "builtin": "frozen Threshold extension only"
+  },
+  "execution": {
+    "interactive": false,
+    "deadlineSeconds": 1800,
+    "cumulativeTokenCeiling": 20000000,
+    "budgetScope": "per trajectory, including retries within it; do not shrink based on global balance",
+    "usageUnknown": "reserve full request envelope for billing safety; unresolved usage invalidates research accounting"
+  },
+  "taskInstructions": "Complete the delivery report for this repository. delivery.json must represent the current orders.json using REQUIREMENTS.md. Inspect the existing work, make any needed changes, run the relevant checks, and report the actual result. Do not add dependencies or use external network services.",
+  "runObjective": null,
+  "lifecycle": {
+    "source": "all seeded source Runs already ended",
+    "target": "fresh Run without inherited conversation; no prior target Run or checkpoint in v1",
+    "scope": "does not separately estimate later target-to-target handoff effects"
+  },
+  "accounting": {
+    "plannedMaximumKnownTokens": 480000000,
+    "maximumWithFourWholeTrajectoryRetries": 560000000,
+    "additionalUnknownReserve": "reserve separately, never deduct from another trajectory ceiling",
+    "authorization": "not a paid-call authorization; no inference started"
+  },
+  "prerequisites": [
+    "verify freeze and prepare clones",
+    "confirm actual runtime/model settings and request/usage tracing before launch",
+    "enforce per-trajectory budget admission without shrinking later trajectories",
+    "do not start sampling before all gates pass"
+  ]
+}

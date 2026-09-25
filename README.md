@@ -106,6 +106,10 @@ Reading/requirements audit → fresh review with real JSON tool calls and a smal
 
 ## Community and feedback
 
+Task inbox targeting: [中文 / English reports and 12 paired outcomes](experiments/task-targeting-2026-09/).
+Full-claim exposure was 1/12 vs 12/12; total costs did not decrease. The archive includes contrary evidence, a frozen rubric and offline verification.
+
+
 Terminal-Bench × Threshold: [read the bilingual reports, named task outcomes and audit evidence](experiments/terminal-bench-public-20260923/).
 Start at the [Terminal-Bench archive Discussion](https://github.com/Key-of-door/Threshold-capability/discussions/4) to inspect the evidence or post a correction.
 The archive preserves the original tight-budget results, two diagnostics, a budget-relaxed replication and its integrity audit; offline verification needs no model credentials.

@@ -1,0 +1,127 @@
+{
+  "seed": 20260926,
+  "generator": "xorshift32 unsigned / 2^32; Fisher-Yates from n-1 to 1, j=floor(u*(i+1)); initial order correct,false,stale,conflicting x repetitions1,2,3; first arm baseline iff (zero-based case index + repetition) is odd",
+  "pairs": [
+    {
+      "pairId": "C1-R1",
+      "case": "correct",
+      "repetition": 1,
+      "arms": [
+        "baseline",
+        "treatment"
+      ],
+      "position": 1
+    },
+    {
+      "pairId": "C4-R2",
+      "case": "conflicting",
+      "repetition": 2,
+      "arms": [
+        "baseline",
+        "treatment"
+      ],
+      "position": 2
+    },
+    {
+      "pairId": "C2-R3",
+      "case": "false",
+      "repetition": 3,
+      "arms": [
+        "treatment",
+        "baseline"
+      ],
+      "position": 3
+    },
+    {
+      "pairId": "C1-R3",
+      "case": "correct",
+      "repetition": 3,
+      "arms": [
+        "baseline",
+        "treatment"
+      ],
+      "position": 4
+    },
+    {
+      "pairId": "C3-R1",
+      "case": "stale",
+      "repetition": 1,
+      "arms": [
+        "baseline",
+        "treatment"
+      ],
+      "position": 5
+    },
+    {
+      "pairId": "C3-R2",
+      "case": "stale",
+      "repetition": 2,
+      "arms": [
+        "treatment",
+        "baseline"
+      ],
+      "position": 6
+    },
+    {
+      "pairId": "C2-R1",
+      "case": "false",
+      "repetition": 1,
+      "arms": [
+        "treatment",
+        "baseline"
+      ],
+      "position": 7
+    },
+    {
+      "pairId": "C4-R1",
+      "case": "conflicting",
+      "repetition": 1,
+      "arms": [
+        "treatment",
+        "baseline"
+      ],
+      "position": 8
+    },
+    {
+      "pairId": "C2-R2",
+      "case": "false",
+      "repetition": 2,
+      "arms": [
+        "baseline",
+        "treatment"
+      ],
+      "position": 9
+    },
+    {
+      "pairId": "C3-R3",
+      "case": "stale",
+      "repetition": 3,
+      "arms": [
+        "baseline",
+        "treatment"
+      ],
+      "position": 10
+    },
+    {
+      "pairId": "C4-R3",
+      "case": "conflicting",
+      "repetition": 3,
+      "arms": [
+        "treatment",
+        "baseline"
+      ],
+      "position": 11
+    },
+    {
+      "pairId": "C1-R2",
+      "case": "correct",
+      "repetition": 2,
+      "arms": [
+        "treatment",
+        "baseline"
+      ],
+      "position": 12
+    }
+  ],
+  "execution": "Run both arms of each pair consecutively. An eligible retry occurs immediately after the invalid arm, before the next scheduled arm. Never reshuffle based on outcomes."
+}

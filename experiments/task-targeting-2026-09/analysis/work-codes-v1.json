@@ -1,0 +1,3007 @@
+{
+  "createdAt": "2026-09-25T18:44:17.856Z",
+  "method": "Individual tool purposes reviewed first; compound regeneration/check calls split. No retrospective inference of repeated-work motive from file overlap.",
+  "records": [
+    {
+      "maskedId": "T01",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T01:435:1",
+          "startEvent": 435,
+          "endEvent": 441,
+          "toolCallId": "call_00_FZfnFWMZi4LQx3QzdFR50358",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/00c5cb33b8cb94b43770321c/repo\" && ls -la && git log --oneline -5 && git status",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T01:436:1",
+          "startEvent": 436,
+          "endEvent": 438,
+          "toolCallId": "call_01_zKZRYLkkJan8Cz6rj32N7817",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/00c5cb33b8cb94b43770321c/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T01:909:1",
+          "startEvent": 909,
+          "endEvent": 915,
+          "toolCallId": "call_00_YCW8DUAQa8HkrVnZqDAg6507",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/00c5cb33b8cb94b43770321c/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T01:910:1",
+          "startEvent": 910,
+          "endEvent": 914,
+          "toolCallId": "call_01_bvgBahz5OVfanCTLuoaa4277",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/00c5cb33b8cb94b43770321c/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T01:911:1",
+          "startEvent": 911,
+          "endEvent": 916,
+          "toolCallId": "call_02_TvwlMeOTr7HK06SMnmRP6193",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/00c5cb33b8cb94b43770321c/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T01:912:1",
+          "startEvent": 912,
+          "endEvent": 913,
+          "toolCallId": "call_03_ifIq91I6CymDBmsd1qs78320",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/00c5cb33b8cb94b43770321c/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T01:1488:1",
+          "startEvent": 1488,
+          "endEvent": 1493,
+          "toolCallId": "call_00_WgJKymABwtq7mbrcQNVU6752",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T01:1488:2",
+          "startEvent": 1488,
+          "endEvent": 1493,
+          "toolCallId": "call_00_WgJKymABwtq7mbrcQNVU6752",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        },
+        {
+          "id": "T01:2135:1",
+          "startEvent": 2135,
+          "endEvent": 2140,
+          "toolCallId": "call_00_6DtdIDNb8hAqXwSpZHal8645",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/00c5cb33b8cb94b43770321c/repo\" && git status --short && git diff -- orders.json delivery.json && node --test 2>&1 | tail -3",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T01:3158:1",
+          "startEvent": 3158,
+          "endEvent": 3162,
+          "toolCallId": "call_00_61BnmI2wjiZ7nFWCw83W9101",
+          "code": "unclear",
+          "part": "second node build.mjs",
+          "rationale": "No new before/after comparison in this call; later checkpoint calls it idempotency. Purpose at this point is ambiguous, so neither definite repeated_work nor verified comparison is inferred."
+        },
+        {
+          "id": "T01:3158:2",
+          "startEvent": 3158,
+          "endEvent": 3162,
+          "toolCallId": "call_00_61BnmI2wjiZ7nFWCw83W9101",
+          "code": "independent_verification",
+          "part": "git diff --stat",
+          "rationale": "Observed current diff summary before commit attempt."
+        },
+        {
+          "id": "T01:4024:1",
+          "startEvent": 4024,
+          "endEvent": 4029,
+          "toolCallId": "call_00_4xhUxhrCHknNGDXqTrxP8619",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/00c5cb33b8cb94b43770321c/repo\" && cat delivery.json && node --test 2>&1 | grep -E \"^(✔|✖|ℹ (tests|pass|fail))\" && git status --short",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 42,
+          "endEvent": 43,
+          "toolCallId": "call_00_1M7WmpVRdbrVC7fHikjM1048",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3158,
+          "endEvent": 3162,
+          "toolCallId": "call_00_61BnmI2wjiZ7nFWCw83W9101",
+          "tool": "bash",
+          "part": "git add / failed git commit",
+          "scope": "version-control bookkeeping; failed commit, no completed implementation repeated"
+        },
+        {
+          "startEvent": 4997,
+          "endEvent": 4999,
+          "toolCallId": "call_00_PUJuO03vWgDb8hc2o8Rz4318",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 4998,
+          "endEvent": 5000,
+          "toolCallId": "call_01_pDM6vsf8DHm4DChJFvzV7620",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T02",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T02:331:1",
+          "startEvent": 331,
+          "endEvent": 337,
+          "toolCallId": "call_00_vQ5f5cXuCxhIJNpLflvi5987",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/054a3a13566c76f0a71ecba4/repo\" && ls -la && git log --oneline -5 && git status",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T02:332:1",
+          "startEvent": 332,
+          "endEvent": 334,
+          "toolCallId": "call_01_vglUhzOqDViRHVRg3NbG5962",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/054a3a13566c76f0a71ecba4/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T02:767:1",
+          "startEvent": 767,
+          "endEvent": 772,
+          "toolCallId": "call_00_ET_nDHv3vHDsMraZIPLNaRz0375",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/054a3a13566c76f0a71ecba4/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T02:768:1",
+          "startEvent": 768,
+          "endEvent": 774,
+          "toolCallId": "call_01_ET_3bIagCrAU9srbymCFQFI0624",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/054a3a13566c76f0a71ecba4/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T02:769:1",
+          "startEvent": 769,
+          "endEvent": 773,
+          "toolCallId": "call_02_ET_iRWrU7BtAWWnBmT1mlaH3218",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/054a3a13566c76f0a71ecba4/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T02:770:1",
+          "startEvent": 770,
+          "endEvent": 771,
+          "toolCallId": "call_03_ET_gaPYAxWOgdVVgFLy0Ovc1994",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/054a3a13566c76f0a71ecba4/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T02:1280:1",
+          "startEvent": 1280,
+          "endEvent": 1285,
+          "toolCallId": "call_00_8eqR0bSuwMEnUpnNYZhu1043",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T02:1280:2",
+          "startEvent": 1280,
+          "endEvent": 1285,
+          "toolCallId": "call_00_8eqR0bSuwMEnUpnNYZhu1043",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 42,
+          "endEvent": 43,
+          "toolCallId": "call_00_v9VEI9loL6L0zoh6ZBv87716",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 2079,
+          "endEvent": 2081,
+          "toolCallId": "call_00_fzexDtKDqPIuWScWSsdw5912",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 2080,
+          "endEvent": 2082,
+          "toolCallId": "call_01_W2JWg7xQkTCV3que1zcf9867",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T03",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T03:457:1",
+          "startEvent": 457,
+          "endEvent": 465,
+          "toolCallId": "call_00_fE9LUhF2ea7NiFarfeWH9192",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/0cc0e2e30fbb61af537128fb/repo\" && ls -la && git log --oneline -5 && git status",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T03:458:1",
+          "startEvent": 458,
+          "endEvent": 463,
+          "toolCallId": "call_01_stfj5AENmhbNbGDT0VaZ9495",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/0cc0e2e30fbb61af537128fb/repo\" && find . -type f -not -path \"./.git/*\" | head -50",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T03:1007:1",
+          "startEvent": 1007,
+          "endEvent": 1013,
+          "toolCallId": "call_00_AiQYpNmVwJGfeNjFKA3m5396",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/0cc0e2e30fbb61af537128fb/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T03:1008:1",
+          "startEvent": 1008,
+          "endEvent": 1012,
+          "toolCallId": "call_01_DLJTIdponhBqst4j7vQi3656",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/0cc0e2e30fbb61af537128fb/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T03:1009:1",
+          "startEvent": 1009,
+          "endEvent": 1016,
+          "toolCallId": "call_02_Ue3ThDeGNRiNSfiZwXvO9970",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/0cc0e2e30fbb61af537128fb/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T03:1010:1",
+          "startEvent": 1010,
+          "endEvent": 1015,
+          "toolCallId": "call_03_33oI9MSTXjLtOpMcVrUI0451",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/0cc0e2e30fbb61af537128fb/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T03:1011:1",
+          "startEvent": 1011,
+          "endEvent": 1014,
+          "toolCallId": "call_04_KL4DrBz9AvEhlJGAQACJ2489",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/0cc0e2e30fbb61af537128fb/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T03:1532:1",
+          "startEvent": 1532,
+          "endEvent": 1537,
+          "toolCallId": "call_00_MbmCJtHLBSQNqZmOqbpj3068",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/0cc0e2e30fbb61af537128fb/repo\" && node --version && node build.mjs && node --test && git status --short && git diff --stat",
+          "rationale": "Existing valid output regenerated as part of explicit test/diff/hash/idempotency checks; frozen rubric allows this verification."
+        },
+        {
+          "id": "T03:3973:1",
+          "startEvent": 3973,
+          "endEvent": 3982,
+          "toolCallId": "call_00_FR9vOyxUNUfwoBeTKoR39025",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/0cc0e2e30fbb61af537128fb/repo\" && sha256sum orders.json delivery.json > /tmp/before.sha && node build.mjs && sha256sum orders.json delivery.json > /tmp/after.sha && diff /tmp/before.sha /tmp/after.sha && echo \"== build is idempotent; input preserved ==\" && node -e \"const d=JSON.parse(require('fs').readFileSync('delivery.json','utf8')); const keys=Object.keys(d).sort(); console.log('keys:',JSON.stringify(keys)); console.log('values:',JSON.stringify(d)); const rows=JSON.parse(require('fs').readFileSync('orders.json','utf8')); const paid=rows.filter(r=>r.status==='paid'); console.log('expected:',JSON.stringify({paid_count:paid.length,total_cents:paid.reduce((s,r)=>s+r.amount_cents,0)}));\"",
+          "rationale": "Existing valid output regenerated as part of explicit test/diff/hash/idempotency checks; frozen rubric allows this verification."
+        },
+        {
+          "id": "T03:3974:1",
+          "startEvent": 3974,
+          "endEvent": 3979,
+          "toolCallId": "call_01_kejf8ixej5I3eiTk7TQf4857",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/0cc0e2e30fbb61af537128fb/repo\" && git branch -a && git tag && git reflog --oneline | head -10",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T03:5680:1",
+          "startEvent": 5680,
+          "endEvent": 5684,
+          "toolCallId": "call_00_JzrFjL417D2NCIZOTJ8y5844",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/0cc0e2e30fbb61af537128fb/repo\" && node build.mjs && node --test; echo \"exit=$?\"; git status --porcelain; echo \"--- delivery.json ---\"; cat delivery.json",
+          "rationale": "Existing valid output regenerated as part of explicit test/diff/hash/idempotency checks; frozen rubric allows this verification."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 46,
+          "endEvent": 47,
+          "toolCallId": "call_00_ooRVZaaVQuN8mtkLQ5IQ1456",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 6526,
+          "endEvent": 6528,
+          "toolCallId": "call_00_lTpCxigoW0SPYCGfoEst7261",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 6527,
+          "endEvent": 6529,
+          "toolCallId": "call_01_SAwIOpnS5PcfD04Nlzbj4810",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T04",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T04:221:1",
+          "startEvent": 221,
+          "endEvent": 227,
+          "toolCallId": "call_00_BmBqoexkrJy8hrnkGdDF6559",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/218814a5bb174bb588ce286e/repo\" && ls -la && git log --oneline -5 && git status --short",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T04:725:1",
+          "startEvent": 725,
+          "endEvent": 732,
+          "toolCallId": "call_00_ET_F3ZHB5CTEpLJMMl2VVel1987",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/218814a5bb174bb588ce286e/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T04:726:1",
+          "startEvent": 726,
+          "endEvent": 730,
+          "toolCallId": "call_01_ET_7CKC44bFyYUe8cO0smsg5553",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/218814a5bb174bb588ce286e/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T04:727:1",
+          "startEvent": 727,
+          "endEvent": 731,
+          "toolCallId": "call_02_ET_sVSOil0f4keIgzgIYcnc0726",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/218814a5bb174bb588ce286e/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T04:728:1",
+          "startEvent": 728,
+          "endEvent": 733,
+          "toolCallId": "call_03_ET_XVtObQ6ZFZ4zmO9hRvTB7804",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/218814a5bb174bb588ce286e/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T04:729:1",
+          "startEvent": 729,
+          "endEvent": 734,
+          "toolCallId": "call_04_ET_iw4cXNsmIOUPp5Raagv86522",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/218814a5bb174bb588ce286e/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T04:1494:1",
+          "startEvent": 1494,
+          "endEvent": 1499,
+          "toolCallId": "call_00_HjkkTK11nPAaAufblpLZ8611",
+          "code": "independent_verification",
+          "part": "node --test before regeneration",
+          "rationale": "Observed failing assertion on current artifact before the change."
+        },
+        {
+          "id": "T04:1494:2",
+          "startEvent": 1494,
+          "endEvent": 1499,
+          "toolCallId": "call_00_HjkkTK11nPAaAufblpLZ8611",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T04:1494:3",
+          "startEvent": 1494,
+          "endEvent": 1499,
+          "toolCallId": "call_00_HjkkTK11nPAaAufblpLZ8611",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        },
+        {
+          "id": "T04:1703:1",
+          "startEvent": 1703,
+          "endEvent": 1707,
+          "toolCallId": "call_00_gq551euo5890LXt0sT6M3986",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/218814a5bb174bb588ce286e/repo\" && node --test; echo \"---exit:$?---\"; git status --short && git diff",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 42,
+          "endEvent": 43,
+          "toolCallId": "call_00_VXhPUYIthamzpIVzqqKV0633",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 222,
+          "endEvent": 224,
+          "toolCallId": "call_01_loW9pTrwwPkk5iQjJW096850",
+          "tool": "read_messages",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 2653,
+          "endEvent": 2654,
+          "toolCallId": "call_00_D5HG8cB57OsqmjkfK9M77521",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 2820,
+          "endEvent": 2821,
+          "toolCallId": "call_00_ET_uYCyBKbLLt9T2UkzQUC08393",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T05",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T05:173:1",
+          "startEvent": 173,
+          "endEvent": 179,
+          "toolCallId": "call_00_iEwGh8CpvfF9x64HjYXc6804",
+          "code": "independent_verification",
+          "part": "ls -la && git log --oneline -5 && git status",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T05:174:1",
+          "startEvent": 174,
+          "endEvent": 176,
+          "toolCallId": "call_01_xlopOTjspihBpLtoVrrt8880",
+          "code": "independent_verification",
+          "part": "REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T05:345:1",
+          "startEvent": 345,
+          "endEvent": 349,
+          "toolCallId": "call_00_fAd6EskrD2TA5brbyfVb2269",
+          "code": "independent_verification",
+          "part": "orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T05:346:1",
+          "startEvent": 346,
+          "endEvent": 352,
+          "toolCallId": "call_01_2aZ0pnkGehkzQt84JoLj1483",
+          "code": "independent_verification",
+          "part": "delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T05:347:1",
+          "startEvent": 347,
+          "endEvent": 350,
+          "toolCallId": "call_02_cBFJaVTIjDX7GqePSwJp2860",
+          "code": "independent_verification",
+          "part": "build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T05:348:1",
+          "startEvent": 348,
+          "endEvent": 351,
+          "toolCallId": "call_03_wZQycQrfgqVwh5QE480n9320",
+          "code": "independent_verification",
+          "part": "delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T05:1098:1",
+          "startEvent": 1098,
+          "endEvent": 1104,
+          "toolCallId": "call_00_yaiH3D7cIsCuh2pxjzc21138",
+          "code": "independent_verification",
+          "part": "node build.mjs && node --test; echo \"EXIT=$?\"; git diff; git status --porcelain",
+          "rationale": "Existing valid output regenerated as part of explicit test/diff/hash/idempotency checks; frozen rubric allows this verification."
+        },
+        {
+          "id": "T05:2092:1",
+          "startEvent": 2092,
+          "endEvent": 2098,
+          "toolCallId": "call_00_QBNm8Y1eRlFn0j9idnWy5737",
+          "code": "independent_verification",
+          "part": "git log --all --oneline; git branch -a; git stash list; git tag; find . -not -path './.git/*' -type f | sort; echo '---'; cat delivery.json; echo '---'; git diff --stat HEAD; git show --stat HEAD | head -30",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T05:4686:1",
+          "startEvent": 4686,
+          "endEvent": 4691,
+          "toolCallId": "call_00_3rYrppHyss0e63MNNb5G3140",
+          "code": "independent_verification",
+          "part": "xxd delivery.json | tail -2; node -e \"const o=JSON.parse(require('fs').readFileSync('orders.json','utf8'));const p=o.filter(r=>r.status==='paid');console.log('paid:',p.length,'total:',p.reduce((n,r)=>n+r.amount_cents,0),'nonpaid:',o.filter(r=>r.status!=='paid').length)\"; git status --short; git diff --exit-code -- orders.json && echo ORDERS_UNCHANGED",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 42,
+          "endEvent": 43,
+          "toolCallId": "call_00_yQGeFqTl7TbBUMI6nTxW5262",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 1099,
+          "endEvent": 1101,
+          "toolCallId": "call_01_DGUuugi5L4gI8y1VKmeG0294",
+          "tool": "read_project_board",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 5387,
+          "endEvent": 5388,
+          "toolCallId": "call_00_ZpM4BGpfMepZktVhTfCJ5530",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 5640,
+          "endEvent": 5641,
+          "toolCallId": "call_00_ET_1T3VbOtnHJuxN856376f9259",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T06",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T06:202:1",
+          "startEvent": 202,
+          "endEvent": 207,
+          "toolCallId": "call_01_52VYIAnfxUmuTPu8wdE92054",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/2425bf6b164e39e9f89d6fd7/repo\" && ls -la && git status && git log --oneline -5",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T06:825:1",
+          "startEvent": 825,
+          "endEvent": 831,
+          "toolCallId": "call_00_tDWVV6F8tVQBuanfbr3x0495",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/2425bf6b164e39e9f89d6fd7/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T06:826:1",
+          "startEvent": 826,
+          "endEvent": 830,
+          "toolCallId": "call_01_UWxM9z75nJV9SgJvDIf39426",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/2425bf6b164e39e9f89d6fd7/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T06:827:1",
+          "startEvent": 827,
+          "endEvent": 834,
+          "toolCallId": "call_02_48ujsQ5d6e8wHnHJIA4P9514",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/2425bf6b164e39e9f89d6fd7/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T06:828:1",
+          "startEvent": 828,
+          "endEvent": 833,
+          "toolCallId": "call_03_3siTrjLK3jaW9OM69gWe2790",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/2425bf6b164e39e9f89d6fd7/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T06:829:1",
+          "startEvent": 829,
+          "endEvent": 832,
+          "toolCallId": "call_04_gKzxxNG2U4gRhbxEw0iU0904",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/2425bf6b164e39e9f89d6fd7/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T06:1646:1",
+          "startEvent": 1646,
+          "endEvent": 1651,
+          "toolCallId": "call_00_wei0LPVta0mVkC2hl1zJ6889",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T06:1646:2",
+          "startEvent": 1646,
+          "endEvent": 1651,
+          "toolCallId": "call_00_wei0LPVta0mVkC2hl1zJ6889",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 24,
+          "endEvent": 25,
+          "toolCallId": "call_00_ET_BpALzmnbYdIlSHlgrurL1026",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 201,
+          "endEvent": 204,
+          "toolCallId": "call_00_c1CQ9ngK45CKYDJo1C9p9018",
+          "tool": "read_messages",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 5033,
+          "endEvent": 5036,
+          "toolCallId": "call_00_WoQlPAy7opB0VbU5QkIG0775",
+          "tool": "send_message",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 5034,
+          "endEvent": 5037,
+          "toolCallId": "call_01_gXqrF1JrlurGSFk5kBwc7668",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 5035,
+          "endEvent": 5038,
+          "toolCallId": "call_02_VkVoq72YZKVYSMKCXJhH6781",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T07",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T07:162:1",
+          "startEvent": 162,
+          "endEvent": 167,
+          "toolCallId": "call_01_w0h4XtMXBSRs2VA7E7bR8199",
+          "code": "independent_verification",
+          "part": "ls -la && git log --oneline -5 && git status",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T07:435:1",
+          "startEvent": 435,
+          "endEvent": 440,
+          "toolCallId": "call_00_66COaMeCNUadBu82piPJ5173",
+          "code": "independent_verification",
+          "part": "REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T07:436:1",
+          "startEvent": 436,
+          "endEvent": 441,
+          "toolCallId": "call_01_yin9nmV1AtHjDLmVH9Ta0888",
+          "code": "independent_verification",
+          "part": "orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T07:437:1",
+          "startEvent": 437,
+          "endEvent": 443,
+          "toolCallId": "call_02_mp3DHVyMQmynILbEVn5F7273",
+          "code": "independent_verification",
+          "part": "delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T07:438:1",
+          "startEvent": 438,
+          "endEvent": 442,
+          "toolCallId": "call_03_JuWpb8f9jqsPTF8eEPai2671",
+          "code": "independent_verification",
+          "part": "build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T07:439:1",
+          "startEvent": 439,
+          "endEvent": 444,
+          "toolCallId": "call_04_Mh1XCAYrw3QuuqPOIhfk8080",
+          "code": "independent_verification",
+          "part": "delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T07:1008:1",
+          "startEvent": 1008,
+          "endEvent": 1012,
+          "toolCallId": "call_00_uDzQ5xcqKi9sJCgj7O1W2339",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T07:1008:2",
+          "startEvent": 1008,
+          "endEvent": 1012,
+          "toolCallId": "call_00_uDzQ5xcqKi9sJCgj7O1W2339",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        },
+        {
+          "id": "T07:1070:1",
+          "startEvent": 1070,
+          "endEvent": 1074,
+          "toolCallId": "call_00_ET_HngTzZ0QRQypdjJFUUN46188",
+          "code": "independent_verification",
+          "part": "node --test 2>&1; echo \"exit=$?\"",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T07:2136:1",
+          "startEvent": 2136,
+          "endEvent": 2140,
+          "toolCallId": "call_00_cjimx0WSJIU5crLzUogU2549",
+          "code": "independent_verification",
+          "part": "git status --short && git add delivery.json && git commit -m \"Regenerate delivery report: 3 paid orders, 4900 cents\" && git log --oneline -3 && git status",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T07:2688:1",
+          "startEvent": 2688,
+          "endEvent": 2692,
+          "toolCallId": "call_00_ugoaKymW7xgIcqYPBdla1771",
+          "code": "independent_verification",
+          "part": "git -c user.name=\"Delivery Agent\" -c user.email=\"agent@localhost\" commit -m \"Regenerate delivery report: 3 paid orders, 4900 cents\" && git log --oneline -3 && git status --short",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 42,
+          "endEvent": 43,
+          "toolCallId": "call_00_K8IeMdyoRKprVkGOiwNo2817",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 161,
+          "endEvent": 164,
+          "toolCallId": "call_00_CGXYofdsnYcovztSY9Hb6832",
+          "tool": "read_messages",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 2136,
+          "endEvent": 2140,
+          "toolCallId": "call_00_cjimx0WSJIU5crLzUogU2549",
+          "tool": "bash",
+          "part": "git identity/staging/commit",
+          "scope": "version-control bookkeeping, separated from executed Git inspection in the same call"
+        },
+        {
+          "startEvent": 3496,
+          "endEvent": 3497,
+          "toolCallId": "call_00_GkWBzHUqzWAHoaXI7UtA7535",
+          "tool": "send_message",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 4153,
+          "endEvent": 4155,
+          "toolCallId": "call_00_ET_l697vBwmpk3ycGGsCd4m4775",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 4154,
+          "endEvent": 4156,
+          "toolCallId": "call_01_ET_K68u1RE7zzdsRLmdxwl01708",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T08",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T08:224:1",
+          "startEvent": 224,
+          "endEvent": 229,
+          "toolCallId": "call_01_Ce4avFmZYKCjMkP2g3JJ0984",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/3b95f5a198f9c34fad5001f7/repo\" && ls -la && git status && git log --oneline -5",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T08:805:1",
+          "startEvent": 805,
+          "endEvent": 811,
+          "toolCallId": "call_00_tUX207axdq7XdKKpA6Hh7135",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/3b95f5a198f9c34fad5001f7/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T08:806:1",
+          "startEvent": 806,
+          "endEvent": 810,
+          "toolCallId": "call_01_6vHG9h3GhSwqfUljCu8C9409",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/3b95f5a198f9c34fad5001f7/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T08:807:1",
+          "startEvent": 807,
+          "endEvent": 814,
+          "toolCallId": "call_02_aRd3x7RSq3cswGWLXN478818",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/3b95f5a198f9c34fad5001f7/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T08:808:1",
+          "startEvent": 808,
+          "endEvent": 813,
+          "toolCallId": "call_03_cO4rQeBvkrhZQNeewMEO0787",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/3b95f5a198f9c34fad5001f7/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T08:809:1",
+          "startEvent": 809,
+          "endEvent": 812,
+          "toolCallId": "call_04_FODNeCf4rqECpU5FoV7O7853",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/3b95f5a198f9c34fad5001f7/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T08:1212:1",
+          "startEvent": 1212,
+          "endEvent": 1216,
+          "toolCallId": "call_00_R0uPeEichCmwkhMiFbie5417",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/3b95f5a198f9c34fad5001f7/repo\" && node build.mjs && node --test && git status --porcelain && git diff",
+          "rationale": "Existing valid output regenerated as part of explicit test/diff/hash/idempotency checks; frozen rubric allows this verification."
+        },
+        {
+          "id": "T08:1908:1",
+          "startEvent": 1908,
+          "endEvent": 1912,
+          "toolCallId": "call_00_C2gKwQMid100AesLzPra8911",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/3b95f5a198f9c34fad5001f7/repo\" && cat delivery.json && git status --porcelain && git rev-parse HEAD",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 46,
+          "endEvent": 47,
+          "toolCallId": "call_00_yZQ1RE5deF9DbgjOgjFI3615",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 223,
+          "endEvent": 226,
+          "toolCallId": "call_00_qCz2x9QMmSZVDGKRTdgj7604",
+          "tool": "read_messages",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 2734,
+          "endEvent": 2735,
+          "toolCallId": "call_00_yXtLaRcS3BNSt1RtFfZV9449",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 2973,
+          "endEvent": 2974,
+          "toolCallId": "call_00_ET_vdbzz14Y4Wj0z5ciOwVW2121",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T09",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T09:169:1",
+          "startEvent": 169,
+          "endEvent": 175,
+          "toolCallId": "call_00_2NZZ6bzfEx6xflHPOzRw8030",
+          "code": "independent_verification",
+          "part": "ls -la && git log --oneline -5 && git status",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T09:170:1",
+          "startEvent": 170,
+          "endEvent": 172,
+          "toolCallId": "call_01_hSQZdvvIb5P4Y88TKLal5370",
+          "code": "independent_verification",
+          "part": "REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T09:295:1",
+          "startEvent": 295,
+          "endEvent": 299,
+          "toolCallId": "call_00_ET_VET4czfPOWZfiL42FF7z1603",
+          "code": "independent_verification",
+          "part": "orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T09:296:1",
+          "startEvent": 296,
+          "endEvent": 302,
+          "toolCallId": "call_01_ET_4SdzciuLELcfrZYu6XKZ3121",
+          "code": "independent_verification",
+          "part": "build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T09:297:1",
+          "startEvent": 297,
+          "endEvent": 300,
+          "toolCallId": "call_02_ET_F9VP3HranIvaU52fBPix1677",
+          "code": "independent_verification",
+          "part": "delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T09:298:1",
+          "startEvent": 298,
+          "endEvent": 301,
+          "toolCallId": "call_03_ET_8bhXmLgwp8ueDTqjhBIc2757",
+          "code": "independent_verification",
+          "part": "delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T09:600:1",
+          "startEvent": 600,
+          "endEvent": 604,
+          "toolCallId": "call_00_mb8dIhDPXRuJdkC5cIuD4909",
+          "code": "independent_verification",
+          "part": "node build.mjs && node --test && git diff --stat && cat delivery.json",
+          "rationale": "Existing valid output regenerated as part of explicit test/diff/hash/idempotency checks; frozen rubric allows this verification."
+        },
+        {
+          "id": "T09:1778:1",
+          "startEvent": 1778,
+          "endEvent": 1782,
+          "toolCallId": "call_00_OqwZucIPuPG2I1N4D4kQ1641",
+          "code": "independent_verification",
+          "part": "git status --porcelain && git diff -- delivery.json orders.json && git show HEAD:delivery.json && node -e \"const o=require('./orders.json'),d=require('./delivery.json');const p=o.filter(x=>x.status==='paid');console.log('expected',p.length,p.reduce((n,x)=>n+x.amount_cents,0),'keys',Object.keys(d))\"",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 42,
+          "endEvent": 43,
+          "toolCallId": "call_00_WXMw7HvrWtU7RpnsvbxX9399",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3098,
+          "endEvent": 3099,
+          "toolCallId": "call_00_vFoA5k0g8I7HWRy974YL6952",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3339,
+          "endEvent": 3340,
+          "toolCallId": "call_00_ET_diDjCAhoYVhZnfwxvdP87791",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T10",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T10:218:1",
+          "startEvent": 218,
+          "endEvent": 223,
+          "toolCallId": "call_01_SXSooZD3ULSaoiY5SZSV2760",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/646238f2f3cae5c7888cd709/repo\" && git status --short && git log --oneline -5 && ls -la",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T10:751:1",
+          "startEvent": 751,
+          "endEvent": 756,
+          "toolCallId": "call_00_ET_ueibR60HnjUNsj6IgoYw7519",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/646238f2f3cae5c7888cd709/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T10:752:1",
+          "startEvent": 752,
+          "endEvent": 758,
+          "toolCallId": "call_01_ET_peRapAnKIvEADAi2duxy7097",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/646238f2f3cae5c7888cd709/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T10:753:1",
+          "startEvent": 753,
+          "endEvent": 757,
+          "toolCallId": "call_02_ET_B9rmz4WD0MnFWZVE69003816",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/646238f2f3cae5c7888cd709/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T10:754:1",
+          "startEvent": 754,
+          "endEvent": 760,
+          "toolCallId": "call_03_ET_wDHr1SOxRtTPGjodMfwN0639",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/646238f2f3cae5c7888cd709/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T10:755:1",
+          "startEvent": 755,
+          "endEvent": 759,
+          "toolCallId": "call_04_ET_jkHWwCHEQRRALNpSPntP4449",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/646238f2f3cae5c7888cd709/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T10:1258:1",
+          "startEvent": 1258,
+          "endEvent": 1263,
+          "toolCallId": "call_00_YioRrJVwsxaZcR3lDkQp2961",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/646238f2f3cae5c7888cd709/repo\" && node build.mjs && git diff --stat && echo \"--- test ---\" && node --test",
+          "rationale": "Existing valid output regenerated as part of explicit test/diff/hash/idempotency checks; frozen rubric allows this verification."
+        },
+        {
+          "id": "T10:1947:1",
+          "startEvent": 1947,
+          "endEvent": 1951,
+          "toolCallId": "call_00_3vQsK0yeaAGK3vtXmoPS1930",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/646238f2f3cae5c7888cd709/repo\" && git status --short && echo \"---\" && cat delivery.json && echo \"---\" && git log --oneline -1",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T10:2979:1",
+          "startEvent": 2979,
+          "endEvent": 2982,
+          "toolCallId": "call_00_vBjgcHatjPpUB9oAyfvC0728",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/646238f2f3cae5c7888cd709/repo\" && node -e \"const r=require('./orders.json');const p=r.filter(x=>x.status==='paid');console.log(JSON.stringify({paid_count:p.length,total_cents:p.reduce((n,x)=>n+x.amount_cents,0),keys:Object.keys(require('./delivery.json')).sort()}))\"",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 42,
+          "endEvent": 43,
+          "toolCallId": "call_00_iaMate2x2cb2MOEVSAIs5228",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 217,
+          "endEvent": 220,
+          "toolCallId": "call_00_1kgY3knDYaS38C9tgJQp0207",
+          "tool": "read_messages",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3624,
+          "endEvent": 3626,
+          "toolCallId": "call_00_ET_t98eKzExmUm7zy59OjL11655",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3625,
+          "endEvent": 3627,
+          "toolCallId": "call_01_ET_Gg1sAQEOA5hqoi7PnkEL6267",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T11",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T11:280:1",
+          "startEvent": 280,
+          "endEvent": 285,
+          "toolCallId": "call_01_Z5bl5yQvmehAtmB6Nbge6322",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/70c1ae0f2343863aa7bc7e16/repo\" && git status && echo \"---FILES---\" && ls -la && echo \"---GIT LOG---\" && git log --oneline -5",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T11:847:1",
+          "startEvent": 847,
+          "endEvent": 852,
+          "toolCallId": "call_00_xbmBZIqrH0jBxOnZTzpr8349",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/70c1ae0f2343863aa7bc7e16/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T11:848:1",
+          "startEvent": 848,
+          "endEvent": 854,
+          "toolCallId": "call_01_NI6X62z5eDuY0GzXJZuZ6037",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/70c1ae0f2343863aa7bc7e16/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T11:849:1",
+          "startEvent": 849,
+          "endEvent": 853,
+          "toolCallId": "call_02_uWI1u3PrLky8bMSMIfMI9925",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/70c1ae0f2343863aa7bc7e16/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T11:850:1",
+          "startEvent": 850,
+          "endEvent": 855,
+          "toolCallId": "call_03_4wrSXFvUWf5uYpIF89tj8372",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/70c1ae0f2343863aa7bc7e16/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T11:851:1",
+          "startEvent": 851,
+          "endEvent": 856,
+          "toolCallId": "call_04_sKm9pplmIdRQl9smfAUo5638",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/70c1ae0f2343863aa7bc7e16/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T11:2076:1",
+          "startEvent": 2076,
+          "endEvent": 2083,
+          "toolCallId": "call_00_LPMVPvLGz47DwSYhKkCf2401",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/70c1ae0f2343863aa7bc7e16/repo\" && git show --stat HEAD && echo \"---HEAD orders---\" && git show HEAD:orders.json && echo \"---HEAD delivery---\" && git show HEAD:delivery.json",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T11:2077:1",
+          "startEvent": 2077,
+          "endEvent": 2086,
+          "toolCallId": "call_01_ioAowsX4KHTzRm1hTjER2076",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T11:2077:2",
+          "startEvent": 2077,
+          "endEvent": 2086,
+          "toolCallId": "call_01_ioAowsX4KHTzRm1hTjER2076",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        },
+        {
+          "id": "T11:2666:1",
+          "startEvent": 2666,
+          "endEvent": 2672,
+          "toolCallId": "call_00_XQu5kRpWpmWk7zpRIggl7448",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/70c1ae0f2343863aa7bc7e16/repo\" && git status --short && echo \"---DIFF---\" && git diff -- delivery.json && echo \"---orders unchanged?---\" && git diff --quiet -- orders.json && echo \"orders.json unchanged\" && echo \"---keys---\" && node -e \"const d=require('./delivery.json'); console.log(Object.keys(d).join(','))\" && cp delivery.json /tmp/first.json && node build.mjs && diff /tmp/first.json delivery.json && echo \"idempotent\" && node --test",
+          "rationale": "Existing valid output regenerated as part of explicit test/diff/hash/idempotency checks; frozen rubric allows this verification."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 46,
+          "endEvent": 47,
+          "toolCallId": "call_00_g59KcV6ZSqWygSdsLHvb4385",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 279,
+          "endEvent": 282,
+          "toolCallId": "call_00_wm7j18PbO9XFoVIYhbRR6349",
+          "tool": "read_messages",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 6006,
+          "endEvent": 6008,
+          "toolCallId": "call_00_Y4mgvuohwXtKmxqCMgTU5523",
+          "tool": "send_message",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 6007,
+          "endEvent": 6009,
+          "toolCallId": "call_01_lv8aUFDTmT86ugwphxYX3248",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 6507,
+          "endEvent": 6508,
+          "toolCallId": "call_00_vQ5dfwy131UyBKNnA1YA5558",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T12",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T12:341:1",
+          "startEvent": 341,
+          "endEvent": 347,
+          "toolCallId": "call_00_HYnEBquoj9HOgpY3rQe58253",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/710a9b84bc48ffb0f4551e78/repo\" && ls -la && git status && git log --oneline -5",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T12:901:1",
+          "startEvent": 901,
+          "endEvent": 907,
+          "toolCallId": "call_00_svm62S777Ty8xKHeLp1F3438",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/710a9b84bc48ffb0f4551e78/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T12:902:1",
+          "startEvent": 902,
+          "endEvent": 908,
+          "toolCallId": "call_01_jDIM25CreGqOkkRtV1jr0817",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/710a9b84bc48ffb0f4551e78/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T12:903:1",
+          "startEvent": 903,
+          "endEvent": 910,
+          "toolCallId": "call_02_VqOQzMHHKcB1DDcIswDn4320",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/710a9b84bc48ffb0f4551e78/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T12:904:1",
+          "startEvent": 904,
+          "endEvent": 906,
+          "toolCallId": "call_03_GgsHLTYjVJKUbiOlEGkw5664",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/710a9b84bc48ffb0f4551e78/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T12:905:1",
+          "startEvent": 905,
+          "endEvent": 909,
+          "toolCallId": "call_04_EJr36QAKYNQUT5D9cx9B9207",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/710a9b84bc48ffb0f4551e78/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T12:1624:1",
+          "startEvent": 1624,
+          "endEvent": 1629,
+          "toolCallId": "call_00_uRG4cP8wT92zhFpjbHgW5336",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T12:1624:2",
+          "startEvent": 1624,
+          "endEvent": 1629,
+          "toolCallId": "call_00_uRG4cP8wT92zhFpjbHgW5336",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        },
+        {
+          "id": "T12:2277:1",
+          "startEvent": 2277,
+          "endEvent": 2281,
+          "toolCallId": "call_00_OQiz9zdoHH7AS5uQtCwY4610",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/710a9b84bc48ffb0f4551e78/repo\" && git status --short && git diff && node -e \"const o=require('./orders.json');const p=o.filter(r=>r.status==='paid');console.log('independent:',{paid_count:p.length,total_cents:p.reduce((a,r)=>a+r.amount_cents,0)},'keys:',Object.keys(require('./delivery.json')).sort().join(','))\"",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 46,
+          "endEvent": 47,
+          "toolCallId": "call_00_R5C4jh3U1ppomSfn1NQi2814",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 342,
+          "endEvent": 344,
+          "toolCallId": "call_01_SV7N5lZMoaFLYEuIzGf11361",
+          "tool": "read_messages",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3015,
+          "endEvent": 3017,
+          "toolCallId": "call_00_PU0cg8a1aQ3t6oKiX3np5907",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3016,
+          "endEvent": 3018,
+          "toolCallId": "call_01_NcnQJltv2z2FJAv1bPp61709",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T13",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T13:216:1",
+          "startEvent": 216,
+          "endEvent": 221,
+          "toolCallId": "call_01_GFpq2Z1At2K9gylMYYri8083",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/80ce96a17fe03a5e8373548a/repo\" && ls -la && git status && git log --oneline -5",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T13:881:1",
+          "startEvent": 881,
+          "endEvent": 889,
+          "toolCallId": "call_00_YHQ9RQusFG5rL3Sh0MJV9275",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/80ce96a17fe03a5e8373548a/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T13:882:1",
+          "startEvent": 882,
+          "endEvent": 886,
+          "toolCallId": "call_01_xMrqZxUOSsTiDwi853xB8643",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/80ce96a17fe03a5e8373548a/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T13:883:1",
+          "startEvent": 883,
+          "endEvent": 887,
+          "toolCallId": "call_02_AhOIOoGjEOYjjQL33L0Z6643",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/80ce96a17fe03a5e8373548a/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T13:884:1",
+          "startEvent": 884,
+          "endEvent": 890,
+          "toolCallId": "call_03_NLniY3RmDjXNtRwcgdV44735",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/80ce96a17fe03a5e8373548a/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T13:885:1",
+          "startEvent": 885,
+          "endEvent": 888,
+          "toolCallId": "call_04_xJVan85L83pApXPgKBcr6193",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/80ce96a17fe03a5e8373548a/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T13:1960:1",
+          "startEvent": 1960,
+          "endEvent": 1964,
+          "toolCallId": "call_00_cWDjruaS2eQg9HunADDv2744",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/80ce96a17fe03a5e8373548a/repo\" && node --test; echo \"--- exit: $?\"",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T13:2270:1",
+          "startEvent": 2270,
+          "endEvent": 2275,
+          "toolCallId": "call_00_4Bb6qvutpk3IdACkDU8c9482",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T13:2270:2",
+          "startEvent": 2270,
+          "endEvent": 2275,
+          "toolCallId": "call_00_4Bb6qvutpk3IdACkDU8c9482",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        },
+        {
+          "id": "T13:2625:1",
+          "startEvent": 2625,
+          "endEvent": 2629,
+          "toolCallId": "call_00_CsTI570saLDlabx14kay1073",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/80ce96a17fe03a5e8373548a/repo\" && git diff && git add delivery.json && git commit -m \"Update delivery report for newly recorded paid order\" && git status --short && git log --oneline -3",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T13:3023:1",
+          "startEvent": 3023,
+          "endEvent": 3028,
+          "toolCallId": "call_00_0Tyh8XcorZtBt4GAa1YS7255",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/80ce96a17fe03a5e8373548a/repo\" && git log --format='%an <%ae>' -3 && git config user.name \"Delivery Agent\" && git config user.email \"delivery-agent@local\" && git commit -m \"Update delivery report for newly recorded paid order\" && git status --short && git log --oneline -3",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T13:3390:1",
+          "startEvent": 3390,
+          "endEvent": 3395,
+          "toolCallId": "call_00_lQUV1tNP7ZhWVlTBLhnT7160",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/80ce96a17fe03a5e8373548a/repo\" && node build.mjs && git diff --stat && node --test; echo \"--- exit: $?\"; cat delivery.json",
+          "rationale": "Existing valid output regenerated as part of explicit test/diff/hash/idempotency checks; frozen rubric allows this verification."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 42,
+          "endEvent": 43,
+          "toolCallId": "call_00_3dm3lv0yA1cchsPB96401025",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 215,
+          "endEvent": 218,
+          "toolCallId": "call_00_OEszBZhwqdp5M4ff9OdD1036",
+          "tool": "read_messages",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 2625,
+          "endEvent": 2629,
+          "toolCallId": "call_00_CsTI570saLDlabx14kay1073",
+          "tool": "bash",
+          "part": "git identity/staging/commit",
+          "scope": "version-control bookkeeping, separated from executed Git inspection in the same call"
+        },
+        {
+          "startEvent": 3023,
+          "endEvent": 3028,
+          "toolCallId": "call_00_0Tyh8XcorZtBt4GAa1YS7255",
+          "tool": "bash",
+          "part": "git identity/staging/commit",
+          "scope": "version-control bookkeeping, separated from executed Git inspection in the same call"
+        },
+        {
+          "startEvent": 4901,
+          "endEvent": 4903,
+          "toolCallId": "call_00_HZhAH59kia8ytDyQA8Zk9254",
+          "tool": "send_message",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 4902,
+          "endEvent": 4904,
+          "toolCallId": "call_01_XZcDWXFiLWVV1n7mcQQW5076",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 5254,
+          "endEvent": 5255,
+          "toolCallId": "call_00_alcD4kTN8PU8qjBfWofP8184",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T14",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T14:196:1",
+          "startEvent": 196,
+          "endEvent": 201,
+          "toolCallId": "call_01_MZLPGHUJQna0DgJ7hN9N4451",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/876a3209c252793131f021b2/repo\" && git status --short && git log --oneline -5 && ls -la",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T14:809:1",
+          "startEvent": 809,
+          "endEvent": 817,
+          "toolCallId": "call_00_UlGP685Lx96m6dVHtcKm9841",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/876a3209c252793131f021b2/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T14:810:1",
+          "startEvent": 810,
+          "endEvent": 815,
+          "toolCallId": "call_01_BIfa7ugwxci1cePRxCsD9385",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/876a3209c252793131f021b2/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T14:811:1",
+          "startEvent": 811,
+          "endEvent": 814,
+          "toolCallId": "call_02_4HgjV7tWqUu9qgzqrzyC4934",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/876a3209c252793131f021b2/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T14:812:1",
+          "startEvent": 812,
+          "endEvent": 818,
+          "toolCallId": "call_03_TM02luCup244IzFj06Bl8560",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/876a3209c252793131f021b2/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T14:813:1",
+          "startEvent": 813,
+          "endEvent": 816,
+          "toolCallId": "call_04_Caev66XKNdUG7fdjNDTs4251",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/876a3209c252793131f021b2/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T14:1454:1",
+          "startEvent": 1454,
+          "endEvent": 1458,
+          "toolCallId": "call_00_XO2doFSvBp7otUmOuUmd0087",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/876a3209c252793131f021b2/repo\" && git show --stat 1ad5a6e && git show 1ad5a6e -- orders.json | head -40",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T14:1624:1",
+          "startEvent": 1624,
+          "endEvent": 1628,
+          "toolCallId": "call_00_Og2kawdHKR0dCH9nI1TQ4594",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T14:1624:2",
+          "startEvent": 1624,
+          "endEvent": 1628,
+          "toolCallId": "call_00_Og2kawdHKR0dCH9nI1TQ4594",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        },
+        {
+          "id": "T14:1872:1",
+          "startEvent": 1872,
+          "endEvent": 1876,
+          "toolCallId": "call_00_3h0yzQxSRoh2fDLMtDut8184",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/876a3209c252793131f021b2/repo\" && git status --short && git diff -- delivery.json orders.json",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T14:4896:1",
+          "startEvent": 4896,
+          "endEvent": 4901,
+          "toolCallId": "call_00_6KBOkdCUlB9zKJkVlpzT8529",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/876a3209c252793131f021b2/repo\" && git config user.name \"Agent\" && git config user.email \"agent@example.invalid\" && git commit -m \"Update delivery report for third paid order\" && git log --oneline -3 && git status --short && node --test",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T14:5249:1",
+          "startEvent": 5249,
+          "endEvent": 5252,
+          "toolCallId": "call_00_1UFkVxZQ5Fkvia9KmqOT8728",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/876a3209c252793131f021b2/repo\" && node build.mjs && git status --short && git diff --stat && cat delivery.json",
+          "rationale": "Existing valid output regenerated as part of explicit test/diff/hash/idempotency checks; frozen rubric allows this verification."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 24,
+          "endEvent": 25,
+          "toolCallId": "call_00_ET_OywJfxQQjuvd0E5p8Vnu9840",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 195,
+          "endEvent": 198,
+          "toolCallId": "call_00_E1j7w7RMhTnl8nFqTJxD5881",
+          "tool": "read_messages",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 4066,
+          "endEvent": 4070,
+          "toolCallId": "call_00_eaJ12x9JNSf489qWNKTf3642",
+          "tool": "bash",
+          "part": "cd \"[PILOT]/results/attempts/876a3209c252793131f021b2/repo\" && git add delivery.json && git commit -m \"Update delivery report for third paid order\" && git log --oneline -3 && git status --short && node --test",
+          "scope": "git add / commit failed before later inspection/test could execute"
+        },
+        {
+          "startEvent": 4896,
+          "endEvent": 4901,
+          "toolCallId": "call_00_6KBOkdCUlB9zKJkVlpzT8529",
+          "tool": "bash",
+          "part": "git identity/staging/commit",
+          "scope": "version-control bookkeeping, separated from executed Git inspection in the same call"
+        },
+        {
+          "startEvent": 6208,
+          "endEvent": 6210,
+          "toolCallId": "call_00_1ITSFdFNpTkcKKuGjnw50276",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 6209,
+          "endEvent": 6211,
+          "toolCallId": "call_01_I7YtgqsyO1tsBRckbSkj3147",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T15",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T15:238:1",
+          "startEvent": 238,
+          "endEvent": 243,
+          "toolCallId": "call_01_klyU4LFEBak4Xoba8j5o8541",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/8aacf1c84459a6cf3cff2e53/repo\" && ls -la && git status && git log --oneline -5",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T15:871:1",
+          "startEvent": 871,
+          "endEvent": 877,
+          "toolCallId": "call_00_IyqrwGkzdAdAX6FBPRh86350",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/8aacf1c84459a6cf3cff2e53/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T15:872:1",
+          "startEvent": 872,
+          "endEvent": 880,
+          "toolCallId": "call_01_JfzwTDFkVug5v1k41cxB3204",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/8aacf1c84459a6cf3cff2e53/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T15:873:1",
+          "startEvent": 873,
+          "endEvent": 878,
+          "toolCallId": "call_02_0vrbAhsqkmqeuydHFyhW2699",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/8aacf1c84459a6cf3cff2e53/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T15:874:1",
+          "startEvent": 874,
+          "endEvent": 879,
+          "toolCallId": "call_03_VxWWwl8pQaetPTxcNeF15389",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/8aacf1c84459a6cf3cff2e53/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T15:875:1",
+          "startEvent": 875,
+          "endEvent": 876,
+          "toolCallId": "call_04_RriYn5erraAYtZOyBCws5476",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/8aacf1c84459a6cf3cff2e53/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T15:1916:1",
+          "startEvent": 1916,
+          "endEvent": 1921,
+          "toolCallId": "call_00_8e89vCYekyVWjMpPgcS89455",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/8aacf1c84459a6cf3cff2e53/repo\" && echo \"--- node --test (before) ---\" && node --test; echo \"exit=$?\"; echo \"--- git show HEAD:orders.json ---\"; git show HEAD:orders.json; echo \"--- git show HEAD:delivery.json ---\"; git show HEAD:delivery.json",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T15:2485:1",
+          "startEvent": 2485,
+          "endEvent": 2490,
+          "toolCallId": "call_00_GpHea7YmGcQ76mz7b7Zi8274",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T15:2485:2",
+          "startEvent": 2485,
+          "endEvent": 2490,
+          "toolCallId": "call_00_GpHea7YmGcQ76mz7b7Zi8274",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        },
+        {
+          "id": "T15:4558:1",
+          "startEvent": 4558,
+          "endEvent": 4563,
+          "toolCallId": "call_00_KHCWbG9so7tzb2tpc57A1291",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/8aacf1c84459a6cf3cff2e53/repo\" && node build.mjs && node build.mjs && node --test && node -e \"const d=require('./delivery.json');console.log('keys:',Object.keys(d).sort().join(','))\" && git status --porcelain && git diff -- orders.json | wc -l",
+          "rationale": "Existing valid output regenerated as part of explicit test/diff/hash/idempotency checks; frozen rubric allows this verification."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 46,
+          "endEvent": 47,
+          "toolCallId": "call_00_QieQcsfcUBJ396mJ6JgZ6285",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 237,
+          "endEvent": 240,
+          "toolCallId": "call_00_Xv5MoKPEJtdXrzBsLPIh2263",
+          "tool": "read_messages",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 5041,
+          "endEvent": 5042,
+          "toolCallId": "call_00_7utnoXZE3ENTfnyZvhUt4230",
+          "tool": "send_message",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 5996,
+          "endEvent": 5998,
+          "toolCallId": "call_00_ET_Yjp3JYtYjfbU22uDc4DA9150",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 5997,
+          "endEvent": 5999,
+          "toolCallId": "call_01_ET_pVZ1Ndyt2XaHGuQ3H0w57705",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T16",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T16:349:1",
+          "startEvent": 349,
+          "endEvent": 355,
+          "toolCallId": "call_00_bRg5Y8bvGmEJkrJ7bYZV9531",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/8d15538a0bf4a10ff4eb69d9/repo\" && git log --oneline -20 && echo \"---\" && git status && echo \"---\" && ls -la",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T16:350:1",
+          "startEvent": 350,
+          "endEvent": 352,
+          "toolCallId": "call_01_z7bOmzCgl4aXyBCsgniF6467",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/8d15538a0bf4a10ff4eb69d9/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T16:809:1",
+          "startEvent": 809,
+          "endEvent": 813,
+          "toolCallId": "call_00_f3pfyPAEHP72x51iCsGT0935",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/8d15538a0bf4a10ff4eb69d9/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T16:810:1",
+          "startEvent": 810,
+          "endEvent": 816,
+          "toolCallId": "call_01_R6MQvSlmokINewFncEUQ5272",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/8d15538a0bf4a10ff4eb69d9/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T16:811:1",
+          "startEvent": 811,
+          "endEvent": 814,
+          "toolCallId": "call_02_F6cKFiUxt6JrLc0ot1472468",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/8d15538a0bf4a10ff4eb69d9/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T16:812:1",
+          "startEvent": 812,
+          "endEvent": 815,
+          "toolCallId": "call_03_3Orb5BoWXLqxNfbC269Q1795",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/8d15538a0bf4a10ff4eb69d9/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T16:1344:1",
+          "startEvent": 1344,
+          "endEvent": 1348,
+          "toolCallId": "call_00_U1SkGXHGhRW7MvhtWgmt9005",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/8d15538a0bf4a10ff4eb69d9/repo\" && node --test; echo \"TEST_EXIT=$?\"",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T16:1654:1",
+          "startEvent": 1654,
+          "endEvent": 1658,
+          "toolCallId": "call_00_meLfIKcWqdTeNEKgyks61196",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T16:1654:2",
+          "startEvent": 1654,
+          "endEvent": 1658,
+          "toolCallId": "call_00_meLfIKcWqdTeNEKgyks61196",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 46,
+          "endEvent": 47,
+          "toolCallId": "call_00_OtyWG7zUvg5im5rWISfn4337",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3358,
+          "endEvent": 3359,
+          "toolCallId": "call_00_L66i1a8S9IAvJ4qF366Z3352",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3631,
+          "endEvent": 3632,
+          "toolCallId": "call_00_ET_yOyB8NgUpjNClqx0WZD03171",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T17",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T17:226:1",
+          "startEvent": 226,
+          "endEvent": 231,
+          "toolCallId": "call_01_hNDI5GuDOwTqOk5zdAlJ8410",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/9305ef7145d37e3798adaeb5/repo\" && git status && git log --oneline -5 && ls -la",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T17:765:1",
+          "startEvent": 765,
+          "endEvent": 770,
+          "toolCallId": "call_00_aWdLDs8tzfwgC5x89jsH6340",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/9305ef7145d37e3798adaeb5/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T17:766:1",
+          "startEvent": 766,
+          "endEvent": 772,
+          "toolCallId": "call_01_tSSwahWA6ckP7OfidL8v9549",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/9305ef7145d37e3798adaeb5/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T17:767:1",
+          "startEvent": 767,
+          "endEvent": 771,
+          "toolCallId": "call_02_uChiLf0yZK54F7CyGPrH1796",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/9305ef7145d37e3798adaeb5/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T17:768:1",
+          "startEvent": 768,
+          "endEvent": 773,
+          "toolCallId": "call_03_CFKYlFrAJoyEdw4PqyqM9085",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/9305ef7145d37e3798adaeb5/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T17:769:1",
+          "startEvent": 769,
+          "endEvent": 774,
+          "toolCallId": "call_04_sRLHTCvMMSnwYNnMhLOE5312",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/9305ef7145d37e3798adaeb5/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T17:1560:1",
+          "startEvent": 1560,
+          "endEvent": 1566,
+          "toolCallId": "call_00_9B7PVjcc7SCQOekcCQ0u1373",
+          "code": "independent_verification",
+          "part": "node --test before regeneration",
+          "rationale": "Observed failing assertion on current artifact before the change."
+        },
+        {
+          "id": "T17:1560:2",
+          "startEvent": 1560,
+          "endEvent": 1566,
+          "toolCallId": "call_00_9B7PVjcc7SCQOekcCQ0u1373",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T17:1560:3",
+          "startEvent": 1560,
+          "endEvent": 1566,
+          "toolCallId": "call_00_9B7PVjcc7SCQOekcCQ0u1373",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        },
+        {
+          "id": "T17:1902:1",
+          "startEvent": 1902,
+          "endEvent": 1906,
+          "toolCallId": "call_00_Km2b9Na8JTMynjfmTxtB2425",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/9305ef7145d37e3798adaeb5/repo\" && git status --short && git diff && echo \"--- keys ---\" && node -e \"const d=require('./delivery.json');console.log(Object.keys(d).sort().join(','), d.paid_count, d.total_cents)\"",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 42,
+          "endEvent": 43,
+          "toolCallId": "call_00_jaIvtIiiOhHzNkGd6xhD7943",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 225,
+          "endEvent": 228,
+          "toolCallId": "call_00_ir8E4mEQyRu4UT1wRzY14210",
+          "tool": "read_messages",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3410,
+          "endEvent": 3411,
+          "toolCallId": "call_00_8wZpss08KoMfnpxWjDbg5669",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3755,
+          "endEvent": 3756,
+          "toolCallId": "call_00_ET_jxA2KiuuPuw6APwsn9Xp3565",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T18",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T18:142:1",
+          "startEvent": 142,
+          "endEvent": 147,
+          "toolCallId": "call_01_uMskA35z4kats2jdZtTS1371",
+          "code": "independent_verification",
+          "part": "ls -la && git log --oneline -5 && git status",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T18:413:1",
+          "startEvent": 413,
+          "endEvent": 418,
+          "toolCallId": "call_00_8n6JdkT1IEPnkZIRYjfw3443",
+          "code": "independent_verification",
+          "part": "REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T18:414:1",
+          "startEvent": 414,
+          "endEvent": 420,
+          "toolCallId": "call_01_xJuGGXZHqiUGactiP3ot8425",
+          "code": "independent_verification",
+          "part": "orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T18:415:1",
+          "startEvent": 415,
+          "endEvent": 422,
+          "toolCallId": "call_02_0k9wqMnMMqLKOS2CNTtz6150",
+          "code": "independent_verification",
+          "part": "delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T18:416:1",
+          "startEvent": 416,
+          "endEvent": 419,
+          "toolCallId": "call_03_8qXr6uzvOA49i42ls8lU0714",
+          "code": "independent_verification",
+          "part": "delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T18:417:1",
+          "startEvent": 417,
+          "endEvent": 421,
+          "toolCallId": "call_04_81g9kXBGxYY0PW31IvBE3685",
+          "code": "independent_verification",
+          "part": "build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T18:1004:1",
+          "startEvent": 1004,
+          "endEvent": 1008,
+          "toolCallId": "call_00_dSjGQW88ZwbfAAXvYelJ2289",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T18:1004:2",
+          "startEvent": 1004,
+          "endEvent": 1008,
+          "toolCallId": "call_00_dSjGQW88ZwbfAAXvYelJ2289",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        },
+        {
+          "id": "T18:1108:1",
+          "startEvent": 1108,
+          "endEvent": 1112,
+          "toolCallId": "call_00_decAPFWJ6JOWo6wHNNDj2097",
+          "code": "independent_verification",
+          "part": "git status --short && git diff",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 46,
+          "endEvent": 47,
+          "toolCallId": "call_00_yWSmriXWnTifMlZEraVj7230",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 141,
+          "endEvent": 144,
+          "toolCallId": "call_00_KuLiPRoTVsqGMdqRUuYk6307",
+          "tool": "read_messages",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3592,
+          "endEvent": 3594,
+          "toolCallId": "call_00_h2w81uJ7OXMjcJwkZ30P1823",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3593,
+          "endEvent": 3595,
+          "toolCallId": "call_01_mZQX0YxIR8KN03vACAmd5167",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T19",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T19:329:1",
+          "startEvent": 329,
+          "endEvent": 335,
+          "toolCallId": "call_00_TwFYDfIAJ1CVnJ23yuVu0449",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/ac713ce0312642085932f74d/repo\" && ls -la && git status && git log --oneline -10",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T19:330:1",
+          "startEvent": 330,
+          "endEvent": 332,
+          "toolCallId": "call_01_xkTFhS4QR7wwfnMl2xa17872",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/ac713ce0312642085932f74d/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T19:745:1",
+          "startEvent": 745,
+          "endEvent": 749,
+          "toolCallId": "call_00_bdiXFJMZHcHbRXfoJJ0i2368",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/ac713ce0312642085932f74d/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T19:746:1",
+          "startEvent": 746,
+          "endEvent": 750,
+          "toolCallId": "call_01_rCgKgXUHW9ktwuYiAQM57783",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/ac713ce0312642085932f74d/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T19:747:1",
+          "startEvent": 747,
+          "endEvent": 751,
+          "toolCallId": "call_02_qO3uj2Ax38UoLffGgDt77183",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/ac713ce0312642085932f74d/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T19:748:1",
+          "startEvent": 748,
+          "endEvent": 752,
+          "toolCallId": "call_03_H85wvStdbXmq9BraeGmm7192",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/ac713ce0312642085932f74d/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T19:1624:1",
+          "startEvent": 1624,
+          "endEvent": 1631,
+          "toolCallId": "call_00_8nCarIGuCfDFRCd2EfeN9572",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/ac713ce0312642085932f74d/repo\" && git show --stat --oneline HEAD && git show HEAD -- orders.json delivery.json | head -60",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T19:1625:1",
+          "startEvent": 1625,
+          "endEvent": 1634,
+          "toolCallId": "call_01_Lt15CvJX7TXerquSiBsr6784",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/ac713ce0312642085932f74d/repo\" && node --version && node --test 2>&1; echo \"TEST_EXIT=$?\"",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T19:2068:1",
+          "startEvent": 2068,
+          "endEvent": 2072,
+          "toolCallId": "call_00_Lc6y5Iyvjlk8p8lYjQ0d3015",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T19:2068:2",
+          "startEvent": 2068,
+          "endEvent": 2072,
+          "toolCallId": "call_00_Lc6y5Iyvjlk8p8lYjQ0d3015",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        },
+        {
+          "id": "T19:2558:1",
+          "startEvent": 2558,
+          "endEvent": 2564,
+          "toolCallId": "call_00_RYD70r9bPe919cYIMYfk2366",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/ac713ce0312642085932f74d/repo\" && node --test 2>&1; echo \"TEST_EXIT=$?\"; echo \"--- idempotence: rerun build and diff ---\"; cp delivery.json /tmp/d1.json && node build.mjs && diff /tmp/d1.json delivery.json && echo \"IDEMPOTENT\"; node -e \"const d=JSON.parse(require('fs').readFileSync('delivery.json','utf8'));console.log('keys:',Object.keys(d).join(','));console.log('valid:',Number.isInteger(d.paid_count)&&Number.isInteger(d.total_cents))\"; echo \"--- final git status ---\"; git status --short && git diff",
+          "rationale": "Existing valid output regenerated as part of explicit test/diff/hash/idempotency checks; frozen rubric allows this verification."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 48,
+          "endEvent": 49,
+          "toolCallId": "call_00_ET_vykyOMy8PQAcu7Eoob1v1900",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 4222,
+          "endEvent": 4223,
+          "toolCallId": "call_00_Aj3TE4ApaSz49Jx2N32n4438",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 4501,
+          "endEvent": 4502,
+          "toolCallId": "call_00_ET_qCXsmylnkyBviUueTAK43365",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T20",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T20:335:1",
+          "startEvent": 335,
+          "endEvent": 341,
+          "toolCallId": "call_00_SDmTI7PXEdwXxpsz35b32221",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/b69a4add9e311dcc8b76dbec/repo\" && ls -la && echo \"---\" && git log --oneline -5 && echo \"---\" && git status --short",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T20:336:1",
+          "startEvent": 336,
+          "endEvent": 338,
+          "toolCallId": "call_01_fAfVexj5DpFCWS9FRJ9r9810",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/b69a4add9e311dcc8b76dbec/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T20:763:1",
+          "startEvent": 763,
+          "endEvent": 767,
+          "toolCallId": "call_00_ET_Boq3gK7jzbn5v0Ob8qMR4943",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/b69a4add9e311dcc8b76dbec/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T20:764:1",
+          "startEvent": 764,
+          "endEvent": 770,
+          "toolCallId": "call_01_ET_LDPxbA8NklJk0QUivOoO5343",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/b69a4add9e311dcc8b76dbec/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T20:765:1",
+          "startEvent": 765,
+          "endEvent": 769,
+          "toolCallId": "call_02_ET_Mv3WOvMs45qXD6ZwHsIR3882",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/b69a4add9e311dcc8b76dbec/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T20:766:1",
+          "startEvent": 766,
+          "endEvent": 768,
+          "toolCallId": "call_03_ET_qcMxrtuMUKW4SkQge0ra4901",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/b69a4add9e311dcc8b76dbec/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T20:1176:1",
+          "startEvent": 1176,
+          "endEvent": 1181,
+          "toolCallId": "call_00_D5bF3xSNt3srmpm4nzOr0965",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T20:1176:2",
+          "startEvent": 1176,
+          "endEvent": 1181,
+          "toolCallId": "call_00_D5bF3xSNt3srmpm4nzOr0965",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        },
+        {
+          "id": "T20:1505:1",
+          "startEvent": 1505,
+          "endEvent": 1509,
+          "toolCallId": "call_00_jciR2heGK9ObkwfbLC5X3742",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/b69a4add9e311dcc8b76dbec/repo\" && git status --short && echo \"--- diff ---\" && git diff && echo \"--- orders.json unchanged? ---\" && git diff --exit-code -- orders.json && echo \"orders.json unchanged\"",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 24,
+          "endEvent": 25,
+          "toolCallId": "call_00_ET_bLO4mnDVfPQcjVZ6x1gj0717",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 2097,
+          "endEvent": 2098,
+          "toolCallId": "call_00_S2St98xuqsIjyuKh6ybx5229",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 2296,
+          "endEvent": 2297,
+          "toolCallId": "call_00_ET_I4ki0bkX1AOVkwxR6GPs3452",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T21",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T21:315:1",
+          "startEvent": 315,
+          "endEvent": 321,
+          "toolCallId": "call_00_YtevkYadGkMgITNJlCRc5484",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/b9b3a3ad1472e031e117ced0/repo\" && git status --short && echo \"---BRANCH---\" && git branch --show-current && echo \"---FILES---\" && ls -la && echo \"---LOG---\" && git log --oneline -5",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T21:865:1",
+          "startEvent": 865,
+          "endEvent": 871,
+          "toolCallId": "call_00_OJBWaIVvKdH4xbVxj1WE9496",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/b9b3a3ad1472e031e117ced0/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T21:866:1",
+          "startEvent": 866,
+          "endEvent": 870,
+          "toolCallId": "call_01_yHtp46RJbsSU1jhq0Hz38852",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/b9b3a3ad1472e031e117ced0/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T21:867:1",
+          "startEvent": 867,
+          "endEvent": 874,
+          "toolCallId": "call_02_nrVIB9S6XAhdjnrvMT1z9603",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/b9b3a3ad1472e031e117ced0/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T21:868:1",
+          "startEvent": 868,
+          "endEvent": 873,
+          "toolCallId": "call_03_QtyJBsw1ArY8j4raqcVU1479",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/b9b3a3ad1472e031e117ced0/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T21:869:1",
+          "startEvent": 869,
+          "endEvent": 872,
+          "toolCallId": "call_04_DA0eeVDVidO4gsP3BTNP1701",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/b9b3a3ad1472e031e117ced0/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T21:1392:1",
+          "startEvent": 1392,
+          "endEvent": 1397,
+          "toolCallId": "call_00_30EhyqNqHjH3IwaamHNa2404",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T21:1392:2",
+          "startEvent": 1392,
+          "endEvent": 1397,
+          "toolCallId": "call_00_30EhyqNqHjH3IwaamHNa2404",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        },
+        {
+          "id": "T21:1721:1",
+          "startEvent": 1721,
+          "endEvent": 1725,
+          "toolCallId": "call_00_ErdPjuVwEJFRGBTJelZ12606",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/b9b3a3ad1472e031e117ced0/repo\" && git status --short && echo \"---DIFF---\" && git diff && echo \"---ORDERS-UNCHANGED---\" && git diff --quiet orders.json && echo \"orders.json unchanged\"",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 46,
+          "endEvent": 47,
+          "toolCallId": "call_00_CQOnYiiC3WJMZRHcR0Gi3360",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 316,
+          "endEvent": 319,
+          "toolCallId": "call_01_JH3q3ALh5AQE0R5zubyW8298",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 2519,
+          "endEvent": 2520,
+          "toolCallId": "call_00_Ja4lga4a81GmOHOMUDIk8491",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 2712,
+          "endEvent": 2713,
+          "toolCallId": "call_00_ET_b3a0YKJKiDFKbfsk9rBF1476",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T22",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T22:224:1",
+          "startEvent": 224,
+          "endEvent": 229,
+          "toolCallId": "call_01_R6Bf0dPX1Pizu9sTmqnf5058",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/e7c6a20982066a836e259319/repo\" && git status && git log --oneline -5 && ls -la",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T22:433:1",
+          "startEvent": 433,
+          "endEvent": 442,
+          "toolCallId": "call_00_Je9ChPwtlOxlobWCeinU8085",
+          "code": "independent_verification",
+          "part": "REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T22:434:1",
+          "startEvent": 434,
+          "endEvent": 439,
+          "toolCallId": "call_01_KUoHUdfbXmfYcrfzpKfm7543",
+          "code": "independent_verification",
+          "part": "orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T22:435:1",
+          "startEvent": 435,
+          "endEvent": 438,
+          "toolCallId": "call_02_k8e5RoBohSyk5F2auNZ60539",
+          "code": "independent_verification",
+          "part": "delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T22:436:1",
+          "startEvent": 436,
+          "endEvent": 441,
+          "toolCallId": "call_03_27ChiQO1QTF9T7eVzYqQ4703",
+          "code": "independent_verification",
+          "part": "delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T22:437:1",
+          "startEvent": 437,
+          "endEvent": 440,
+          "toolCallId": "call_04_tQ6QnodMQZgiAuTFqScT1294",
+          "code": "independent_verification",
+          "part": "build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T22:1092:1",
+          "startEvent": 1092,
+          "endEvent": 1097,
+          "toolCallId": "call_00_yBJDkgXbyNq0LQ5lIrIU7755",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/e7c6a20982066a836e259319/repo\" && node build.mjs && git diff --stat && node --test; echo \"EXIT=$?\"",
+          "rationale": "Existing valid output regenerated as part of explicit test/diff/hash/idempotency checks; frozen rubric allows this verification."
+        },
+        {
+          "id": "T22:1635:1",
+          "startEvent": 1635,
+          "endEvent": 1639,
+          "toolCallId": "call_00_SyrnoLyMkVgx9GvwUZ6c4513",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/e7c6a20982066a836e259319/repo\" && git status --short && git diff && git hash-object delivery.json && git rev-parse HEAD:delivery.json && cat -A delivery.json",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T22:4232:1",
+          "startEvent": 4232,
+          "endEvent": 4236,
+          "toolCallId": "call_01_K8YIBjjsjasXAQcOmkdS1839",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/e7c6a20982066a836e259319/repo\" && node -e \"const o=require('./orders.json');const p=o.filter(x=>x.status==='paid');console.log('paid:',p.map(x=>x.id+'='+x.amount_cents).join(','),'count',p.length,'total',p.reduce((n,x)=>n+x.amount_cents,0));console.log('delivery:',JSON.stringify(require('./delivery.json')))\"",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 54,
+          "endEvent": 55,
+          "toolCallId": "call_00_S44fFcpEorSBvleDxX2Z7724",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 223,
+          "endEvent": 226,
+          "toolCallId": "call_00_ACyK2ZNDThWHW7QPVOh19191",
+          "tool": "read_messages",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 4231,
+          "endEvent": 4237,
+          "toolCallId": "call_00_Gm7kdUFBhgMCgpxDWST95267",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 4535,
+          "endEvent": 4536,
+          "toolCallId": "call_00_6bHvPGxYDMg6ABEUWirN5941",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T23",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T23:429:1",
+          "startEvent": 429,
+          "endEvent": 435,
+          "toolCallId": "call_00_CWmy7plUZBSkI4i6VRkm6265",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/e9469a3210aa733f2388b5b7/repo\" && ls -la && git status && git log --oneline -5",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T23:430:1",
+          "startEvent": 430,
+          "endEvent": 432,
+          "toolCallId": "call_01_9W4lhY493y4HNEFXpusa5802",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/e9469a3210aa733f2388b5b7/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T23:903:1",
+          "startEvent": 903,
+          "endEvent": 907,
+          "toolCallId": "call_00_qVWeunwIXvdhazgMsrKB6001",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/e9469a3210aa733f2388b5b7/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T23:904:1",
+          "startEvent": 904,
+          "endEvent": 908,
+          "toolCallId": "call_01_Re5fQnqvkt96PjUlNq8r1728",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/e9469a3210aa733f2388b5b7/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T23:905:1",
+          "startEvent": 905,
+          "endEvent": 909,
+          "toolCallId": "call_02_vsEHM96S6ZiiqqQjnjKs9148",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/e9469a3210aa733f2388b5b7/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T23:906:1",
+          "startEvent": 906,
+          "endEvent": 910,
+          "toolCallId": "call_03_s9xw7wZhT16mQ5zMNBYG4129",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/e9469a3210aa733f2388b5b7/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T23:1502:1",
+          "startEvent": 1502,
+          "endEvent": 1506,
+          "toolCallId": "call_00_KlbQWbt5g5FN79eqcyTS5080",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T23:1502:2",
+          "startEvent": 1502,
+          "endEvent": 1506,
+          "toolCallId": "call_00_KlbQWbt5g5FN79eqcyTS5080",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        },
+        {
+          "id": "T23:1818:1",
+          "startEvent": 1818,
+          "endEvent": 1822,
+          "toolCallId": "call_00_b5OgQ6taVKdlwrajuFeE4196",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/e9469a3210aa733f2388b5b7/repo\" && git status --short && git diff -- delivery.json orders.json && git diff --stat",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 42,
+          "endEvent": 43,
+          "toolCallId": "call_00_7RU7Kw7BPiSFSLCZ22nd5658",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3814,
+          "endEvent": 3815,
+          "toolCallId": "call_00_aPg21FlETcsO8boeEJzp9498",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3997,
+          "endEvent": 3998,
+          "toolCallId": "call_00_ET_0bA0UPK7wK66sUnUKJXV8501",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    },
+    {
+      "maskedId": "T24",
+      "rubricHash": "e586849f2543146e5a6df5d8efbd332de1b8d987edafd9050562ce57684363fd",
+      "coder": "Codex primary assistant; single coder, work-first arm labels masked where practicable, not a blind independent assessor",
+      "segments": [
+        {
+          "id": "T24:254:1",
+          "startEvent": 254,
+          "endEvent": 259,
+          "toolCallId": "call_01_x4G6iDGfd1kwmxd61wiu5351",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/ecb6893ab6a9bdd6f5141612/repo\" && ls -la && git log --oneline -5 && git status",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        },
+        {
+          "id": "T24:851:1",
+          "startEvent": 851,
+          "endEvent": 857,
+          "toolCallId": "call_00_su9AMcFXaG0DFjNQFY8S9597",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/ecb6893ab6a9bdd6f5141612/repo/REQUIREMENTS.md",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T24:852:1",
+          "startEvent": 852,
+          "endEvent": 856,
+          "toolCallId": "call_01_WMVjMANBEjGLwEyU9MJS2495",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/ecb6893ab6a9bdd6f5141612/repo/orders.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T24:853:1",
+          "startEvent": 853,
+          "endEvent": 859,
+          "toolCallId": "call_02_fmixKdMu2T3PY5ryUYy91115",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/ecb6893ab6a9bdd6f5141612/repo/delivery.json",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T24:854:1",
+          "startEvent": 854,
+          "endEvent": 860,
+          "toolCallId": "call_03_Fgec7EWvKqoFJg2illzA2494",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/ecb6893ab6a9bdd6f5141612/repo/delivery.test.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T24:855:1",
+          "startEvent": 855,
+          "endEvent": 858,
+          "toolCallId": "call_04_NjnrZRn6vIAyJj08EiR49282",
+          "code": "independent_verification",
+          "part": "[PILOT]/results/attempts/ecb6893ab6a9bdd6f5141612/repo/build.mjs",
+          "rationale": "Successful direct read of current requirements, inputs, artifact, generator or test; tool result retained."
+        },
+        {
+          "id": "T24:1714:1",
+          "startEvent": 1714,
+          "endEvent": 1719,
+          "toolCallId": "call_00_ytDxZ360e78ZZxu1nh646663",
+          "code": "productive_change",
+          "part": "first node build.mjs",
+          "rationale": "Initial 2/4200 artifact is invalid against current 3/4900 input; tool output and archived final artifact confirm regeneration to 3/4900."
+        },
+        {
+          "id": "T24:1714:2",
+          "startEvent": 1714,
+          "endEvent": 1719,
+          "toolCallId": "call_00_ytDxZ360e78ZZxu1nh646663",
+          "code": "independent_verification",
+          "part": "post-build cat/test/diff/status portion",
+          "rationale": "Separate inspection/check of the generated result, with actual tool output; not classified as repeated work."
+        },
+        {
+          "id": "T24:1927:1",
+          "startEvent": 1927,
+          "endEvent": 1931,
+          "toolCallId": "call_00_Njjh1q4LW7j9ILQcrQvg3456",
+          "code": "independent_verification",
+          "part": "cd \"[PILOT]/results/attempts/ecb6893ab6a9bdd6f5141612/repo\" && git status --short && git diff -- delivery.json orders.json",
+          "rationale": "Successful current file/Git inspection, relevant test, or independent computation; failed commit tails excluded where not executed."
+        }
+      ],
+      "administrative": [
+        {
+          "startEvent": 46,
+          "endEvent": 47,
+          "toolCallId": "call_00_Xju9c3jGD225sTYiYnaf7886",
+          "tool": "read_task",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 253,
+          "endEvent": 256,
+          "toolCallId": "call_00_tTpq86uQMSpRaBjhW69T9667",
+          "tool": "read_messages",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3169,
+          "endEvent": 3171,
+          "toolCallId": "call_00_Gb8lVR3ZVjJ6U0R6GmXI1585",
+          "tool": "send_message",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3170,
+          "endEvent": 3172,
+          "toolCallId": "call_01_nnBMVm7VubMlqacEVPT19590",
+          "tool": "save_checkpoint",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        },
+        {
+          "startEvent": 3390,
+          "endEvent": 3391,
+          "toolCallId": "call_00_70aSsoClYrBY3bzJkMgd7064",
+          "tool": "update_task_status",
+          "scope": "orientation/discovery/collaboration/status, coded separately from artifact work"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+pair	case	baseline_exposed	treatment_exposed	baseline_tokens	treatment_tokens	baseline_seconds	treatment_seconds
+C1-R1	correct	true	true	56371	42034	26.384	18.284
+C4-R2	conflicting	false	true	41846	32905	16.276	18.223
+C2-R3	false	false	true	34785	43164	16.243	17.251
+C1-R3	correct	false	true	40472	41559	18.27	17.23
+C3-R1	stale	false	true	43433	69849	18.278	25.356
+C3-R2	stale	false	true	52455	35068	22.286	18.314
+C2-R1	false	false	true	39201	57254	15.264	25.455
+C4-R1	conflicting	false	true	50313	57412	23.341	23.301
+C2-R2	false	false	true	45694	50261	16.278	25.307
+C3-R3	stale	false	true	42637	68814	18.26	27.429
+C4-R3	conflicting	false	true	27746	46529	12.211	19.278
+C1-R2	correct	false	true	46916	43877	24.317	21.253
